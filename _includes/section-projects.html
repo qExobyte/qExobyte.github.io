@@ -1,0 +1,43 @@
+<!-- begin projects -->
+<section class="section projects animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="contaniner__inner">
+
+          <div class="section__info">
+            <h2 class="section__title">{{ site.data.settings.projects__settings.projects__title }}</h2>
+            {% if site.data.settings.projects__settings.projects__description %}
+              <p class="section__description">{{ site.data.settings.projects__settings.projects__description }}</p>
+            {% endif %}
+          </div>
+
+          <div class="row">
+            {% assign sorted = site.projects | sort: 'date' | reverse %}
+            {% for project in sorted limit:6 %}
+            <article class="project col col-4 col-d-6 col-t-12">
+              <div class="project__content">
+                <a href="{{ project.url }}" class="project__image">
+                  <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+                </a>
+                <div class="project__info">
+                  <h3 class="project__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+                  {% if project.subtitle %}
+                    <div class="project__subtitle">{{ project.subtitle }}</div>
+                  {% endif %}
+                </div>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section__navigation">
+    <a href="{{ '/projects' | relative_url }}" class="button button--primary section-button">See all</a>
+  </div>
+</section>
+<!-- end projects -->

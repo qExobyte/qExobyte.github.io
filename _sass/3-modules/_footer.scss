@@ -1,0 +1,235 @@
+/* Footer */
+.footer {
+  .footer__inner {
+    padding: 100px 0;
+    border-top: 1px solid var(--background-alt-color);
+  
+    .row .col {
+      flex-grow: 1;
+    }
+
+    @media only screen and (max-width: $desktop) {
+      padding: 100px 0 32px;
+    }
+  }
+}
+
+/* Footer Gallery */
+.footer__gallery {
+  .gallery {
+    grid-template-columns: repeat(4, auto);
+    margin-left: 0;
+    margin-bottom: 0;
+
+    img {
+      margin-left: 0;
+      margin-bottom: 0;
+      width: 100%;
+    }
+  }
+
+  .gallery__image {
+    img {
+      height: 100%;
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .gallery {
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+}
+
+/* Footer Author */
+.footer__author {
+  display: flex;
+
+  @media only screen and (max-width: $desktop) {
+    margin-bottom: 100px;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 80px;
+  }
+}
+
+.footer__author-avatar {
+  position: relative;
+  width: 250px;
+  min-width: 250px;
+  height: 250px;
+  margin-right: 40px;
+  transform: translate(0);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--background-alt-color);
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.footer__author-name {
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.footer__author-bio {
+  margin-bottom: 0;
+}
+
+.social {
+  margin-top: 24px;
+
+  .social__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .social__item {
+    margin-bottom: 0;
+    margin-right: 8px;
+  
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    will-change: transform;
+    color: var(--heading-font-color);
+    background-color: var(--background-alt-color);
+
+    &:hover {
+      transform: translateY(-3px);
+      color: var(--dark);
+      background-color: var(--brand-color);
+    }
+  }
+}
+
+/* Footer Navigation */
+.footer__nav {
+  text-align: right;
+
+  @media only screen and (max-width: $desktop) {
+    text-align: left;
+  }
+}
+
+.footer__nav-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.footer__nav-list {
+  line-height: 1;
+
+  .footer__nav-item {
+    margin-bottom: 20px;
+  
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer__nav-link {
+    font-family: $heading-font-family;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    display: flex;
+    flex-wrap: wrap;
+
+    .footer__nav-item {
+      margin-right: 40px;
+      margin-bottom: 12px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $mobile) {
+    .footer__nav-item {
+      margin-right: 20px;
+    }
+  }
+}
+
+/* Footer Info */
+.footer__info {
+  padding: 40px 0;
+  border-top: 1px solid var(--background-alt-color);
+
+  .footer__info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    padding: 40px 0;
+  }
+}
+
+.copyright {
+  margin-right: 20px;
+  font-size: 14px;
+
+  a {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    color: var(--heading-font-color);
+
+    &:hover {
+      text-decoration-color: var(--heading-font-color);
+      color: var(--heading-font-color);
+    }
+  }
+}
+
+.top {
+  min-width: 36px;
+  height: 36px;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 8px;
+  color: var(--heading-font-color);
+  background-color: var(--background-alt-color);
+  cursor: pointer;
+  transition: all .25s ease;
+
+  &:hover {
+    color: var(--dark);
+    background-color: var(--brand-color);
+  }
+}

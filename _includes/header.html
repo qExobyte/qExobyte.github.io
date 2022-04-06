@@ -1,0 +1,73 @@
+<!-- begin header -->
+<header class="header" id="top">
+  <div class="container-big">
+    <div class="row">
+      <div class="header__inner col col-12">
+
+        <div class="logo">
+          <a class="logo__link" href="{{ site.baseurl }}/">
+          {% if site.data.settings.logo %}
+            <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
+          {% else %}
+            {{ site.data.settings.title }}
+          {% endif %}
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <div class="main-nav__box">
+            <div class="nav__icon-close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <div class="nav__title">Menu</div>
+            <ul class="nav__list list-reset">
+
+              {% for item in site.data.settings.menu__settings.menu__items %}
+                {% if item.submenu %}
+                <li class="nav__item dropdown">
+                  <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                  <div class="dropdown-menu">
+                    {% for submenu-item in item.submenu %}
+                      <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                    {% endfor %}
+                  </div>
+                </li>
+                {% else %}
+                <li class="nav__item">
+                  <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
+                </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
+
+        <div class="nav-button">
+          <i class="nav__icon icon__menu ion ion-md-menu"></i>
+
+          {% if site.data.settings.color_scheme == "auto" %}
+          <div class="toggle-theme toggle-theme-js">
+            <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+            <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+          </div>
+          {% elsif site.data.settings.color_scheme == "light" %}
+          <div class="toggle-theme theme-light">
+            <div class="toggle-sun" title="Light mode"><i class="ion ion-ios-sunny"></i></div>
+          </div>
+          {% elsif site.data.settings.color_scheme == "dark" %}
+          <div class="toggle-theme theme-dark">
+            <div class="toggle-moon" title="Dark mode"><i class="ion ion-ios-moon"></i></div>
+          </div>
+          {% else %}
+          <div class="toggle-theme toggle-theme-js">
+            <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+            <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+          </div>
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end header -->

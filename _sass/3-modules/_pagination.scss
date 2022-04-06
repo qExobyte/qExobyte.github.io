@@ -1,0 +1,63 @@
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 80px;
+  }
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .disabled,
+  .previous-link,
+  .next-link,
+  .back-link,
+  .active-link,
+  .count-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    background: var(--background-alt-color);
+  }
+
+  .disabled {
+    display: none;
+  }
+
+  .next-link,
+  .previous-link,
+  .back-link,
+  .count-number {
+    &:hover {
+      color: var(--dark);
+      background: var(--brand-color);
+    }
+  }
+
+  .active-link {
+    color: var(--heading-font-color);
+    background: none;
+  }
+
+  @media only screen and (max-width: 360px) {
+    flex-wrap: wrap;
+  }
+}
+
+.counter-box {
+  display: inline-block;
+  font-size: 0;
+}

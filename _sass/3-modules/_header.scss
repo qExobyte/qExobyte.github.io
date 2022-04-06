@@ -1,0 +1,453 @@
+/* Header */
+.header {
+  .header__inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 60px $base-spacing-unit;
+  
+    @media only screen and (max-width: $desktop) {
+      padding: 40px $base-spacing-unit;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      padding: 32px $base-spacing-unit;
+    }
+  }
+}
+
+/* Logo */
+.logo__link {
+  padding: 8px 0;
+  font-family: $heading-font-family;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 800;
+  transition: color .25s ease;
+}
+
+.logo__image {
+  max-height: 50px;
+}
+
+/* Nav */
+.main-nav {
+
+  @media only screen and (max-width: $desktop) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    background-color: var(--background-color);
+
+    &.is-open {
+      z-index: 100;
+      opacity: 1;
+      visibility: visible;
+      transition: all .25s ease;
+    }
+
+    .nav__list {
+      flex-direction: column;
+      width: 100%;
+
+      .nav__item {
+        display: block;
+        width: 100%;
+        margin: 0;
+
+        &.dropdown {
+          .dropdown-toggle {
+            display: none;
+          }
+        }
+
+        .dropdown-menu {
+          position: relative;
+          left: 0;
+          padding: 0;
+          opacity: 1;
+          visibility: visible;
+          transform: scale(1);
+          min-width: auto;
+          border: none;
+          box-shadow: none;
+
+          .nav__link {
+            display: block;
+            margin-bottom: 0;
+            font-size: 24px;
+
+            &::after {
+              content: none;
+            }
+
+            &::before {
+              content: "";
+              position: absolute;
+              display: block;
+              width: 6px;
+              left: 50%;
+              top: 6px;
+              transform: translateX(-50%);
+              height: 6px;
+              opacity: 0;
+              visibility: hidden;
+              transition: all .2s;
+              border-radius: 50%;
+              background-color: var(--link-color);
+            }
+
+            &:hover {
+              &::before {
+                opacity: 1;
+                visibility: visible;
+              }
+            }
+
+            &.active-link {
+              &::before {
+                opacity: 1;
+                visibility: visible;
+                background-color: var(--brand-color);
+              }
+            }
+
+            &:last-child {
+              margin-bottom: 24px;
+            }
+          }
+        }
+
+        .nav__link {
+          display: block;
+          padding: 20px 0;
+          margin-bottom: 0;
+          font-size: 24px;
+          transition: color .25s ease;
+
+          .arrow-down {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-nav__box {
+  display: flex;
+  align-items: center;
+
+  .nav__icon-close {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 1;
+    border-radius: 50%;
+    color: var(--heading-font-color);
+    background: var(--background-alt-color);
+    cursor: pointer;
+
+    &:hover {
+      .ion-md-close {
+        transform: rotate(90deg);
+      }
+    }
+
+    .ion-md-close {
+      transition: $global-transition;
+    }
+  }
+
+  .nav__title {
+    display: none;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    display: block;
+
+    align-items: center;
+    width: 100%;
+    max-width: 240px;
+    height: 80vh;
+    padding-top: 180px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-y: auto;
+
+    .nav__icon-close {
+      display: flex;
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+
+    .nav__title {
+      display: inline-block;
+      margin-bottom: 12px;
+      font-family: $heading-font-family;
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--heading-font-color);
+    }
+  }
+
+  @media only screen and (max-width: $tablet) {
+    padding-top: 100px;
+  }
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+
+  .nav__item {
+    display: inline-block;
+    margin-right: 48px;
+    margin-bottom: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .nav__link {
+      position: relative;
+      padding: 12px 0;
+      font-family: $heading-font-family;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 700;
+      transition: color .2s ease;
+
+      &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 6px;
+        left: 50%;
+        top: 6px;
+        transform: translateX(-50%);
+        height: 6px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .2s;
+        border-radius: 50%;
+        background-color: var(--link-color);
+      }
+
+      &:hover {
+        &::before {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      &.active-link {
+        &::before {
+          opacity: 1;
+          visibility: visible;
+          background-color: var(--brand-color);
+        }
+      }
+
+    }
+
+    &.dropdown {
+      position: relative;
+
+      &:hover {
+        .dropdown-menu {
+          opacity: 1;
+          visibility: visible;
+          transform: translate3d(0,0,0);
+        }
+      }
+
+      .arrow-down {
+        vertical-align: middle;
+      }
+
+      .dropdown-toggle {
+        color: var(--link-color);
+        cursor: pointer;
+
+        &::before {
+          content: none;
+        }
+      }
+    }
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: -32px;
+    transform: translate3d(0, 10px, 0);
+    backface-visibility: hidden;
+    z-index: 100;
+    min-width: 150px;
+    display: block;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .25s ease;
+    border: 1px solid var(--background-alt-color);
+    border-radius: 8px;
+    box-shadow: 0 15px 40px 5px rgba(20, 20, 20, 0.07);
+    background-color: var(--background-color);
+
+    .nav__link {
+      position: relative;
+      display: flex;
+      padding: 6px 12px;
+      margin-bottom: 4px;
+      font-size: 20px;
+      line-height: 1;
+      will-change: transform;
+
+      &:hover {
+        &::after {
+          opacity: .3;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.active-link {
+        &::after {
+          opacity: .7;
+        }
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        border-radius: 4px;
+        transition: opacity .2s;
+        background-color: var(--brand-color);
+      }
+
+      &::before {
+        content: none;
+      }
+    }
+  }
+}
+
+.dark-mode {
+  .dropdown-menu {
+    background-color: var(--background-alt-color);
+
+    @media only screen and (max-width: $desktop) {
+      background-color: inherit;
+    }
+  }
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+  color: var(--link-color);
+  border-radius: 50%;
+
+  .icon__menu {
+    display: none;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .icon__menu {
+    transition: color .25s ease;
+
+    &:hover {
+      color: var(--link-color);
+    }
+  }
+
+  @media only screen and (max-width: $desktop) {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 24px;
+
+    .icon__menu {
+      display: block;
+    }
+  }
+}
+
+/* Toggle Theme */
+.toggle-theme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  user-select: none;
+  cursor: pointer;
+  background: var(--background-alt-color);
+  
+  &.theme-light {
+    transform: none;
+    cursor: auto;
+
+    .toggle-sun {
+      display: block;
+    }
+  }
+
+  &.theme-dark {
+    transform: none;
+    cursor: auto;
+
+    .toggle-moon {
+      display: block;
+    }
+  }
+}
+
+.toggle-sun,
+.toggle-moon {
+  position: absolute;
+  font-size: 18px;
+
+  &:hover {
+    color: var(--link-color);
+  }
+}
+
+.toggle-sun {
+  display: none;
+}
+
+.dark-mode {
+  .toggle-sun {
+    display: block;
+  }
+
+  .toggle-moon {
+    display: none;
+  }
+}

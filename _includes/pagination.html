@@ -1,0 +1,46 @@
+{% if paginator.total_pages > 1 %}
+<!-- begin pagination -->
+<div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <nav class="pagination animate">
+        <div class="pagination__list">
+          {% if paginator.previous_page %}
+            {% if paginator.previous_page == 1 %}
+              <a class="previous-link" href="/blog/">&laquo;</a>
+            {% else %}
+              <a class="previous-link" href="/blog/page/{{ paginator.previous_page }}/">&laquo;</a>
+            {% endif %}
+      
+          {% else %}
+            <span class="disabled">&laquo;</span>
+          {% endif %}
+      
+          <div class="counter-box">
+            {% if paginator.page == 1 %}
+              <span class="active-link">1</span>
+            {% else %}
+              <a class="back-link" href="/blog/">1</a>
+            {% endif %}
+            {% for count in (2..paginator.total_pages) %}
+      
+            {% if count == paginator.page %}
+              <span class="active-link">{{ count }}</span>
+              {% else %}
+                <a class="count-number" href="/blog/page/{{ count }}/">{{ count }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+      
+          {% if paginator.next_page %}
+            <a class="next-link" href="{{ site.baseurl }}/blog/page/{{ paginator.next_page }}/">&raquo;</a>
+          {% else %}
+            <span class="disabled">&raquo;</span>
+          {% endif %}
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- end pagination -->
+{% endif %}
