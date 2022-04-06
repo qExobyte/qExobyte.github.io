@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Hilton
+title: Learn SAT Math
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Hilton is a super simple portfolio theme for Jekyll.
+description: Eric helps students deeply understand the math behind the SAT and build confidence solving SAT problems with both accuracy and speed.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -29,9 +29,9 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: Monica Hilton
-  author__bio: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  author__avatar: '/images/01-1.jpg'
+  author__name: Eric
+  author__bio: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
+  author__avatar: '/images/IMG_2197(1).PNG'
 
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com"}
@@ -47,9 +47,9 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: I'm Monica. I will create design that can give you value
-  hero__description: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  hero__image: '/images/01.jpg'
+  hero__title: Hi, I'm Eric.
+  hero__description: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
+  hero__image: '/images/capybara.png'
 
 
 #-------------------------------
