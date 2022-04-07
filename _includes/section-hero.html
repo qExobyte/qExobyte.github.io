@@ -16,6 +16,34 @@
             <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
             {% if site.data.settings.mailchimp == "enable" %}
             <div class="hero__subscribe">
+
+              <!-- THIS IS MY TEMPORARY WAY OF GETTING A CONTACT FORM ON THE FRONT PAGE.
+                    THIS IS PROBABLY NOT IDEAL. -->
+              <div class="form-box">
+                <div class="contact-head">
+                  {% if site.data.settings.contact.description %}
+                    <p class="contact-description">{{site.data.settings.contact.description}}</p>
+                  {% endif %}
+                </div>
+                <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
+                  <div class="form__group">
+                    <label class="form__label screen-reader-text" for="form-name">Your Name</label>
+                    <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
+                  </div>
+                  <div class="form__group">
+                    <label class="form__label screen-reader-text" for="form-email">Your Email</label>
+                    <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
+                  </div>
+                  <div class="form__group">
+                    <label class="form__label screen-reader-text" for="form-text">Your Message</label>
+                    <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="form__group">
+                    <button class="button button--primary" type="submit">Send Message</button>
+                  </div>
+                </form>
+              </div>
+              <!--
               <form class="subscribe-form validate"
                 action="{% if site.data.settings.mailchimp__identifier %}//{{site.data.settings.mailchimp__identifier}}{% else %}#{% endif %}" method="POST"
                 id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
@@ -25,6 +53,7 @@
                 <button class="button button--primary button--small subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{
                   site.data.settings.mailchimp__button__text }}</button>
               </form>
+              -->
             </div>
             {% endif %}
           </div>

@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Learn SAT Math
-logo: # You can add own logo. For example '/images/logo.png'.
+logo: # '/images/lightbulb.png' -- this logo would be in place of "Learn SAT Math"
 description: Eric helps students deeply understand the math behind the SAT and build confidence solving SAT problems with both accuracy and speed.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -12,7 +12,7 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
+    - title: 'Videos'
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
@@ -31,13 +31,12 @@ menu__settings:
 author:
   author__name: Eric
   author__bio: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  author__avatar: '/images/IMG_2197(1).PNG'
+  author__avatar: '/images/capybara.PNG'
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+- {icon: "ion-logo-youtube", link: "https://youtube.com"}
 - {icon: "ion-logo-facebook", link: "https://facebook.com"}
 - {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 - {icon: "ion-logo-github", link: "https://github.com"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
@@ -48,7 +47,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Eric.
-  hero__description: Uh... this isn't Reddit!!!! Believe it or not, this is the hit site "Learn SAT Math" created by Eric from Fortnite anfd Joe Biden.
+  hero__description: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
   hero__image: '/images/capybara.png'
 
 
@@ -59,17 +58,16 @@ mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315a
 mailchimp__input__text: Your email address...
 mailchimp__button__text: Get updates
 
-
 #-------------------------------
 # Projects Settings
 projects__settings:
-  projects__title: Latest works
-  projects__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+  projects__title: Videos
+  projects__description: Here are some helpful videos I've made.
 
 
 #-------------------------------
 # Testimonials Section
-testimonial__title: What clients say
+testimonial__title: What students say
 testimonial__description:
 
 testimonial__items:
@@ -103,7 +101,6 @@ testimonial__items:
     link: "https://twitter.com/"
     content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
 
-
 #-------------------------------
 # Blog Section
 blog__settings:
@@ -131,7 +128,7 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
+    - title: 'Videos'
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
@@ -146,8 +143,8 @@ footer_menu__settings:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your form_id
-  description: Hilton comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
+  email: xdoblqqv # Add your form_id
+  description: Send me an email to set up a free tutoring session! # Add a description of your form
 
 # NOTE
 # Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.

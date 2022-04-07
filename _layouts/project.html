@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- This HTML file determines how EACH video (project) page should look -->
+
 <div class="container">
 
   <div class="page-head">
@@ -10,6 +12,10 @@ layout: default
       <p class="project-subtitle">{{ page.subtitle }}</p>
     {% endif %}
   </div>
+
+  <!--
+
+    REMOVES IMAGE FROM VIDEO PAGE
 
   {% if page.image %}
   <div class="row">
@@ -20,6 +26,7 @@ layout: default
     </div>
   </div>
   {% endif %}
+  --> 
 
   <div class="project-content animate">
     {{ content }}
