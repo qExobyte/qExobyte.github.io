@@ -47,7 +47,8 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "project"
+      # this must stay projects
+      type: "projects"
     values:
       layout: "project"
 
