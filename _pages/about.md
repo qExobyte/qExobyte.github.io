@@ -8,7 +8,7 @@ Hi, I'm Eric.
 
 I'm a high school senior living in Northern Virginia. Throughout my years in school, I've been interested in the methodology behind learning, especially learning math. By continuously questioning my process for learning, I've developed systems and strategies that have worked in math classes and *especially* math exams.
 
-<img src='/images/score.png' align="right">
+<img src="/images/score.png" align="right">
 **With these strategies, I was able to earn a perfect math score on the PSAT and a perfect math score on the SAT both times I took it. Now, I want to help other students do the same.**
 
   
