@@ -29,7 +29,7 @@ menu__settings:
 author:
   author__name: Eric
   author__bio: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  author__avatar: '/images/capybara.PNG'
+  author__avatar: '/images/capybara.png'
 
 social:
 - {icon: "ion-logo-youtube", link: "https://youtube.com"}
