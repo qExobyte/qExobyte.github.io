@@ -12,16 +12,16 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - url: '/about/'
+      title: 'About'
+    - url: '/strategy/'
+      title: 'Strategy'
     - title: 'Videos'
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - url: '/about/'
-      title: 'About'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/strategy/'
-      title: 'Strategy'
 
 
 #-------------------------------
@@ -33,9 +33,7 @@ author:
 
 social:
 - {icon: "ion-logo-youtube", link: "https://youtube.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-github", link: "https://github.com"}
+- {icon: "ion-logo-github", link: "https://github.com/qExobyte"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -108,16 +106,16 @@ blog__settings:
 
 #-------------------------------
 # Gallery Footer Settings
-gallery:
-  gallery__images:
-    - alt: 'Rest'
-      url: '/images/gallery-1.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/gallery-2.jpg'
-    - alt: 'Hobby'
-      url: '/images/gallery-3.jpg'
-    - alt: 'Notes'
-      url: '/images/gallery-4.jpg'
+#gallery:
+#  gallery__images:
+#    - alt: 'Rest'
+#      url: '/images/gallery-1.jpg'
+#    - alt: 'Lifestyle'
+#      url: '/images/gallery-2.jpg'
+#    - alt: 'Hobby'
+#      url: '/images/gallery-3.jpg'
+#    - alt: 'Notes'
+#      url: '/images/gallery-4.jpg'
 
 
 #-------------------------------
@@ -126,16 +124,16 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - url: '/about/'
+      title: 'About'
+    - url: '/strategy/'
+      title: 'Strategy'
     - title: 'Videos'
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - url: '/about/'
-      title: 'About'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/elements/'
-      title: 'Elements'
 
 
 #-------------------------------
