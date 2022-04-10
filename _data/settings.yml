@@ -16,14 +16,12 @@ menu__settings:
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
+    - url: '/about/'
+      title: 'About'
+    - url: '/contact/'
+      title: 'Contact'
+    - url: '/strategy/'
+      title: 'Strategy'
 
 
 #-------------------------------
