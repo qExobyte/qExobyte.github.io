@@ -29,7 +29,7 @@ menu__settings:
 author:
   author__name: Eric
   author__bio: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  author__avatar: '/images/capybara.png'
+  author__avatar: '/images/eric2.png'
 
 social:
 - {icon: "ion-logo-youtube", link: "https://youtube.com"}
@@ -44,7 +44,7 @@ social:
 hero:
   hero__title: Hi, I'm Eric.
   hero__description: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  hero__image: '/images/capybara.png'
+  hero__image: '/images/eric2.png'
 
 
 #-------------------------------
@@ -64,38 +64,26 @@ projects__settings:
 #-------------------------------
 # Testimonials Section
 testimonial__title: What students say
-testimonial__description:
+testimonial__description: Testimonials coming soon!
 
 testimonial__items:
-  - name: "Aspen Carder"
-    image: "/images/client-1.jpg"
-    designation: "Lettering Artist"
-    link: "https://twitter.com/"
-    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+  - name: "TBD"
+    image: "/images/icon.png"
+    designation: "10th Grade"
+    # link: "https://twitter.com/"
+    content : ""
 
-  - name: "Lydia Siphron"
-    image: "/images/client-2.jpg"
-    designation: "Designer"
-    link: "https://facebook.com/"
-    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+  - name: "TBD"
+    image: "/images/icon.png"
+    designation: "11th Grade"
+    # link: "https://twitter.com/"
+    content : ""
 
-  - name: "Craig Vaccaro"
-    image: "/images/client-3.jpg"
-    designation: "Web developer"
-    link: "https://twitter.com/"
-    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-
-  - name: "Anika Calzoni"
-    image: "/images/client-4.jpg"
-    designation: "Lettering Artist"
-    link: "https://facebook.com/"
-    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
-
-  - name: "Marcus Botosh"
-    image: "/images/client-5.jpg"
-    designation: "Full Stack Designer"
-    link: "https://twitter.com/"
-    content : "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
+  - name: "TBD"
+    image: "/images/icon.png"
+    designation: "12th Grade"
+    # link: "https://twitter.com/"
+    content : ""
 
 #-------------------------------
 # Blog Section

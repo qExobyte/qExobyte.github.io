@@ -33,6 +33,7 @@
 }
 
 .section__navigation {
-  margin-top: 16px;
+  margin-top: 64px; // originally 16px
+  margin-bottom: 16px; // originally non-existant
   text-align: center;
 }

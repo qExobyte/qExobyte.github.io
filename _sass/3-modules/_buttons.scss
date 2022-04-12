@@ -35,4 +35,17 @@
     display: block;
     width: 100%;
   }
+
+  // my own creation
+  &--large {
+    color: var(--dark);
+    background-color: var(--button-background-color);
+
+    &:hover {
+      background: var(--button-background-hover);
+    }
+
+    padding: 28px 56px;
+    font-size: 20px;
+  }
 }
