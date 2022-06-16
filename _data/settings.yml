@@ -28,11 +28,11 @@ menu__settings:
 # Author Settings
 author:
   author__name: Eric
-  author__bio: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  author__avatar: '/images/eric2.png'
+  author__bio: After self-studying the SAT, I earned a perfect 800 on the math section twice. Now, I tutor the SAT Math to help other students do the same.
+  author__avatar: '/images/eric3.png'
 
 social:
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+- {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCFi7uuVtKZQG1YuMVT9xWtA"}
 - {icon: "ion-logo-github", link: "https://github.com/qExobyte"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
@@ -43,8 +43,8 @@ social:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Eric.
-  hero__description: As a high school senior, I know what it's like to prepare for the SAT. I want to share my strategies for SAT prep with other students through affordable personalized tutoring.
-  hero__image: '/images/eric2.png'
+  hero__description: After self-studying the SAT, I earned a perfect 800 on the math section twice. Now, I tutor the SAT Math to help other students do the same.
+  hero__image: '/images/eric3.png'
 
 
 #-------------------------------

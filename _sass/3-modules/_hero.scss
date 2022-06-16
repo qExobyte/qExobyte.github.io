@@ -34,8 +34,8 @@
 .hero__image {
   position: relative;
   transform: translate(0);
-  width: 100%;
-  height: 634px;
+  width: 90%;
+  height: 600px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
@@ -69,7 +69,7 @@
 }
 
 .hero__right {
-  max-width: 575px; // originally 575 px
+  max-width: 625px; // originally 575 px
   margin-left: auto;
 
   @media only screen and (max-width: $wide) {

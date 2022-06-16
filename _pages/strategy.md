@@ -24,7 +24,7 @@ Some other things I value in tutoring:
 
 **Building a Connection with the Student:** This seems obvious, but students need to feel very comfortable around their tutor to have effective and enjoyable tutoring sessions. Since I'm close in age to the students, I feel like I have a much easier time getting students to be open around me than most tutors would. It's vital that students don't hesitate to ask questions, share their thoughts, or just speak as they normally would.
 
-**Seeing learning from a student's perspective:** In 2016, the SAT was completely revamped by College Board. However, most SAT tutors learned and took the test far before 2016. As someone who learned and completed the SAT after the revamp, I can see the SAT, as well as the college admissions process surrounding it, from the perspective of a student in the current year. I believe this does make an impact when teaching and building a connection with students.
+**Seeing learning from a student's perspective:** In 2016, the SAT was completely revamped by College Board. However, most SAT tutors learned and took the test far before 2016. As someone who learned and completed the SAT after the revamp, I can see the SAT, as well as the college admissions process surrounding it, from the perspective of a student today. I believe this does make an impact when teaching and building a connection with students.
 
 
 
