@@ -58,13 +58,13 @@ mailchimp__button__text: Get updates
 # Projects Settings
 projects__settings:
   projects__title: Videos
-  projects__description: Here are some helpful videos I've made.
+  projects__description: Here are some videos I've made.
 
 
 #-------------------------------
 # Testimonials Section
 testimonial__title: What students say
-testimonial__description: Testimonials coming soon!
+testimonial__description: Testimonials coming eventually!
 
 testimonial__items:
   - name: "TBD"
