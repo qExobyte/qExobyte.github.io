@@ -1,9 +1,9 @@
 ---
-title: Finishing the SAT Math Noncalc in 3:40
+title: Basic Algebra in 12 Minutes
 date: 2022-07-13
-subtitle: That was actually quite fast.
-image: '/images/speedrun.png'
+subtitle: This video covers all of the simple algebra needed for the SAT.
+image: '/images/easymath.png'
 ---
 
-<p><iframe src="https://www.youtube.com/embed/JgANv_aeJkQ" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/watch?v=vbj0318fmfo" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
