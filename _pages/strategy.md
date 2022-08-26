@@ -22,7 +22,7 @@ Here are some other things I value in tutoring:
 
 **Spaced Repetition:** Rather than covering topics in a sequential order, I ensure that students are exposed to topics over and over throughout their entire preparation. I also recommend that students get tutored consistently over a longer period of time, rather than trying to cram SAT prep in a few weeks.
 
-**Building a Connection with the Student:** This seems obvious, but students need to feel very comfortable around their tutor to have effective and enjoyable tutoring sessions. As someone close in age to high school students, I have a good grasp of how to communicate with students and keep them engaged, something which older (yet more experienced) tutors often neglect.
+**Building a Connection with the Student:** This seems obvious, but students need to feel very comfortable around their tutor to have effective and enjoyable tutoring sessions. As someone close in age to high school students, I have a good grasp of how to communicate with students and keep them engaged, something which older tutors often neglect.
 
 **Seeing learning from a student's perspective:** In 2016, the SAT was completely revamped by College Board. However, most SAT tutors learned and took the test far before 2016. As someone who self-studied and completed the SAT after the revamp, I can see the SAT, as well as the college admissions process surrounding it, from the perspective of a student today. I believe this does make an impact when teaching and building a connection with students.
 
