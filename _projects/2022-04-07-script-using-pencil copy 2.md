@@ -5,5 +5,5 @@ subtitle: Take the test and use this video to check your work.
 image: '/images/speedrun.png'
 ---
 
-<p><iframe src="https://www.youtube.com/watch?v=X40RvCSqADA" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/X40RvCSqADA" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 

@@ -5,5 +5,5 @@ subtitle: This video covers all of the simple algebra needed for the SAT.
 image: '/images/easymath.png'
 ---
 
-<p><iframe src="https://www.youtube.com/watch?v=vbj0318fmfo" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/vbj0318fmfo" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
