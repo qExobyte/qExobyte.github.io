@@ -9,10 +9,12 @@ Hi, I'm Eric.
 I'm a first-year at the University of Virginia studying computer science, and I've been tutoring SAT Math for over a year. 
 
 <img src="/images/score.jpg" align="right">
-As both a student and a tutor, I've developed sets of strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
+As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
+
+<h1>Why *my* tutoring?</h1>
 
 If you're curious about how I teach the SAT, check out my [Strategy](https://learnsatmath.com/strategy/)
 
