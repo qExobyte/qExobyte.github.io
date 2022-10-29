@@ -14,9 +14,15 @@ As both a student and a tutor, I've developed strategies for learning math effec
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
 
-<h1>Why *my* tutoring?</h1>
+<h1>But why <i>my</i> tutoring?</h1>
 
-If you're curious about how I teach the SAT, check out my [Strategy](https://learnsatmath.com/strategy/)
+**Flexibility:** Many online tutoring services provide test prep packages, including materials, videos, and some amount of tutoring for high prices, claiming that the price is justified by the sheer quantity of content. These packages may constrain students to a fixed amount of tutoring or place them on a schedule. However, no two students are going to best prepare for the SAT with the same resources, the same amount of tutoring, or the same schedule. This is why I try to make my tutoring as flexible to the needs of the student as possible. Sessions are paid for *one at a time* and can be cancelled as soon as *30 minutes* before their scheduled start time. If students desire a change of schedule, I can accomodate for that. My tutoring ensures that students are not locked into *anything* and can always adjust or back out if anything isn't working.
+
+**Affordability:** Along with flexibility, many online tutoring services lack is affordability. There is great demand for SAT prep and thus high prices, but my tutoring undercuts the *vast majority* of what you'll find online. This, however, doesn't mean the quality of my tutoring is significantly lower. Price is a reflection of demand, *not* quality. A $400/hr tutor does not offer 10x better tutoring--they simply have 10x the requests, likely due to their knowledge of the industry and connections. While I can't speak to the quality of the hundreds of other online SAT tutors, I *can* say that I have complete confidence in the success of my [Strategy](https://learnsatmath.com/strategy/) and my knowledge of SAT Math--a test which I tutor almost *exclusively* (200+ hours tutoring *just* the SAT Math).
+
+**Student Perspective:** Most online tutors took the SAT 10, 20, or 30 years ago and have been tutoring since. On one hand, this means they have much more tutoring experience than I do, but on the other hand, it means they lack the perspective of the students they tutor. The SAT was completely revamped in 2016, and so as someone who self-studied and took the SAT *after* the revamp, I understand what it's like to be a *student* preparing for this test and going through the college admissions process in general. I also feel that students tend to be more open and engaged with a tutor closer to them in age--which is important in making tutoring sessions genuinely enjoyable and not a chore for the student.
+
+If you're curious about *how* I teach the SAT, check out my [Strategy](https://learnsatmath.com/strategy/)
 
 
 
