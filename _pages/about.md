@@ -24,7 +24,16 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 
 If you're curious about *how* I teach the SAT, check out my [Strategy](https://learnsatmath.com/strategy/)
 
-
+<h1>Math Experience</h1>
+<li>Algebra 1</li>
+<li>Geometry</li>
+<li>Algebra 2 (extent of SAT curriculum)</li>
+<li>Precalculus & Trigonometry</li>
+<li>AP Calculus BC (Calc 1 & 2) -- AP Score: 5 -- AB Subscore: 5</li>
+<li>Multivariable Calculus (Calc 3)</li>
+<li>Linear Algebra</li>
+<br>
+SAT Score: 1570 (770 EBRW / 800 Math)
 
 <!--
 <div class="gallery-box">
