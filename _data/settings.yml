@@ -2,7 +2,7 @@
 # Site Settings
 title: Learn SAT Math
 logo: # '/images/lightbulb.png' -- this logo would be in place of "Learn SAT Math"
-description: Eric helps students deeply understand the math behind the SAT and build confidence solving SAT problems with both accuracy and speed.
+description: I'm a UVA student and SAT Math tutor helping students improve their SAT scores efficiently and without frustration.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -28,7 +28,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: Eric
-  author__bio: After self-studying the SAT, I earned a perfect 800 on the math section twice. Now, I tutor the SAT Math to help other students do the same.
+  author__bio: I'm a UVA student and SAT Math tutor hoping to help you improve your SAT Math score.
   author__avatar: '/images/eric3.png'
 
 social:
@@ -41,9 +41,10 @@ social:
 
 #-------------------------------
 # Hero Settings
+# THIS IS THE MOST IMPORTANT THING ON THE WEBSITE (the bio)
 hero:
   hero__title: Hi, I'm Eric.
-  hero__description: I'm a UVA student and math tutor hoping to help you improve your SAT Math score. I've earned a perfect 800 twice and have 200+ hours of tutoring experience. 
+  hero__description: I'm a UVA student and SAT Math tutor hoping to help you improve your SAT Math score. I've earned a perfect 800 twice and have 200+ hours of tutoring experience. 
   hero__image: '/images/eric3.png'
 
 

@@ -69,7 +69,8 @@
 }
 
 .hero__right {
-  max-width: 625px; // originally 575 px
+  width: 50%;
+  // max-width: 625px; // originally 575 px
   margin-left: auto;
 
   @media only screen and (max-width: $wide) {
