@@ -28,7 +28,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: Eric
-  author__bio: I'm a UVA student and SAT Math tutor hoping to help you improve your SAT Math score.
+  author__bio: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score.
   author__avatar: '/images/eric3.png'
 
 social:
@@ -44,7 +44,7 @@ social:
 # THIS IS THE MOST IMPORTANT THING ON THE WEBSITE (the bio)
 hero:
   hero__title: Hi, I'm Eric.
-  hero__description: I'm a UVA student and SAT Math tutor hoping to help you improve your SAT Math score. I've earned a perfect 800 twice and have 200+ hours of tutoring experience. 
+  hero__description: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score. I've earned a perfect 800 twice and have 200+ hours of tutoring experience. 
   hero__image: '/images/eric3.png'
 
 
