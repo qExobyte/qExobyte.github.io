@@ -14,6 +14,8 @@ As both a student and a tutor, I've developed strategies for learning math effec
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
 
+<a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
+
 <h1>But why <i>my</i> tutoring?</h1>
 
 **Flexibility:** Many online tutoring services provide test prep packages, including materials, videos, and some amount of tutoring for high prices, claiming that the price is justified by the sheer quantity of content. These packages may constrain students to a fixed amount of tutoring or place them on a schedule. However, no two students are going to best prepare for the SAT with the same resources, the same amount of tutoring, or the same schedule. This is why I try to make my tutoring as flexible to the needs of the student as possible. Sessions are paid for *one at a time* and can be cancelled as soon as *30 minutes* before their scheduled start time. If students desire a change of schedule, I can accomodate for that. My tutoring ensures that students are not locked into *anything* and can always adjust or back out if anything isn't working.

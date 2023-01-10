@@ -1,4 +1,36 @@
 <!-- begin hero -->
+<script>
+  (function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar);
+    };
+    let d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://cal.com/embed.js", "init");
+    Cal("init")
+  </script>
+
 <section class="hero">
   <div class="container">
     <div class="row">
@@ -13,13 +45,41 @@
 
           <div class="hero__right">
             <h1 class="hero__title">{{ site.data.settings.hero.hero__title }}</h1>
-            <p class="hero__description">{{ site.data.settings.hero.hero__description }}</p>
+            <p class="hero__description">
+              I'm an SAT Math tutor and UVA undergraduate here to help you improve your SAT Math score.
+              After earning a perfect SAT Math score twice, I've specialized in tutoring SAT Math, with 200+ hours of experience.
+            </p>
+            <p class="hero__description">Book a <b>free</b> trial session below to figure out if my tutoring is best for you!</p>
             {% if site.data.settings.mailchimp == "enable" %}
-            <div class="hero__subscribe">
+
+            <!--
+              If I ever want to do inline embed, this is how. I'd have to change the container size to make it nice though.
+              <div id="my-cal-embed"></div>
+                <script>
+                Cal("inline", {
+                  elementOrSelector: "#my-cal-embed", // You can also provide an element directly
+                  calLink: "ericwolpert/trial", // The link that you want to embed. It would open https://cal.com/jane in embed
+                  config: {
+                    name: "John Doe", // Prefill Name
+                    email: "johndoe@gmail.com", // Prefill Email
+                    notes: "Test Meeting", // Prefill Notes
+                    guests: ["janedoe@gmail.com", "test@gmail.com"], // Prefill Guests
+                    theme: "light", // "dark" or "light" theme
+                  },
+                });
+              </script>
+            -->
+
+            
+            <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Session</a>
+            
 
               <!-- THIS IS MY TEMPORARY WAY OF GETTING A CONTACT FORM ON THE FRONT PAGE.
-                    THIS IS PROBABLY NOT IDEAL. -->
+                    THIS IS PROBABLY NOT IDEAL.
+            <div class="hero__subscribe">
+
               <div class="form-box">
+
                 <div class="contact-head">
                   {% if site.data.settings.contact.description %}
                     <p class="contact-description">{{site.data.settings.contact.description}}</p>
@@ -46,6 +106,7 @@
                   </div>
                 </form>
               </div>
+              -->
               <!--
               <form class="subscribe-form validate"
                 action="{% if site.data.settings.mailchimp__identifier %}//{{site.data.settings.mailchimp__identifier}}{% else %}#{% endif %}" method="POST"
@@ -56,8 +117,8 @@
                 <button class="button button--primary button--small subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{
                   site.data.settings.mailchimp__button__text }}</button>
               </form>
-              -->
             </div>
+          -->
             {% endif %}
           </div>
 

@@ -41,10 +41,13 @@ social:
 
 #-------------------------------
 # Hero Settings
-# THIS IS THE MOST IMPORTANT THING ON THE WEBSITE (the bio)
+# Website bio!
+# UPDATE: SINCE YAML IS SOMEHOW NOT DOING WHAT I TELL IT, I'M HARDCODING LINE BREAKS IN HTML (AND NOT USING THIS)
 hero:
   hero__title: Hi, I'm Eric.
-  hero__description: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score. I've earned a perfect 800 twice and have 200+ hours of tutoring experience. 
+  hero__description:
+   I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score. 
+   I've earned a perfect 800 twice and have 200+ hours of tutoring experience.
   hero__image: '/images/eric3.png'
 
 
@@ -129,7 +132,7 @@ footer_menu__settings:
 # Contact Settings
 contact:
   email: xdoblqqv # Add your form_id
-  description: Send me an email to set up a free 30 minute tutoring session! # Add a description of your form
+  description: Send me an email if you have any questions about my tutoring! # Add a description of your form
 
 # NOTE
 # Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
@@ -142,4 +145,4 @@ disqus-identifier: learnsatmath # Add your shortname for Disqus Comment. For exa
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+google-analytics: G-EKENVY91TK
