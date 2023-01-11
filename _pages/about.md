@@ -4,6 +4,39 @@ title: About
 permalink: /about/
 ---
 
+<!-- Required for booking embed -->
+<script>
+  (function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar);
+    };
+    let d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://cal.com/embed.js", "init");
+    Cal("init")
+  </script>
+
 Hi, I'm Eric.
 
 I'm a first-year at the University of Virginia studying computer science, and I've been tutoring SAT Math for over a year. 
@@ -14,7 +47,9 @@ As both a student and a tutor, I've developed strategies for learning math effec
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
 
+<div align="center" style="margin-bottom: 25px">
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
+</div>
 
 <h1>But why <i>my</i> tutoring?</h1>
 
@@ -36,6 +71,10 @@ If you're curious about *how* I teach the SAT, check out my [Strategy](https://l
 <li>Linear Algebra</li>
 <br>
 SAT Score: 1570 (770 EBRW / 800 Math)
+
+Finally, I've included my tutoring policy document, which outlines my scheduling, cancellation, and payment policies, among other things. There's no need to read it until after completing a trial session, but it's here for anyone's curiosity.
+
+<iframe src="/images/policy.pdf" height="500" width="500"></iframe>
 
 <!--
 <div class="gallery-box">
