@@ -19,7 +19,7 @@
 }
 
 .hero__left {
-  width: 50%; // originally 50%
+  width: 51%; // originally 50%
 
   @media only screen and (max-width: $desktop) {
     width: 100%;
@@ -69,7 +69,7 @@
 }
 
 .hero__right {
-  width: 50%;
+  width: 49%;
   // max-width: 625px; // originally 575 px
   margin-left: auto;
 
