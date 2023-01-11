@@ -47,7 +47,7 @@ As both a student and a tutor, I've developed strategies for learning math effec
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
 
-<div align="center" style="margin-bottom: 25px">
+<div align="center">
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
 </div>
 
