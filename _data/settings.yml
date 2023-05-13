@@ -29,7 +29,7 @@ menu__settings:
 author:
   author__name: Eric
   author__bio: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score.
-  author__avatar: '/images/eric4.jpg'
+  author__avatar: '/images/eric4.JPG'
 
 social:
 - {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCFi7uuVtKZQG1YuMVT9xWtA"}
@@ -49,7 +49,7 @@ hero:
   hero__description:
    I'm an SAT Math tutor and UVA student here to help you improve your SAT Math score.
    After earning a perfect SAT Math score twice, I've specialized in tutoring SAT Math, with 200+ hours of experience.
-  hero__image: '/images/eric4.jpg'
+  hero__image: '/images/eric4.JPG'
 
 
 #-------------------------------
