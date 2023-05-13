@@ -3,6 +3,38 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+<!-- Required for booking embed -->
+<script>
+  (function (C, A, L) {
+    let p = function (a, ar) {
+      a.q.push(ar);
+    };
+    let d = C.document;
+    C.Cal =
+      C.Cal ||
+      function () {
+        let cal = C.Cal;
+        let ar = arguments;
+        if (!cal.loaded) {
+          cal.ns = {};
+          cal.q = cal.q || [];
+          d.head.appendChild(d.createElement("script")).src = A;
+          cal.loaded = true;
+        }
+        if (ar[0] === L) {
+          const api = function () {
+            p(api, arguments);
+          };
+          const namespace = ar[1];
+          api.q = api.q || [];
+          typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
+          return;
+        }
+        p(cal, ar);
+      };
+    })(window, "https://cal.com/embed.js", "init");
+    Cal("init")
+  </script>
 
 <div class="form-box">
   <div class="contact-head">
@@ -23,8 +55,14 @@ permalink: /contact/
       <label class="form__label screen-reader-text" for="form-text">Your Message</label>
       <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
     </div>
-    <div class="form__group">
+    <div align="center" class="form__group">
       <button class="button button--primary" type="submit">Send Message</button>
     </div>
   </form>
+
+  <br></br>
+  <div align="center">
+    <p>If you wanted to book a trial session, use the button below:</p>
+    <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
+  </div>
 </div>
