@@ -8,8 +8,7 @@
           <a class="logo__link" href="{{ site.baseurl }}/">
           {% if site.data.settings.logo %}
             <img class="logo__image" src="{{ site.baseurl }}{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
-          {% else %}
-            {{ site.data.settings.title }}
+          <!-- Formerly had an else statement that would put a title in the header -->
           {% endif %}
           </a>
         </div>
