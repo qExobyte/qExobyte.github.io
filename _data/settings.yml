@@ -29,11 +29,12 @@ menu__settings:
 author:
   author__name: Eric
   author__bio: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score.
-  author__avatar: '/images/eric3.png'
+  author__avatar: '/images/eric4.jpg'
 
 social:
 - {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCFi7uuVtKZQG1YuMVT9xWtA"}
-- {icon: "ion-logo-github", link: "https://github.com/qExobyte"}
+# I manually added the tiktok logo because it wasn't imported with the other ionicon logos >:(
+
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -48,7 +49,7 @@ hero:
   hero__description:
    I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score. 
    I've earned a perfect 800 twice and have 200+ hours of tutoring experience.
-  hero__image: '/images/eric3.png'
+  hero__image: '/images/eric4.jpg'
 
 
 #-------------------------------
