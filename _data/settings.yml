@@ -18,8 +18,6 @@ menu__settings:
       title: 'Strategy'
     - title: 'Videos'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
     - url: '/contact/'
       title: 'Contact'
 
@@ -43,7 +41,6 @@ social:
 #-------------------------------
 # Hero Settings
 # Website bio!
-# UPDATE: SINCE YAML IS SOMEHOW NOT DOING WHAT I TELL IT, I'M HARDCODING LINE BREAKS IN HTML (AND NOT USING THIS)
 hero:
   hero__title: Hi, I'm Eric.
   hero__description:
@@ -92,9 +89,9 @@ testimonial__items:
 
 #-------------------------------
 # Blog Section
-blog__settings:
-  blog__title: Recent Posts
-  blog__description:
+#blog__settings:
+#  blog__title: Recent Posts
+#  blog__description:
 
 
 #-------------------------------
