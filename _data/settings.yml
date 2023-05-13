@@ -69,7 +69,7 @@ projects__settings:
 #-------------------------------
 # Testimonials Section
 testimonial__title: What students say
-testimonial__description: Testimonials coming eventually!
+testimonial__description: 
 
 testimonial__items:
   - name: "Alex"
