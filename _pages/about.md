@@ -39,11 +39,12 @@ permalink: /about/
 
 Hi, I'm Eric.
 
-I'm a first-year at the University of Virginia studying computer science, and I've been tutoring SAT Math for over a year. 
+I'm a student at the University of Virginia double majoring in Computer Science & Economics, and I've been tutoring SAT Math for the last 2 years.
 
 <img src="/images/score.jpg" align="right">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
+I've tutored students all across the country, from small schools on the West Coast to TJHSST, America's #1 public high school here in Northern Virginia. My tutoring is simple yet effective--most recently, I've helped a student get from a satisfactory 660 to a near perfect 760 in fewer than 10 sessions. No matter your comfort with math, if you're determined to learn, I'd love to help you become a stronger problem solver.
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
 
@@ -51,28 +52,57 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
 </div>
 
-<h1>But why <i>my</i> tutoring?</h1>
+<h1>What exactly you get from my tutoring:</h1>
+<ul>
+  <li>On-demand quality 1-on-1 tutoring</li>
+  <li>32+ Practice tests with answers</li>
+  <li>Progress Spreadsheets</li> 
+  <li>An SAT score you're happy with<i>--if you put in the effort :)</i></li>
+</ul>
 
-**Flexibility:** Many online tutoring services provide test prep packages, including materials, videos, and some amount of tutoring for high prices, claiming that the price is justified by the sheer quantity of content. These packages may constrain students to a fixed amount of tutoring or place them on a schedule. However, no two students are going to best prepare for the SAT with the same resources, the same amount of tutoring, or the same schedule. This is why I try to make my tutoring as flexible to the needs of the student as possible. Sessions are paid for *one at a time* and can be cancelled as soon as *30 minutes* before their scheduled start time. If students desire a change of schedule, I can accomodate for that. My tutoring ensures that students are not locked into *anything* and can always adjust or back out if anything isn't working.
+<h1>FAQ</h1>
 
-**Affordability:** Along with flexibility, many online tutoring services lack is affordability. There is great demand for SAT prep and thus high prices, but my tutoring undercuts the *vast majority* of what you'll find online. This, however, doesn't mean the quality of my tutoring is significantly lower. Price is a reflection of demand, *not* quality. A $400/hr tutor does not offer 10x better tutoring--they simply have 10x the requests, likely due to their knowledge of the industry and connections. While I can't speak to the quality of the hundreds of other online SAT tutors, I *can* say that I have complete confidence in the success of my [Strategy](https://learnsatmath.com/strategy/) and my knowledge of SAT Math--a test which I tutor almost *exclusively* (200+ hours tutoring *just* the SAT Math).
+<h2>Do I need to pay upfront for a package of sessions or can I request sessions whenever?</h2>
+My tutoring is meant to be as flexible as possible for students and their parents. Unlike many online tutoring services, I don't charge for "packages" of test prep, nor do I insist that payments be made before sessions. I think of my tutoring instead as *"on-demand"*. If you want a session, you book it. If you need to cancel, you can do so up to *30 minutes* before the scheduled start time with *no penalty* (wow!). And you don't need to pay until *after* the session is completed. I never want students to feel locked into one path for test prep. They should always have the freedom to back out if they choose.
 
-**Student Perspective:** Most online tutors took the SAT 10, 20, or 30 years ago and have been tutoring since. On one hand, this means they have much more tutoring experience than I do, but on the other hand, it means they lack the perspective of the students they tutor. The SAT was completely revamped in 2016, and so as someone who self-studied and took the SAT *after* the revamp, I understand what it's like to be a *student* preparing for this test and going through the college admissions process in general. I also feel that students tend to be more open and engaged with a tutor closer to them in age--which is important in making tutoring sessions genuinely enjoyable and not a chore for the student.
+<h2>How does your tutoring compare to that of older, more experienced tutors?</h2>
+As a college student, there are certainly some pros and cons to my age. I am not a full time tutor and I don't have several decades of teaching experience under my belt. However, the SAT Math is a small and predictable test--not to mention it was revamped in 2016. After 2 years preparing for the test and another 2 years teaching it, I understand the SAT Math as well as any full time tutor, *and I'm probably half the price*. 
 
-If you're curious about *how* I teach the SAT, check out my [Strategy](https://learnsatmath.com/strategy/)
+For some students, having a college aged tutor is an advantage. I've been told by students that their previous tutors have bored them into hating math, while I'm more engaging and easier to talk to. It's important that students genuinely enjoy their studying, and I hope to provide that with my tutoring.
 
-<h1>Math Experience</h1>
+<h2>How do you keep students accountable outside of tutoring sessions?</h2>
+There has to be a certain point where students are responsible for their own learning, but I do have ways to keep students motivated and accountable. Since my tutoring revolves around practice tests, I insist that students complete and score 1-2 sections between each session. These scores are then tracked in a spreadsheet to show the student's progress over time. 
+
+Furthermore, I love cognitive science, and often prescribe students strategies for learning and studying that align with my knowledge of encoding, retrieval, long-term memory, and attention. If a student can't focus or make time for their work, there is always a solution.
+
+<!--
+<iframe align="right" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHiDRuvdG39lPmVv6G-Xr4npdfmqF97s2eV3rdAabfaJyRi7VXNBoaKS5bnBm7sklqNxTbGWVXnyTK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+-->
+
+<h2>Given that you're an undergraduate student, what is your math experience?</h2>
+Here are all the math courses I've completed:
 <li>Algebra 1</li>
 <li>Geometry</li>
-<li>Algebra 2 (extent of SAT curriculum)</li>
+<li>Algebra 2 (we've now reached the extent of the SAT curriculum)</li>
 <li>Precalculus & Trigonometry</li>
+<li>Discrete Math</li>
 <li>AP Calculus BC (Calc 1 & 2) -- AP Score: 5 -- AB Subscore: 5</li>
 <li>Multivariable Calculus (Calc 3)</li>
 <li>Linear Algebra</li>
 <br>
-SAT Score: 1570 (770 EBRW / 800 Math)
 
-Finally, I've included my tutoring policy document, which outlines my scheduling, cancellation, and payment policies, among other things. There's no need to read it until after completing a trial session, but it's here for anyone's curiosity.
+Outside of these courses, I'm majoring in computer science and economics, so almost all of my college courses involve some amount of math and a whole lot of problem solving. I've also taken two years of calculus-based physics.
+
+This is completely overkill for SAT Math, but I want to show my commitment to math and problem solving. 
+
+As for the SAT, I scored a 1570 (770 EBRW / 800 Math)
+
+<h2>How do you teach the SAT Math?</h2>
+An in-depth look at my strategy for the SAT Math is found [here](https://learnsatmath.com/strategy/).
+
+<h2>Where can I find more about your specific policies?</h2>
+
+Everything you might need to know can be found in this PDF:
 
 <iframe src="/images/policy.pdf" height="500" width="500"></iframe>
 
