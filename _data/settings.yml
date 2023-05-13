@@ -72,23 +72,23 @@ testimonial__title: What students say
 testimonial__description: Testimonials coming eventually!
 
 testimonial__items:
-  - name: "TBD"
+  - name: "Alex"
     image: "/images/icon.png"
-    designation: "10th Grade"
-    # link: "https://twitter.com/"
-    content : ""
+    designation: "SAT Math"
+    designation2:
+    content : "I wouldn’t have done nearly as well on the SAT Math without Eric. He understands the test on a deep level and can immediately identify where I’m going wrong with problems. As a college student, he’s very down to earth and good at communicating. His rate is affordable, and quite a steal for Eric's knowledge of the SAT Math. Eric has made studying for the SAT Math somehow enjoyable and I cannot recommend him enough."
 
-  - name: "TBD"
+  - name: "Naoki"
     image: "/images/icon.png"
-    designation: "11th Grade"
+    designation: "SAT Math & AP Computer Science A"
+    designation2: "660 to 760 in 2 months"
     # link: "https://twitter.com/"
-    content : ""
+    content : "Since I found Eric online, it has been a life changing experience for me! He is very knowledgeable in the field of math, especially in Algebra and SAT Math–not only explaining how to solve problems, but also in depth reasoning behind the math. I was struggling with SAT math and feeling discouraged, but Eric's patient and encouraging approach helped me gain confidence. He will explain in detail any way possible for you to understand, plus provide helpful tips and tricks that make problem solving not only easier, but also faster. With his guidance and support, I was able to achieve my goal (SAT Math 750+). I HIGHLY RECOMMEND Eric as a math tutor to anyone in need of help in math."
 
-  - name: "TBD"
+  - name: "Julia"
     image: "/images/icon.png"
-    designation: "12th Grade"
-    # link: "https://twitter.com/"
-    content : ""
+    designation: "SAT Math & Precalculus"
+    content : "Eric is a great tutor who makes math enjoyable and bearable. He does a great job explaining concepts and ensuring I don't get lost along the way. I like and understand the unit circle for precalc now! I'm glad we found Eric as an SAT Math and Precalc tutor."
 
 #-------------------------------
 # Blog Section
