@@ -31,6 +31,11 @@ For example, let's look at Systems of Linear Equations--a problem type guarantee
 
 <img src="/images/connection.png" align="center">
 
+<div align="center">
+<p><b>To see this strategy in action, book a free trial session below!</b></p>
+<a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Free Session</a>
+</div>
+
 
 
 <!--
