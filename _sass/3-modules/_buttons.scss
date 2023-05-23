@@ -50,3 +50,30 @@
     margin-bottom: 25px
   }
 }
+
+.panel--holder {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+  padding: 100px 0 152px;
+  background-color: var(--background-alt-color);
+
+  @media only screen and (max-width: $desktop) {
+    padding: 80px 0 132px;
+  }
+}
+
+.panel--holder div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  word-wrap: break-word;
+
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1;
+  border-radius: 12px; // curved edges
+  background: var(--brand-color); // yellow
+}

@@ -52,6 +52,25 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
 </div>
 
+<div class="panel--holder">
+  <div markdown="1">
+  
+  **On Demand Sessions**
+  <br>
+  $50/hr
+
+  </div>
+
+  <div markdown="1">
+  bruh
+  </div>
+
+  <div markdown="1">
+  
+  </div>
+</div>
+
+<!-- 
 <h1>What exactly you get from my tutoring:</h1>
 <ul>
   <li>On-demand quality 1-on-1 tutoring</li>
@@ -59,6 +78,7 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
   <li>Progress Spreadsheets</li> 
   <li>An SAT score you're happy with<i>--if you put in the effort :)</i></li>
 </ul>
+-->
 
 <h1>FAQ</h1>
 
