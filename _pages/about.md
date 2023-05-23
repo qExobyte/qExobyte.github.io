@@ -46,7 +46,7 @@ As both a student and a tutor, I've developed strategies for learning math effec
 
 I've tutored students all across the country, from small schools on the West Coast to TJHSST, America's #1 public high school here in Northern Virginia. My tutoring is simple yet effective--most recently, I've helped a student get from a satisfactory 660 to a near perfect 760 in fewer than 10 sessions. No matter your comfort with math, if you're determined to learn, I'd love to help you become a stronger problem solver.
   
-My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule recurring sessions for **$40/hr.**
+My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule paid sessions for the prices listed below.
 
 <div align="center">
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
@@ -54,11 +54,13 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 
 <br>
 <h1 align="center">Pricing Options</h1>
+<p align="center">After the trial session, we can work out the details of payments. But here's a brief overview of the options and their respective prices.</p>
 
 <div class="panel--holder">
   <div align="center">
   <h1><b>On Demand</b></h1>
   <p class="pricing--text">1-on-1 tutoring anytime you want. Pay AFTER each session. No long-term commitment.</p>
+  <br><br><br>
   <h2 class="reduced--header former--price"><s>$60/hr</s></h2>
   <h1 class="reduced--header">$45/hr</h1>
   </div>
@@ -74,7 +76,7 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
   <div align="center">
   <h1><b>20 Hr Bundle</b></h1>
   <p class="pricing--text"> 20 hours of tutoring <br> 7-15 practice tests <br> One payment in advance </p>
-  <p class="pricing--text"> Estimated 50-120 point improvement </p>
+  <p class="pricing--text"> Estimated 50-150 point improvement </p>
   <h2 class="reduced--header former--price"><s>$1200</s></h2>
   <h1 class="reduced--header">$740</h1>
   </div>
@@ -93,18 +95,18 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 <br>
 <h1 align="center">FAQ</h1>
 
-<h2>Do I need to pay upfront for a package of sessions or can I request sessions whenever?</h2>
-My tutoring is meant to be as flexible as possible for students and their parents. Unlike many online tutoring services, I don't charge for "packages" of test prep, nor do I insist that payments be made before sessions. I think of my tutoring instead as *"on-demand"*. If you want a session, you book it. If you need to cancel, you can do so up to *30 minutes* before the scheduled start time with *no penalty* (wow!). And you don't need to pay until *after* the session is completed. I never want students to feel locked into one path for test prep. They should always have the freedom to back out if they choose.
+<h2>How flexible are your tutoring sessions?</h2>
+My tutoring is incredibly flexible, especially compared to other private tutors. More often than not, I have time slots available every day of the week. Even for the 8 hour and 20 hour bundles, where we would plan a recurring schedule in advance, there is plenty of wiggle room. As of right now, sessions can be rescheduled or cancelled as soon as *30 minutes* before the session start time, a policy more lenient than any other tutor I've seen.
 
 <h2>How does your tutoring compare to that of older, more experienced tutors?</h2>
-As a college student, there are certainly some pros and cons to my age. I am not a full time tutor and I don't have several decades of teaching experience under my belt. However, the SAT Math is a small and predictable test--not to mention it was revamped in 2016. After 2 years preparing for the test and another 2 years teaching it, I understand the SAT Math as well as any full time tutor, *and I'm probably half the price*. 
+As a college student, there are certainly some pros and cons to my age. I am not a full time tutor and I don't have several decades of teaching experience under my belt. However, the SAT Math is a small and predictable test--not to mention its current form has only been around since 2016. After 2 years preparing for the test and another 2 years teaching it, I understand the SAT Math as well as any full time tutor, *and I'm probably half the price*. 
 
-For some students, having a college aged tutor is an advantage. I've been told by students that their previous tutors have bored them into hating math, while I'm more engaging and easier to talk to. It's important that students genuinely enjoy their studying, and I hope to provide that with my tutoring.
+Also, many students prefer a tutor closer to them in age. I've been told by students that their previous tutors have bored them into hating math, while I'm engaging and easy to talk to. It's important that students genuinely enjoy their studying, and I hope to foster that environment.
 
 <h2>How do you keep students accountable outside of tutoring sessions?</h2>
-There has to be a certain point where students are responsible for their own learning, but I do have ways to keep students motivated and accountable. Since my tutoring revolves around practice tests, I insist that students complete and score 1-2 sections between each session. These scores are then tracked in a spreadsheet to show the student's progress over time. 
+There has to be a certain point where students are responsible for their own learning, but I do have ways to keep students motivated and accountable. Since my tutoring revolves around practice tests, I insist that students complete and score 1-2 sections between each session. This takes between 30-90 minutes. The scores from these practice tests are tracked in a spreadsheet to show students' progress over time.
 
-Furthermore, I love cognitive science, and often prescribe students strategies for learning and studying that align with my knowledge of encoding, retrieval, long-term memory, and attention. If a student can't focus or make time for their work, there is always a solution.
+Additionally, when students are struggling with focus, memory, or time management, I work with them to find solutions. I not only love math, but also cognitive science, and I have a multitude of strategies for learning and studying based on my knowledge of the field. Much of accountability is simply having the right mindset and approach.
 
 <!--
 <iframe align="right" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSHiDRuvdG39lPmVv6G-Xr4npdfmqF97s2eV3rdAabfaJyRi7VXNBoaKS5bnBm7sklqNxTbGWVXnyTK/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
@@ -122,11 +124,10 @@ Here are all the math courses I've completed:
 <li>Linear Algebra</li>
 <br>
 
-Outside of these courses, I'm majoring in computer science and economics, so almost all of my college courses involve some amount of math and a whole lot of problem solving. I've also taken two years of calculus-based physics.
+Outside of these courses, I'm majoring in computer science and economics, so almost all of my college courses involve some amount of math and a whole lot of problem solving. I've also taken two years of calculus-based physics. This is truly overkill for the SAT Math, but I want to be transparent about my experience.
 
-This is completely overkill for SAT Math, but I want to show my commitment to math and problem solving. 
-
-As for the SAT, I scored a 1570 (770 EBRW / 800 Math)
+As for the SAT, I scored a 1570 (770 EBRW / 800 Math). <br>
+I took the SAT twice and the PSAT once, earning a perfect math score on all 3 exams.
 
 <h2>How do you teach the SAT Math?</h2>
 An in-depth look at my strategy for the SAT Math is found [here](https://learnsatmath.com/strategy/).
