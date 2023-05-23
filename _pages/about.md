@@ -52,21 +52,31 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
 </div>
 
+<br>
+<h1 align="center">Pricing Options</h1>
+
 <div class="panel--holder">
-  <div markdown="1">
-  
-  **On Demand Sessions**
-  <br>
-  $50/hr
-
+  <div align="center">
+  <h1><b>On Demand</b></h1>
+  <p class="pricing--text">1-on-1 tutoring anytime you want. Pay AFTER each session. No long-term commitment.</p>
+  <h2 class="reduced--header former--price"><s>$60/hr</s></h2>
+  <h1 class="reduced--header">$45/hr</h1>
   </div>
 
-  <div markdown="1">
-  bruh
+  <div align="center">
+  <h1><b>8 Hr Bundle</b></h1>
+  <p class="pricing--text"> 8 hours of tutoring <br> 3-6 practice tests <br> One payment in advance </p>
+  <p class="pricing--text"> Estimated 30-70 point improvement </p>
+  <h2 class="reduced--header former--price"><s>$480</s></h2>
+  <h1 class="reduced--header">$320</h1>
   </div>
 
-  <div markdown="1">
-  
+  <div align="center">
+  <h1><b>20 Hr Bundle</b></h1>
+  <p class="pricing--text"> 20 hours of tutoring <br> 7-15 practice tests <br> One payment in advance </p>
+  <p class="pricing--text"> Estimated 50-120 point improvement </p>
+  <h2 class="reduced--header former--price"><s>$1200</s></h2>
+  <h1 class="reduced--header">$740</h1>
   </div>
 </div>
 
@@ -80,7 +90,8 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 </ul>
 -->
 
-<h1>FAQ</h1>
+<br>
+<h1 align="center">FAQ</h1>
 
 <h2>Do I need to pay upfront for a package of sessions or can I request sessions whenever?</h2>
 My tutoring is meant to be as flexible as possible for students and their parents. Unlike many online tutoring services, I don't charge for "packages" of test prep, nor do I insist that payments be made before sessions. I think of my tutoring instead as *"on-demand"*. If you want a session, you book it. If you need to cancel, you can do so up to *30 minutes* before the scheduled start time with *no penalty* (wow!). And you don't need to pay until *after* the session is completed. I never want students to feel locked into one path for test prep. They should always have the freedom to back out if they choose.

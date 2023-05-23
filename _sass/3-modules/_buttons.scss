@@ -55,25 +55,38 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  
-  padding: 100px 0 152px;
-  background-color: var(--background-alt-color);
-
-  @media only screen and (max-width: $desktop) {
-    padding: 80px 0 132px;
-  }
+  // user-select: none; // prevents highlighting
 }
 
 .panel--holder div {
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   width: 100%;
   word-wrap: break-word;
 
-  padding: 20px 40px;
+  padding: 20px 20px;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.1;
   border-radius: 12px; // curved edges
   background: var(--brand-color); // yellow
+
+  ::selection {
+    background-color: #3297FD;
+    color: white;
+  }
+}
+
+.reduced--header {
+  line-height: 0px;
+  // font-family: $base-font-family; // changing font
+}
+
+.former--price {
+  text-decoration: line-through;
+  color: #808080;
+}
+
+.pricing--text {
+  line-height: 1.5em;
 }
