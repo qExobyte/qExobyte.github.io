@@ -1,13 +1,3 @@
-.pricing {
-  @media only screen and (max-width: $desktop) {
-    padding: 40px 0 0;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    padding: 20px 0 0;
-  }
-}
-
 .panel--holder {
   display: flex;
   align-content: center;
@@ -56,8 +46,10 @@
 .restrict--width {
   margin-left: auto;
   margin-right: auto;
-  
+
   @media only screen and (max-width: $desktop) {
-    margin-bottom: 760px;
+    display: none;
   }
+
+  max-width: 760px;
 }
