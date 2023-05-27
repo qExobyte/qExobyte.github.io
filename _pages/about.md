@@ -53,9 +53,11 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 </div>
 
 <br>
-<h1 align="center">Pricing Options</h1>
-<p align="center">After the trial session, we can work out the details of payments. But here's a brief overview of the options and their respective prices.</p>
 
+
+{% include section-pricing.html %}
+
+<!-- 
 <div class="panel--holder">
   <div align="center">
   <h1><b>On Demand</b></h1>
@@ -81,6 +83,7 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
   <h1 class="reduced--header">$740</h1>
   </div>
 </div>
+-->
 
 <!-- 
 <h1>What exactly you get from my tutoring:</h1>
@@ -93,7 +96,7 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 -->
 
 <br>
-<h1 align="center">FAQ</h1>
+<h1 align="center" class="section__title">FAQ</h1>
 
 <h2>How flexible are your tutoring sessions?</h2>
 My tutoring is incredibly flexible, especially compared to other private tutors. More often than not, I have time slots available every day of the week. Even for the 8 hour and 20 hour bundles, where we would plan a recurring schedule in advance, there is plenty of wiggle room. As of right now, sessions can be rescheduled or cancelled as soon as *30 minutes* before the session start time, a policy more lenient than any other tutor I've seen.

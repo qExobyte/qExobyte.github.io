@@ -15,11 +15,11 @@
   background: var(--brand-color);
 
   &:hover {
-    color: var(--dark);
+    color: var(--button-color);
   }
 
   &--primary {
-    color: var(--dark);
+    color: var(--button-color);
     background-color: var(--button-background-color);
 
     &:hover {
@@ -38,7 +38,7 @@
 
   // my own creation
   &--large {
-    color: var(--dark);
+    color: var(--button-color);
     background-color: var(--button-background-color);
 
     &:hover {
@@ -79,12 +79,17 @@
 
 .reduced--header {
   line-height: 0px;
-  // font-family: $base-font-family; // changing font
+  font-family: $base-font-family; // changing font
 }
 
 .former--price {
   text-decoration: line-through;
-  color: #808080;
+  color: var(--text-color);
+}
+
+.current-price {
+  color: var(--price-color);
+  font-size: 32px;
 }
 
 .pricing--text {
