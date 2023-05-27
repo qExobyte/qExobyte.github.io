@@ -5,6 +5,28 @@
   // user-select: none; // prevents highlighting
 }
 
+.panel--content {
+  align-items: center;
+  margin: 10px;
+  word-wrap: break-word;
+
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.1;
+  border-radius: 12px; // curved edges
+  background: var(--brand-color); // yellow
+
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  ::selection {
+    background-color: #3297FD;
+    color: white;
+  }
+}
+
 .panel--holder div {
   align-items: center;
   margin: 10px;
@@ -46,10 +68,5 @@
 .restrict--width {
   margin-left: auto;
   margin-right: auto;
-
-  @media only screen and (max-width: $desktop) {
-    display: none;
-  }
-
-  max-width: 760px;
+  max-width: 320px;
 }
