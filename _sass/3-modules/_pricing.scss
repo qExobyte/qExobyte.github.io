@@ -56,8 +56,8 @@
 .restrict--width {
   margin-left: auto;
   margin-right: auto;
-
+  
   @media only screen and (max-width: $desktop) {
-    max-width: 780px;
+    margin-bottom: 760px;
   }
 }
