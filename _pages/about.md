@@ -54,7 +54,6 @@ My tutoring takes place online through Google Meet. In case you're unsure if my 
 
 <br>
 
-
 {% include section-pricing.html %}
 
 <!-- 
