@@ -46,8 +46,8 @@ social:
 hero:
   hero__title: Hi, I'm Eric.
   hero__description:
-   I'm an SAT Math tutor and UVA student here to help you improve your SAT Math score.
-   After earning a perfect SAT Math score twice, I've specialized in tutoring SAT Math, with 200+ hours of experience.
+   I'm an SAT Math tutor and UVA student here to help you improve your SAT Math score. 
+   After earning a perfect score twice and tutoring the test for 2 years, I'm confident that my strategies work.
   hero__image: '/images/eric4.JPG'
 
 
@@ -75,7 +75,7 @@ testimonial__items:
     image: "/images/icon.png"
     designation: "SAT Math"
     designation2:
-    content : "I wouldn’t have done nearly as well on the SAT Math without Eric. He understands the test on a deep level and can immediately identify where I’m going wrong with problems. As a college student, he’s very down to earth and good at communicating. His rate is affordable, and quite a steal for Eric's knowledge of the SAT Math. Eric has made studying for the SAT Math somehow enjoyable and I cannot recommend him enough."
+    content : "I wouldn’t have done nearly as well on the SAT Math without Eric. He understands the test on a deep level and can immediately identify where I’m going wrong with problems. As a college student, he’s very down to earth and good at communicating. His rate is affordable, especially for what you get. Eric has made studying for the SAT somehow enjoyable and I strongly recommend his tutoring."
 
   - name: "Naoki"
     image: "/images/icon.png"
