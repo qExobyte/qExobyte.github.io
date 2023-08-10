@@ -37,14 +37,13 @@ permalink: /subjects/
     Cal("init")
   </script>
 
-Although I specialize in SAT Math, I also tutor other subjects! These include:
+Although I specialize in SAT Math, I also have experience tutoring other subjects! These include:
 <li>Algebra 2</li>
 <li>Precalculus / Trigonometry</li>
 <li>AP Computer Science A</li>
+<li>College Consulting / Essay Reviewing</li>
 
 <br>
-I have between 20 and 100+ hours tutoring each of these subjects.
-
 For all of the subjects above, my rate and policies are the same as with SAT Math. You can book a trial session just like you would for SAT tutoring with the button below:
 
 <div align="center">
