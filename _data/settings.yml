@@ -2,7 +2,7 @@
 # Site Settings
 title: Learn SAT Math
 logo: # '/images/lightbulb.png' -- this logo would be in place of "Learn SAT Math"
-description: I'm a UVA student and SAT Math tutor helping students improve their SAT scores efficiently and without frustration.
+description: I'm an SAT Math tutor at the University of Virginia helping students improve their SAT scores efficiently and without frustration.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -46,7 +46,7 @@ social:
 hero:
   hero__title: Hi, I'm Eric.
   hero__description:
-   I'm an SAT Math tutor and UVA student here to help you improve your SAT Math score. 
+   I'm an SAT Math tutor at the University of Virginia here to help you improve your SAT Math score. 
    After earning a perfect score twice and tutoring the test for 2 years, I'm confident that my strategies work.
   hero__image: '/images/eric4.JPG'
 
