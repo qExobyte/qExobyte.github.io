@@ -118,11 +118,13 @@ Additionally, when students are struggling with focus, memory, or time managemen
 Here are all the math courses I've completed:
 <li>Algebra 1</li>
 <li>Geometry</li>
-<li>Algebra 2 (we've now reached the extent of the SAT curriculum)</li>
+<li>Algebra 2 (this concludes the extent of the SAT curriculum)</li>
 <li>Precalculus & Trigonometry</li>
 <li>Discrete Math</li>
 <li>AP Calculus BC (Calc 1 & 2) -- AP Score: 5 -- AB Subscore: 5</li>
 <li>Multivariable Calculus (Calc 3)</li>
+<li>Probability</li>
+<li>Statistics</li>
 <li>Linear Algebra</li>
 <br>
 
