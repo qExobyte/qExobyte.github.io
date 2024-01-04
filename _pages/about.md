@@ -44,7 +44,7 @@ I'm a student at the University of Virginia studying Computer Science & Economic
 <img src="/images/score.jpg" align="right">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
-I've tutored students all across the country, from small schools on the West Coast to TJHSST, America's #1 public high school here in Northern Virginia. My tutoring is simple yet effective--most recently, I've helped a student get from a satisfactory 660 to a near perfect 760 in only 8 sessions. No matter your comfort with math, if you're determined to learn, I'd love to help you become a stronger problem solver.
+I've tutored students all across the country, from schools on the West Coast to TJHSST, America's #1 public high school here in Northern Virginia. My tutoring is simple yet effective--most recently, I've helped a student get from a satisfactory 660 to a near perfect 760 in only 8 sessions. No matter your comfort with math, if you're determined to learn, I'd love to help you become a stronger problem solver.
   
 My tutoring takes place online through Google Meet. In case you're unsure if my tutoring would be best, **I offer a 30 minute trial session *completely free*.** If you're happy with this trial session, we can schedule paid sessions for the prices listed below.
 
