@@ -70,16 +70,3 @@ For example, let's look at Systems of Linear Equations--a problem type guarantee
 <p><b>To see this strategy in action, book a free trial session below!</b></p>
 <a data-cal-link="ericwolpert/trial" class="button button--large section-button">Book a Trial Session</a>
 </div>
-
-
-
-<!--
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/100.jpg" loading="lazy">
-    <img src="/images/105.jpg" loading="lazy">
-    <img src="/images/103.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
--->

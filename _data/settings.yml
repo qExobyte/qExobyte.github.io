@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Learn SAT Math
-logo: # '/images/lightbulb.png' -- this logo would be in place of "Learn SAT Math"
+logo: #  -- this logo would be in place of "Learn SAT Math"
 description: I'm an SAT Math tutor at the University of Virginia helping students improve their SAT scores efficiently and without frustration.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -93,21 +93,6 @@ testimonial__items:
 #blog__settings:
 #  blog__title: Recent Posts
 #  blog__description:
-
-
-#-------------------------------
-# Gallery Footer Settings
-#gallery:
-#  gallery__images:
-#    - alt: 'Rest'
-#      url: '/images/gallery-1.jpg'
-#    - alt: 'Lifestyle'
-#      url: '/images/gallery-2.jpg'
-#    - alt: 'Hobby'
-#      url: '/images/gallery-3.jpg'
-#    - alt: 'Notes'
-#      url: '/images/gallery-4.jpg'
-
 
 #-------------------------------
 # Footer Navigation Settings

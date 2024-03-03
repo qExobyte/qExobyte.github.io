@@ -142,13 +142,3 @@ Everything you might need to know can be found in this PDF:
 
 <iframe src="/images/policy.pdf" height="500" width="500"></iframe>
 
-<!--
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/100.jpg" loading="lazy">
-    <img src="/images/105.jpg" loading="lazy">
-    <img src="/images/103.jpg" loading="lazy">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
--->
