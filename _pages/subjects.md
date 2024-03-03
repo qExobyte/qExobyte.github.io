@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Subjects
-permalink: /subjects/
+permalink: 
 ---
 
 <!-- Required for booking embed -->

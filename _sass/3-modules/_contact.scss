@@ -1,6 +1,9 @@
 /* Contact */
+
 .form-box {
-  margin-bottom: 100px;
+  max-width: 500px; /* Set a max-width for larger screens */
+  margin: 0 auto; /* Center the form in the page */
+  padding: 20px;
 
   @media only screen and (max-width: $mobile) {
     margin-bottom: 80px;

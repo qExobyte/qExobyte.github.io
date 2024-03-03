@@ -20,8 +20,8 @@ menu__settings:
       url: '/projects/'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/subjects/'
-      title: 'Subjects'
+    #- url: '/subjects/'
+    #  title: 'Subjects'
 
 
 #-------------------------------
@@ -108,8 +108,8 @@ footer_menu__settings:
       url: '/projects/'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/subjects/'
-      title: 'Subjects'
+    #- url: '/subjects/'
+    #  title: 'Subjects'
 
 
 #-------------------------------
