@@ -2,10 +2,14 @@
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-wrap: wrap;
   // user-select: none; // prevents highlighting
 }
 
 .panel--content {
+  display: flex; /* Make it a flex container */
+  flex-direction: column; /* Stack its children vertically */
+  justify-content: space-between;
   align-items: center;
   margin: 10px;
   word-wrap: break-word;
@@ -53,7 +57,6 @@
 }
 
 .former--price {
-  text-decoration: line-through;
   color: var(--text-color);
 }
 
