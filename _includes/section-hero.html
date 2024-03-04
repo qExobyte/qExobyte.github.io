@@ -1,38 +1,6 @@
 <!-- begin hero -->
-<!-- CAL.com integration script -->
-<script>
-  (function (C, A, L) {
-    let p = function (a, ar) {
-      a.q.push(ar);
-    };
-    let d = C.document;
-    C.Cal =
-      C.Cal ||
-      function () {
-        let cal = C.Cal;
-        let ar = arguments;
-        if (!cal.loaded) {
-          cal.ns = {};
-          cal.q = cal.q || [];
-          d.head.appendChild(d.createElement("script")).src = A;
-          cal.loaded = true;
-        }
-        if (ar[0] === L) {
-          const api = function () {
-            p(api, arguments);
-          };
-          const namespace = ar[1];
-          api.q = api.q || [];
-          typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar);
-          return;
-        }
-        p(cal, ar);
-      };
-    })(window, "https://cal.com/embed.js", "init");
-    Cal("init")
-  </script>
+{% include cal-script.html %}
 
-<!-- actual hero script -->
 <section class="hero">
   <div class="container">
     <div class="row">
@@ -53,7 +21,7 @@
               <p class="hero__description">
                 {{ site.data.settings.hero.hero__description }}
               </p>
-              <p class="hero__description">Book a <b>free</b> trial session below to figure out if my tutoring is best for you!</p>  
+              <p class="hero__description">Book a session below and let's improve your score!</p>
             </div>
             
             {% if site.data.settings.mailchimp == "enable" %}

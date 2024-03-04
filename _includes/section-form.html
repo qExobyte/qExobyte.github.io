@@ -1,4 +1,4 @@
-<div class="form-box">
+<div class="form-box" id="book">
         <h1 align="center" class="section__title">Book a session!</h1>
         <p style="text-align: center;">Fill out the form below, and I'll be in touch to schedule a tutoring session! If needed, we can have a consultation call to discuss details.</p>
         <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
@@ -15,7 +15,7 @@
                 <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="What are you looking for?" required></textarea>
             </div>
             <div align="center" class="form__group">
-                <button class="button button--primary" type="submit">Send Message</button>
+                <button class="button button--primary" type="submit">Send Request</button>
             </div>
         </form>
 </div>
