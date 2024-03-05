@@ -4,34 +4,41 @@ title: Strategy
 permalink: /strategy/
 ---
 
-Over my 200+ hours tutoring SAT Math, I've been dedicated to continuously improving my tutoring methodology. Here is what's worked:
+Over my 300+ hours tutoring SAT Math, I've been dedicated to continuously improving my tutoring methodology. Here is what's worked:
 
 <h3>Practice Tests</h3>
 The best way to prepare for the SAT is to take the SAT.
 
-In general, tests don't only serve as tools for assessment, but also as tools for *learning*. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920642/#:~:text=Testing%20or%20retrieval,eg%2C%20marginal%20knowledge).">Cognitive science</a> consistently finds testing to be the best form of studying for long-term retention, since it demands greater attention and helps identify gaps in knowledge. 
+In general, tests don't only serve as tools for assessment, but also as tools for *learning*. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920642/#:~:text=Testing%20or%20retrieval,eg%2C%20marginal%20knowledge).">Studies</a> consistently find testing to be the best form of studying for long-term retention, since it demands greater attention and helps identify gaps in knowledge. 
 
-But why official practice tests? Success on the SAT ultimately comes down to **pattern recognition**. I prove this by <a href="https://www.youtube.com/watch?v=JgANv_aeJkQ">finishing the 25 minute non-calculator section in just under 4 minutes</a>. I'm not using any superhuman abilities nor am I using any math beyond Algebra 2. The reason I can "speedrun" the test is that I've developed an *intuition* for the problems on the SAT Math. 
+But why *official* practice tests? <a href="https://www.tandfonline.com/doi/abs/10.1080/09658211.2014.970196#:~:text=When%20the%20review,performed%20during%20restudy.">Studies</a> have also proven the importance of **transfer-appropriate processing**, suggesting that the best way to study for a test is with materials that are as **similar** to the test as possible. For the SAT, this means taking CollegeBoard's official practice tests, since they're the basis for how CollegeBoard designs **actual** SAT questions.
 
-In the same way that you can read this paragraph without consciously thinking about grammar rules, once you've developed an intuition for SAT problems, you'll know how to solve each problem without thinking deeply about it. When you see a problem, your brain will draw connections to similar problems you've seen in the past, and it'll want to apply the processes that worked for those problems to this new one. But these connections can only be made if the problems from your studying are representative of the problems on the SAT. **This is why I believe the official SAT practice tests and past SATs are the best resource to use.**
+For my 8-hour plan, I ask that students first complete the 4 <a href="https://bluebook.collegeboard.org/students">Bluebook</a> practice tests and 4 <a href="https://satsuite.collegeboard.org/sat/practice-preparation/practice-tests/linear">Linear</a> practice tests. If we get through all of those, we use past DSATs, past paper SATs, or practice tests from other sources if students are willing to pay.
 
-However, when diving straight into practice tests, there are going to be concepts and processes that the student is unfamiliar with or has questions about. This is where my tutoring comes in. Students complete practice tests between tutoring sessions and come to each session with a list of problems to go over. Then, during the session we tackle each of those problems in-depth until students can understand the problem well enough to *teach it themselves*.
+But the answer explanations for these practice tests are often insufficient. First, they **never** suggest the use of DESMOS, which could save you time on around **20-40%** of SAT problems. Second, answer explanations show you the right way to **solve** problems, but not the right way to **think** about them. That's where my tutoring comes in.
+
+
+<h3>Talking Through Your Work</h3>
+
+In a tutoring session, we go through every problem the student missed on their last practice test. I start off by asking the student **how they approached the problem**. 
+
+If they weren't even sure where to begin, we begin by defining terms. I may ask "when are exponential functions used?" or "what makes triangles similar?" to encourage students to think conceptually about the problem rather than procedurally.
+
+If the student did attempt the problem, we walk through their work until we reach the step that led them to the wrong answer. Our focus is not on how to *solve* the problem correctly, but rather how to *think* about the problem correctly.
 
 <h3>Concepts First</h3>
+Especially on the DSAT, problems are becoming increasingly conceptual, so the focus of my tutoring is always on building **understanding**, not memorization.
 
-Far too often, students learn *how* to solve math problems, but have no understanding of *why* the process they're using works. This is especially true for standardized tests, where success is tied directly to efficiency--not understanding.
+And even when memorization is necessary, the best way to memorize formulas is to understand **where** they come from. For example, students often forget the distance formula and the circle formula, but these formulas are easy to remember if you learn that they're just subtle rewritings of the pythagorean theorem!
 
-However, if you deeply understand the concepts behind the SAT, a perfect score *is not a challenge*. SAT problems are not long, tedious, or complicated. They are designed to test 1-2 concepts. Understand those concepts well and you'll know exactly what the problem is trying to test.
+I approach concepts from multiple angles. We may look at a concept algebraically, graphically, and in applications, until it finally clicks. The goal is that the student understands a concept well enough to **teach it themselves**.
 
-This is obviously easier said than done. Some students are naturally faster at math than others, and some have had a more extensive math background, but every student is capable of learning. When I teach, I start at the basics and try to approach a concept from as many angles as possible until I find something that the student understands and will remember. While explaining an idea, I frequently prompt students with questions, asking them to explain the concepts back to me, identifying any gaps in understanding. **You don't truly understand something until you can teach it yourself.**
 
-<h3>Applying a Process</h3>
+<h3>Optimization</h3>
+Often times, there are many ways to solve an SAT problem, but only one optimal approach. An optimal approach is not necessarily the fastest, but rather the most **accurate** for the time allotted. For graphing problems, this usually involves DESMOS.
 
-Most problems on the SAT fall neatly into categories of *types* of problems--each *problem type* testing a certain concept/concepts and having its own process for finding the solution. **Building intuition comes down to connecting concepts with problem types, and problem types with processes.**
+I also prescribe bigger picture test-taking strategies to experiment with while taking practice tests. Changing up time constraints, pacing, environment, or just mentality, can give unexpected insights about how to test better.
 
-For example, let's look at Systems of Linear Equations--a problem type guaranteed to show up on every SAT. **Conceptually**, a system is a set of relationships between variables that when combined, express a specific instance (or graphically, a point). On the SAT, this **problem type** will typically have 2 equations and 2 variables, both of which can be solved for. Finally, the **processes** you can use are elimination or substitution.
-
-<img src="/images/connection.png" align="center">
 
 <div align="center">
 <p><b>To see this strategy in action, book a session below!</b></p>
