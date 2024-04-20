@@ -13,7 +13,7 @@ In general, tests don't only serve as tools for assessment, but also as tools fo
 
 But why *official* practice tests? <a href="https://www.tandfonline.com/doi/abs/10.1080/09658211.2014.970196#:~:text=When%20the%20review,performed%20during%20restudy.">Studies</a> have also proven the importance of **transfer-appropriate processing**, suggesting that the best way to study for a test is with materials that are as **similar** to the test as possible. For the SAT, this means taking CollegeBoard's official practice tests, since they're the basis for how CollegeBoard designs **actual** SAT questions.
 
-For my 8-hour plan, I ask that students first complete the 4 <a href="https://bluebook.collegeboard.org/students">Bluebook</a> practice tests and 4 <a href="https://satsuite.collegeboard.org/sat/practice-preparation/practice-tests/linear">Linear</a> practice tests. If we get through all of those, we use past DSATs, past paper SATs, or practice tests from other sources if students are willing to pay.
+These include the 6 <a href="https://bluebook.collegeboard.org/students">Bluebook</a> practice tests, 6 <a href="https://satsuite.collegeboard.org/sat/practice-preparation/practice-tests/linear">Linear</a> practice tests, and 10 problem sets (34Q each) that I've compiled which contain every difficult problem from the SAT question bank.
 
 But the answer explanations for these practice tests are often insufficient. First, they **never** suggest the use of DESMOS, which could save you time on around **20-40%** of SAT problems. Second, answer explanations show you the right way to **solve** problems, but not the right way to **think** about them. That's where my tutoring comes in.
 
