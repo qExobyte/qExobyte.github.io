@@ -74,7 +74,7 @@ testimonial__items:
   - name: "Alex"
     image: "/images/icon.png"
     designation: "SAT Math"
-    designation2:
+    designation2: "610 to 750 in 8 hours"
     content : "I wouldn’t have done nearly as well on the SAT Math without Eric. He understands the test on a deep level and can immediately identify where I’m going wrong with problems. As a college student, he’s very down to earth and good at communicating. His rate is affordable, especially for what you get. Eric has made studying for the SAT somehow enjoyable and I strongly recommend his tutoring."
 
   - name: "Naoki"
@@ -87,6 +87,12 @@ testimonial__items:
     designation: "SAT Math"
     designation2: "580 to 710 in 8 hours"
     content: "Eric's math tutoring has helped me more than any textbook I have used. I was struggling with the math section of the SAT, staying at the same score even with months of studying. However once I found Eric's tutoring, my score improved significantly. Eric not only helped me get to the right answer for a problem, but he also made sure that I understood the reasoning behind it in depth. This was very beneficial as previously other tutors, textbooks, and even College Boards explanations would give me the long, tedious way to solve a problem, which no one has time to do on the SAT. I would highly recommend Eric for anyone who needs help in SAT math."
+
+  - name: "Mukhammad"
+    image: "/images/icon.png"
+    designation: "SAT Math"
+    designation2: "630 to 730 in 8 hours"
+    content: "Eric is such a great math tutor who has helped me with my SAT journey. He is very clear when explaining math concepts and makes sure you understand the material. He always asks if you have questions and has no judgment if you do. His lessons are so worth it and with his affordable rates and bundles, he makes it accessible to everyone. I am so grateful to have Eric tutor me and recommend him to anyone looking to improve on the math section of the SAT."
 
   - name: "Julia"
     image: "/images/icon.png"
