@@ -28,7 +28,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: Eric
-  author__bio: I'm a UVA student and SAT Math tutor here to help you improve your SAT Math score.
+  author__bio: I'm a UVA student and SAT Math tutor here to help you improve your score.
   author__avatar: '/images/eric4.JPG'
 
 social:
@@ -46,8 +46,8 @@ social:
 hero:
   hero__title: Hi, I'm Eric.
   hero__description:
-   I'm an SAT Math tutor at the University of Virginia here to help you improve your SAT Math score. 
-   After earning a perfect score twice and tutoring the test for 2 years, I'm confident that my strategies work.
+   I'm an SAT Math tutor at the University of Virginia here to help you improve your score. 
+   After earning a perfect score twice and tutoring the test for 3 years, I'm confident that my strategies work.
   hero__image: '/images/eric4.JPG'
 
 
@@ -93,6 +93,12 @@ testimonial__items:
     designation: "SAT Math"
     designation2: "630 to 730 in 8 hours"
     content: "Eric is such a great math tutor who has helped me with my SAT journey. He is very clear when explaining math concepts and makes sure you understand the material. He always asks if you have questions and has no judgment if you do. His lessons are so worth it and with his affordable rates and bundles, he makes it accessible to everyone. I am so grateful to have Eric tutor me and recommend him to anyone looking to improve on the math section of the SAT."
+
+  - name: "Ryan"
+    image: "/images/icon.png"
+    designation: "SAT Math"
+    designation2: "530 to 600 in 3 hours"
+    content: "The lessons were highly comprehensible. He also demonstrated various methods of solving problems to ensure a thorough understanding of the solution's rationale. After only three lessons, my actual SAT math score improved by 70 points."
 
   - name: "Julia"
     image: "/images/icon.png"

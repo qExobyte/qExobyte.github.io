@@ -24,7 +24,7 @@ In a tutoring session, we go through every problem the student missed on their l
 
 If they weren't even sure where to begin, we begin by defining terms. I may ask "when are exponential functions used?" or "what makes triangles similar?" to encourage students to think conceptually about the problem rather than procedurally.
 
-If the student did attempt the problem, we walk through their work until we reach the step that led them to the wrong answer. Our focus is not on how to *solve* the problem correctly, but rather how to *think* about the problem correctly.
+If the student did attempt the problem, we walk through their work until we reach the step that led them to the wrong answer. Our focus is not on how to *solve* the problem correctly, but rather how to *think* about the problem correctly. It's a **conversation**, not a lecture.
 
 <h3>Concepts First</h3>
 Especially on the DSAT, problems are becoming increasingly conceptual, so the focus of my tutoring is always on building **understanding**, not memorization.

@@ -1,98 +1,18 @@
 <!-- begin hero -->
-{% include cal-script.html %}
+<!-- Edit THIS file -- NOT index.html -->
 
 <section class="hero">
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="hero__inner">
-          <!-- this enables an image on the left of the home screen (probably ideal) -->
-          <!--
-          <div class="hero__left">
-            <div class="hero__image">
-              <img class="lazy" data-src="{{ site.data.settings.hero.hero__image }}" alt="{{site.data.settings.author.author__name}}'s Picture">
-            </div>
-          </div>
-          -->
-
-          <!-- <div class="hero__right"> -->
             <div class="center" align="center">
               <h1 class="hero__title">{{ site.data.settings.hero.hero__title }}</h1>
               <p class="hero__description">
                 {{ site.data.settings.hero.hero__description }}
               </p>
-              <p class="hero__description">Book a session below and let's improve your score!</p>
+              <p class="hero__description">Send me an email and we'll schedule a session!</p>
             </div>
-            
-            {% if site.data.settings.mailchimp == "enable" %}
-
-            <!--
-              If I ever want to do inline embed, this is how. I'd have to change the container size to make it nice though.
-              <div id="my-cal-embed"></div>
-                <script>
-                Cal("inline", {
-                  elementOrSelector: "#my-cal-embed", // You can also provide an element directly
-                  calLink: "ericwolpert/trial", // The link that you want to embed. It would open https://cal.com/jane in embed
-                  config: {
-                    name: "John Doe", // Prefill Name
-                    email: "johndoe@gmail.com", // Prefill Email
-                    notes: "Test Meeting", // Prefill Notes
-                    guests: ["janedoe@gmail.com", "test@gmail.com"], // Prefill Guests
-                    theme: "light", // "dark" or "light" theme
-                  },
-                });
-              </script>
-            -->
-            
-
-              <!-- THIS IS MY TEMPORARY WAY OF GETTING A CONTACT FORM ON THE FRONT PAGE.
-                    THIS IS PROBABLY NOT IDEAL.
-            <div class="hero__subscribe">
-
-              <div class="form-box">
-
-                <div class="contact-head">
-                  {% if site.data.settings.contact.description %}
-                    <p class="contact-description">{{site.data.settings.contact.description}}</p>
-                  {% endif %}
-                </div>
-                <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
-                  <div class="form__group">
-                    <label class="form__label screen-reader-text" for="form-name">Your Name</label>
-                    <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
-                  </div>
-                  <div class="form__group">
-                    <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-                    <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
-                  </div>
-                  <div class="form__group">
-                    <label class="form__label screen-reader-text" for="form-text">Your Message</label>
-                    <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="g-recaptcha" data-sitekey="6Le1sE8hAAAAAPhcqz7c46-nnA0LDh0YdJb4SkMN"></div>
-                  &nbsp;
-                  <div class="form__group">
-                    <button class="button button--primary" type="submit">Send Message</button>
-                  </div>
-                </form>
-              </div>
-              -->
-              <!--
-              <form class="subscribe-form validate"
-                action="{% if site.data.settings.mailchimp__identifier %}//{{site.data.settings.mailchimp__identifier}}{% else %}#{% endif %}" method="POST"
-                id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
-                <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-                <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
-                  placeholder="{% if site.data.settings.mailchimp__input__text %}{{ site.data.settings.mailchimp__input__text }}{% else %}Email address{% endif %}">
-                <button class="button button--primary button--small subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{
-                  site.data.settings.mailchimp__button__text }}</button>
-              </form>
-            </div>
-          -->
-            {% endif %}
-          <!-- </div> -->
-
         </div>
       </div>
     </div>

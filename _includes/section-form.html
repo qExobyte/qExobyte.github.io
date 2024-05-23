@@ -1,7 +1,7 @@
 <div class="form-box" id="book">
         <h1 align="center" class="section__title">Book a session!</h1>
         <p style="text-align: center;">Fill out the form below, and I'll be in touch to schedule a tutoring session! </p>
-        <p style="text-align: center;"><b>NOTE: I am no longer offering <i>free</i> trial sessions, due to time constraints. All sessions will be paid.</b> If needed, we can have a brief consultation call to discuss details.</p>
+        <p style="text-align: center;"><b>NOTE: I am no longer offering <i>free</i> trial sessions, due to high demand. All sessions will be paid.</b> If needed, we can have a brief consultation call to discuss details.</p>
         <form class="form" action="{% if site.data.settings.contact.email %}https://formspree.io/f/{{site.data.settings.contact.email}}{% else %}#{% endif %}" method="POST">
             <div class="form__group">
                 <label class="form__label screen-reader-text" for="form-name">Your Name</label>
