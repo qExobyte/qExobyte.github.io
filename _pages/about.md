@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi, I'm Eric.
 
-I'm a student at the University of Virginia studying Computer Science, Economics, and Math, and I've been tutoring the SAT Math for over 2 years.
+I'm a student at the University of Virginia studying Computer Science, Economics, and Math, and I've been tutoring the SAT Math for over 3 years.
 
 <img src="/images/score.jpg" align="right">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
@@ -28,7 +28,7 @@ My tutoring takes place online through Google Meet. If you're interested in gett
 <h1 align="center" class="section__title">FAQ</h1>
 
 <h2>How flexible are your tutoring sessions?</h2>
-Finding time for sessions has never been a problem for any of my students, and I wish to keep it that way. I'm on Eastern Daylight Time and tend to tutor later in the evening, but I have *some* range of availability every day of the week. If you ever need to reschedule or cancel a session, I ask that I'm notified at least *30 minutes* in advance--a policy more lenient than any other private tutor I've seen.
+Finding time for sessions has never been a problem for any of my students, and I wish to keep it that way. I'm on Eastern Daylight Time and tend to tutor on weekday evenings and weekend afternoons. If you ever need to reschedule or cancel a session, I ask that I'm notified at least *30 minutes* in advance--a policy more lenient than any other private tutor I've seen.
 
 <h2>What materials do you use?</h2>
 Only official practice questions from College Board. I explain why in the [Strategy](https://learnsatmath.com/strategy/) section.
