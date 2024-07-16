@@ -8,7 +8,7 @@ permalink: /about/
 
 Hi, I'm Eric.
 
-I'm a student at the University of Virginia studying Computer Science, Economics, and Math, and I've been tutoring the SAT Math for over 3 years.
+I'm a student at the University of Virginia studying Computer Science, Economics, and Math, and I've been tutoring the SAT Math for over {{ site.data.settings.stats.years }} years.
 
 <img src="/images/score.jpg" align="right">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
@@ -34,13 +34,13 @@ Finding time for sessions has never been a problem for any of my students, and I
 Only official practice questions from College Board. I explain why in the [Strategy](https://learnsatmath.com/strategy/) section.
 
 <h2>Do you assign homework? How much?</h2>
-I insist that students complete a practice test or problem set before each session. This takes around 75-90 minutes. Any supplemental preparation (drilling processes, reviewing old problems, internalizing unfamiliar concepts) is at the student’s discretion, but may certainly help with improvement. Practice test scores are tracked in a spreadsheet to show students’ progress over time.
+I insist that students complete a practice test or problem set before each session. This takes around 75-90 minutes. Any supplemental preparation (drilling processes, reviewing old problems, internalizing concepts) is at the student’s discretion, but often recommended.
 
 <h2>Why 8 hours? How much gets covered in that time?</h2>
 The number is somewhat arbitrary, but 8 hours is typically enough time for students to make good progress without being too large of a commitment. Typically, students meet 1 hour a week, but these sessions can be spaced however you’d like.
 
 <h2>How much will my score improve after 8 hours of tutoring?</h2>
-This is my most frequently asked question, but unfortunately, it's impossible to answer. I've seen students go from high 500s to high 700s in just 8 sessions, but I've also seen students that have trouble internalizing the math and therefore, don't have steady growth. I can't tell you exactly how much your score will improve, but I *can* guarantee that you'll improve faster with a tutor than without one.
+This is my most frequently asked question, but unfortunately, it's impossible to answer. I've seen students go from high 500s to high 700s in just 8 sessions, but I've also seen students that have trouble internalizing concepts and don't have steady growth. I can't tell you exactly how much your score will improve, but I *can* guarantee that you'll improve faster with a tutor than without one.
 
 <h2>What is your educational experience?</h2>
 At the University of Virginia, I'm most of the way through a degree in Computer Science and Economics, and I'm pursuing a minor in Mathematics. I currently have a 3.9 GPA.

@@ -4,7 +4,7 @@ title: Strategy
 permalink: /strategy/
 ---
 
-Over my 350+ hours tutoring SAT Math, I've been dedicated to continuously improving my tutoring strategy. Here is what's worked:
+Over my {{ site.data.settings.stats.hours }}+ hours tutoring SAT Math, I've been dedicated to continuously improving my tutoring strategy. Here is what's worked:
 
 <h3>Practice Tests</h3>
 The best way to prepare for the SAT is to take the SAT.

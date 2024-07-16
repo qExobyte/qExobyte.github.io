@@ -1,10 +1,18 @@
 #-------------------------------
+# STATS
+stats:
+  rate: 115
+  8h: 795
+  hours: 400
+  years: 3
+  views: 14 # in millions
+
+#-------------------------------
 # Site Settings
 title: Learn SAT Math
 logo: #  -- this logo would be in place of "Learn SAT Math"
 description: I'm an SAT Math tutor at the University of Virginia helping students improve their SAT scores efficiently and without frustration.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
 
 #-------------------------------
 # Navigation Settings
@@ -20,9 +28,6 @@ menu__settings:
       url: '/projects/'
     - url: '/contact/'
       title: 'Contact'
-    #- url: '/subjects/'
-    #  title: 'Subjects'
-
 
 #-------------------------------
 # Author Settings
@@ -33,37 +38,8 @@ author:
 
 social:
 - {icon: "ion-logo-youtube", link: "https://www.youtube.com/channel/UCFi7uuVtKZQG1YuMVT9xWtA"}
-# I manually added the tiktok logo because it wasn't imported with the other ionicon logos >:(
-
-
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
-
-
-#-------------------------------
-# Hero Settings
-# Website bio!
-hero:
-  hero__title: Hi, I'm Eric.
-  hero__description:
-   I'm an SAT Math tutor at the University of Virginia here to help you improve your score. 
-   After earning a perfect score twice and tutoring the test for 3 years, I'm confident that my strategies work.
-  hero__image: '/images/eric4.JPG'
-
-
-#-------------------------------
-# Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-mailchimp__input__text: Your email address...
-mailchimp__button__text: Get updates
-
-#-------------------------------
-# Projects Settings
-projects__settings:
-  projects__title: Videos
-  projects__description: Here are some videos I've made.
-
 
 #-------------------------------
 # Testimonials Section
@@ -128,7 +104,6 @@ footer_menu__settings:
     #- url: '/subjects/'
     #  title: 'Subjects'
 
-
 #-------------------------------
 # Contact Settings
 contact:
@@ -138,12 +113,17 @@ contact:
 # NOTE
 # Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
-
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: learnsatmath # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
-
 #-------------------------------
 # Google Analytics
 google-analytics: G-EKENVY91TK
+
+#-------------------------------
+# Newsletter
+mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__input__text: Your email address...
+mailchimp__button__text: Get updates
