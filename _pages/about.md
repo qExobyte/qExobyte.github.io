@@ -34,7 +34,7 @@ Finding time for sessions has never been a problem for any of my students, and I
 Only official practice questions from College Board. I explain why in the [Strategy](https://learnsatmath.com/strategy/) section.
 
 <h2>Do you assign homework? How much?</h2>
-I insist that students complete a practice test or problem set before each session. This takes around 75-90 minutes. Any supplemental preparation (drilling processes, reviewing old problems, internalizing concepts) is at the student’s discretion, but often recommended.
+I ask that between each session, students review the problems from the previous session and complete a practice test or problem set for the following session. This is around 1.5 - 2 hours of individual prep for every 1 hour of tutoring.
 
 <h2>Why 8 hours? How much gets covered in that time?</h2>
 The number is somewhat arbitrary, but 8 hours is typically enough time for students to make good progress without being too large of a commitment. Typically, students meet 1 hour a week, but these sessions can be spaced however you’d like.

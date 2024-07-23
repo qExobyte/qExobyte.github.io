@@ -33,7 +33,7 @@ menu__settings:
 # Author Settings
 author:
   author__name: Eric
-  author__bio: I'm a UVA student and SAT Math tutor here to help you improve your score.
+  author__bio: I'm a UVA student, educational content creator, and SAT Math tutor, here to help you improve your SAT Math score as efficiently as possible.
   author__avatar: '/images/eric4.JPG'
 
 social:
