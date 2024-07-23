@@ -4,7 +4,7 @@ title: Strategy
 permalink: /strategy/
 ---
 
-My tutoring strategy is backed by cognitive science research and continuous data and feedback from my students. Here is what works:
+My tutoring strategy is backed by cognitive science and continuous data and feedback from my students. Here is what works:
 
 <h3>Practice Tests</h3>
 The best way to prepare for the SAT is to take the SAT.
