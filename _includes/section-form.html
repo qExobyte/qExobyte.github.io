@@ -13,10 +13,14 @@
                 <label class="form__label screen-reader-text" for="form-email">Your Email</label>
                 <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
             </div>
-            <div class="form__group">
-                <label class="form__label screen-reader-text" for="form-date">SAT Date</label>
-                <input class="form__input" id="form-date" name="date" placeholder="SAT Date" required>
-            </div>
+            <label for="date-dropdown">SAT Date (or closest date)</label>
+            <select class="form__group form__input" id="date-dropdown" name="SAT Date">
+                <option>August 24, 2024</option>
+                <option>October 5, 2024</option>
+                <option>November 2, 2024</option>
+                <option>December 7, 2024</option>
+                <option>2025</option>
+            </select>
             <div class="form__group">
                 <label class="form__label screen-reader-text" for="form-text">Your Message</label>
                 <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="What are you looking for? (be specific!)" required></textarea>
