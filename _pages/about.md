@@ -27,14 +27,17 @@ My tutoring takes place online through Google Meet. If you're interested in gett
 <br>
 <h1 align="center" class="section__title">FAQ</h1>
 
-<h2>How flexible are your tutoring sessions?</h2>
-Finding time for sessions has never been a problem for any of my students, and I wish to keep it that way. I'm on Eastern Daylight Time and tend to tutor on weekday evenings and weekend afternoons. If you ever need to reschedule or cancel a session, I ask that I'm notified at least *30 minutes* in advance--a policy more lenient than any other private tutor I've seen.
-
 <h2>What materials do you use?</h2>
 Only official practice questions from College Board. I explain why in the [Strategy](https://learnsatmath.com/strategy/) section.
 
 <h2>Do you assign homework? How much?</h2>
 I ask that between each session, students review the problems from the previous session and complete a practice test or problem set for the following session. This is around 2 hours of individual prep for every 1 hour of tutoring.
+
+<h2>Do you tutor the English as well?</h2>
+I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm not strong enough in the English section to tutor it.
+
+<h2>How flexible are your tutoring sessions?</h2>
+Finding time for sessions has never been a problem for any of my students, and I wish to keep it that way. I'm on Eastern Daylight Time and tend to tutor on weekday evenings and weekend afternoons. If you ever need to reschedule or cancel a session, I ask that I'm notified at least *1 hour* in advance--a policy more lenient than any other private tutor I've seen.
 
 <h2>Why 8 hours? How much gets covered in that time?</h2>
 The number is somewhat arbitrary, but 8 hours is typically enough time for students to make good progress without being too large of a commitment. Typically, students meet 1 hour a week, but these sessions can be spaced however you’d like.

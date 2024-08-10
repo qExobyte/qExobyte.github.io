@@ -1,8 +1,8 @@
 #-------------------------------
 # STATS
 stats:
-  rate: 115
-  8h: 795
+  rate: 135
+  8h: 895
   hours: 400
   years: 3
   views: 14 # in millions
