@@ -2,7 +2,8 @@
 # STATS
 stats:
   rate: 135
-  8h: 895
+  8h: 945
+  academy: TBD
   hours: 400
   years: 3
   views: 14 # in millions
@@ -24,6 +25,8 @@ menu__settings:
       title: 'About'
     - url: '/strategy/'
       title: 'Strategy'
+    - url: '/academy/'
+      title: '800 Academy'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'
