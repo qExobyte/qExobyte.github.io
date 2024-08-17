@@ -1,12 +1,12 @@
 #-------------------------------
 # STATS
 stats:
-  rate: 135
-  8h: 945
+  rate: 150
+  8h: 995
   academy: TBD
-  hours: 400
+  hours: 500
   years: 3
-  views: 14 # in millions
+  views: 15 # in millions
 
 #-------------------------------
 # Site Settings
