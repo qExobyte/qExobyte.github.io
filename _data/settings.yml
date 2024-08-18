@@ -98,6 +98,8 @@ footer_menu__settings:
       title: 'About'
     - url: '/strategy/'
       title: 'Strategy'
+    - url: '/academy/'
+      title: '800 Academy'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'
