@@ -17,6 +17,7 @@ Official resources include the 6 <a href="https://bluebook.collegeboard.org/stud
 
 But the answer explanations for these practice tests are often insufficient. First, they **never** suggest the use of DESMOS, which could save you time on around **20-40%** of SAT problems. Second, answer explanations show you the right way to **solve** problems, but not the right way to **think** about them. That's where my tutoring comes in.
 
+<img src="../images/tutor-flowchart.png" alt="tutoring-flowchart">
 
 <h3>Talking Through Your Work</h3>
 
@@ -37,16 +38,14 @@ I approach concepts from multiple angles. We may look at a concept algebraically
 
 According to Ebbinghaus’ Forgetting Curve and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492928/" target="_blank">modern replications</a>, people forget around **70%** of learned material after a week.
 
-To mitigate this, my students review each session's problems at least 5 days after the session, using <a href="../images/pdfs/reviewing-problems.pdf" target="_blank">this</a> framework.
+To mitigate this, my students review each session's problems at least 5 days after the session, using the framework below.
 
-Essentially, students must solve each problem start to finish on their own, and then explain verbally why their solution works.
+<img src="../images/review.png" alt="reviewing-problems-flowchart">
 
 <h3>Optimization</h3>
 Often times, there are many ways to solve an SAT problem, but only one optimal approach. An optimal approach is not necessarily the fastest, but rather the most **accurate** for the time allotted. For graphing problems, this usually involves DESMOS.
 
 I also prescribe bigger picture test-taking strategies to experiment with while taking practice tests. Changing up time constraints, pacing, environment, or just mentality, can give unexpected insights about how to test better.
-
-<img src="../images/tutor-flowchart.png" alt="tutoring-flowchart">
 
 <div align="center">
 <p><b>To see this strategy in action, book a session below!</b></p>
