@@ -3,7 +3,8 @@
 stats:
   rate: 185
   8h: 1195
-  academy: TBD
+  academy: 495
+  academy-sale: 395
   hours: 500
   years: 3
   views: 15 # in millions

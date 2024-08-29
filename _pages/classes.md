@@ -23,11 +23,11 @@ The class consists of **5 live sessions**, **2 hours each**, all through Google 
 - Statistics
 - Mastering the Test
 
-The first cohort will start on **September 7th** and meet every Saturday leading up to the October 5 SAT. The final session ("Mastering the Test") will take place the week before the October SAT.
+The first cohort will start on **September 7th** and meet every Saturday leading up to the October 5 SAT. The final session ("Mastering the Test") will take place the week before the October SAT. **Exact times are still to be determined.**
 
-**Exact times and price are still to be determined.** I want to get an idea of students' preferences ahead of time before committing to a strict plan. 
+All 10 hours can be purchased for the sale price of **${{ site.data.settings.stats.academy-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.academy }}**.
 
-However, the price on an hourly basis will be *much lower* than my 1-on-1 tutoring sessions and I'm aiming for a class size of **no more than 6 people**. The small class size ensures that students talk through problems as a group and ask questions freely.
+Many test prep companies try packing as many students as possible into their group classes, but 800 Academy will be capped at **6 students**. This ensures that students are able to talk through problems as a group and ask questions freely.
 
 Join the waitlist before it fills up!
 <div align="center">
