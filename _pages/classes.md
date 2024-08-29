@@ -12,7 +12,7 @@ permalink: /academy/
 </style>
 
 <br>
-I'm extremely proud to finally announce my live small-group class: **800 Academy**.
+I'm extremely proud to finally announce my live small-group class: **800 Academy**. I know, the name is cheesy.
 
 This class is intended for **highly motivated** students aiming for a **perfect** or **near-perfect** SAT math score *(750+)*. Students should enter the class with a _670 or higher_.
 
@@ -23,7 +23,7 @@ The class consists of **5 live sessions**, **2 hours each**, all through Google 
 - Statistics
 - Mastering the Test
 
-The first cohort will start on **September 7th** and meet every Saturday leading up to the October 5 SAT. The final session ("Mastering the Test") will take place the week before the October SAT. **Exact times are still to be determined.**
+The first cohort will start on **September 7th** and meet every Saturday from **12:00 - 2:00 pm ET** leading up to the October SAT. The final session ("Mastering the Test") will be Tuesday 10/1 from 7:00 - 9:00 pm ET.
 
 All 10 hours can be purchased for the sale price of **${{ site.data.settings.stats.academy-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.academy }}**.
 
