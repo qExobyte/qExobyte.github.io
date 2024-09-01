@@ -40,12 +40,18 @@ According to Ebbinghaus’ Forgetting Curve and <a href="https://www.ncbi.nlm.ni
 
 To mitigate this, my students review each session's problems at least 5 days after the session, using the framework below.
 
+Not only are student teaching themselves the problems, but also creating variations of problems. This encourages **lateral thinking**, as students must think creatively about unfamiliar ways that CollegeBoard might test familiar concepts.
+
 <img src="../images/review.png" alt="reviewing-problems-flowchart">
 
 <h3>Optimization</h3>
 Often times, there are many ways to solve an SAT problem, but only one optimal approach. An optimal approach is not necessarily the fastest, but rather the most **accurate** for the time allotted. For graphing problems, this usually involves DESMOS.
 
-I also prescribe bigger picture test-taking strategies to experiment with while taking practice tests. Changing up time constraints, pacing, environment, or just mentality, can give unexpected insights about how to test better.
+Optimizing your score also means avoiding small mistakes. It is technically possible to consistently get 800s on every test. You just need the right strategies to catch mistakes as you make them.
+
+As students get close to a perfect score, we prioritize quick thinking and creativity, using <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>'s book as a resource.
+
+And finally, at any score level, I prescribe bigger picture test-taking strategies to experiment with while taking practice tests. Changing up time constraints, pacing, environment, or just mentality, can give unexpected insights about how to test better.
 
 <div align="center">
 <p><b>To see this strategy in action, book a session below!</b></p>

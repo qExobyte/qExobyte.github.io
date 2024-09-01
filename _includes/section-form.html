@@ -1,35 +1,45 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<div class="form-box" id="book">
+<style>
+</style>
+
+<!--<div class="form-box" id="book"> -- if I switch back to using a form and not calendly, switch back to this -->
+<div class="container" id="book">
         <h1 align="center" class="section__title">Book a session!</h1>
-        <p style="text-align: center;">Fill out the form below and I'll be in touch to schedule a tutoring session! </p>
-        <form class="form" action="https://formspree.io/f/xdoblqqv" method="POST">
-            <div class="form__group">
-                <label class="form__label screen-reader-text" for="form-name">Your Name</label>
-                <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
-            </div>
-            <div class="form__group">
-                <label class="form__label screen-reader-text" for="form-email">Your Email</label>
-                <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
-            </div>
-            <label for="date-dropdown">When are you taking the SAT?</label>
-            <select class="form__group form__input" id="date-dropdown" name="SAT Date">
-                <option>October 5, 2024</option>
-                <option>November 2, 2024</option>
-                <option>December 7, 2024</option>
-                <option>2025</option>
-            </select>
-            <div class="form__group">
-                <label class="form__label screen-reader-text" for="sat-score">Current Math Score</label>
-                <input class="form__input" id="sat-score" type="number" min="200" max="800" name="score" placeholder="Current Math Score" required>
-            </div>
-            <div class="form__group">
-                <label class="form__label screen-reader-text" for="form-text">Your Message</label>
-                <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="What are you looking for? (be specific!)" required></textarea>
-            </div>
-            <div class="g-recaptcha" align="center" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>
-            <div align="center" class="form__group">
-                <button class="button button--primary" type="submit">Send Request</button>
-            </div>
-        </form>
+        <p style="text-align: center;">If you have any questions about my tutoring, send them through my <a href="http://learnsatmath.com/contact/">contact form</a>.</p>
+
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/eric-wolpert-learnsatmath/1-on-1-sat-math-tutoring" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+
+<!--        <form class="form" action="https://formspree.io/f/xdoblqqv" method="POST">-->
+<!--            <div class="form__group">-->
+<!--                <label class="form__label screen-reader-text" for="form-name">Your Name</label>-->
+<!--                <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>-->
+<!--            </div>-->
+<!--            <div class="form__group">-->
+<!--                <label class="form__label screen-reader-text" for="form-email">Your Email</label>-->
+<!--                <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>-->
+<!--            </div>-->
+<!--            <label for="date-dropdown">When are you taking the SAT?</label>-->
+<!--            <select class="form__group form__input" id="date-dropdown" name="SAT Date">-->
+<!--                <option>October 5, 2024</option>-->
+<!--                <option>November 2, 2024</option>-->
+<!--                <option>December 7, 2024</option>-->
+<!--                <option>2025</option>-->
+<!--            </select>-->
+<!--            <div class="form__group">-->
+<!--                <label class="form__label screen-reader-text" for="sat-score">Current Math Score</label>-->
+<!--                <input class="form__input" id="sat-score" type="number" min="200" max="800" name="score" placeholder="Current Math Score" required>-->
+<!--            </div>-->
+<!--            <div class="form__group">-->
+<!--                <label class="form__label screen-reader-text" for="form-text">Your Message</label>-->
+<!--                <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="What are you looking for? (be specific!)" required></textarea>-->
+<!--            </div>-->
+<!--            <div class="g-recaptcha" align="center" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>-->
+<!--            <div align="center" class="form__group">-->
+<!--                <button class="button button&#45;&#45;primary" type="submit">Send Request</button>-->
+<!--            </div>-->
+<!--        </form>-->
 </div>

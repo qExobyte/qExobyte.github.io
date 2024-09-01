@@ -15,7 +15,7 @@ As both a student and a tutor, I've developed strategies for learning math effec
 
 I've tutored students across the globe, from international schools in Asia to TJHSST, America's #1 (at the time) public high school here in Northern Virginia. My tutoring is simple yet effective--with just 8 hours of sessions, I've helped students improve up to 200 points! No matter your comfort with math, if you're determined to learn, I'd love to help you become a stronger problem solver.
   
-My tutoring takes place online through Google Meet. If you're interested in getting your score up, send me an email and we'll plan a session.
+If you're interested in getting your score up, book a session below!
 
 {% include book-button.html %}
 
@@ -28,27 +28,27 @@ My tutoring takes place online through Google Meet. If you're interested in gett
 <h1 align="center" class="section__title">FAQ</h1>
 
 <h2>What materials do you use?</h2>
-Only official practice questions from College Board. I explain why in the [Strategy](https://learnsatmath.com/strategy/) section.
+Official practice questions from College Board are the priority (I explain why in the [Strategy](https://learnsatmath.com/strategy/) section). I ask that every student completes one <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a> test prior to our first session. For high scoring students, I recommend <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>'s book as a supplement.
 
 <h2>Do you assign homework? How much?</h2>
 I ask that between each session, students review the problems from the previous session and complete a practice test or problem set for the following session. This is around 2 hours of individual prep for every 1 hour of tutoring.
 
+<h2>What if I want to cancel a session?</h2>
+Sessions are fully refundable as long as you cancel at least 6 hours before the scheduled start time. Otherwise, the full session price is charged. You can see all my cancellation/refund policies <a href="https://drive.google.com/file/d/1gsNy5ngG6lYokAvQl1V4q3d-y1eEUHRO/view?usp=sharing" target="_blank">here</a>.
+
+<h2>Do I need to book every session with Calendly?</h2>
+No. Only book the first session with <a href="/#book">Calendly</a>. At the end of our first session, we'll discuss a personalized long-term plan and schedule future sessions accordingly.
+
 <h2>Do you tutor the English as well?</h2>
 I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm not strong enough in the English section to tutor it.
 
-<h2>How flexible are your tutoring sessions?</h2>
-Finding time for sessions has never been a problem for any of my students, and I wish to keep it that way. I'm on Eastern Daylight Time and tend to tutor on weekday evenings and weekend afternoons. If you ever need to reschedule or cancel a session, I ask that I'm notified at least *1 hour* in advance--a policy more lenient than any other private tutor I've seen.
-
-<h2>Why 8 hours? How much gets covered in that time?</h2>
-The number is somewhat arbitrary, but 8 hours is typically enough time for students to make good progress without being too large of a commitment. Typically, students meet 1 hour a week, but these sessions can be spaced however you’d like.
-
 <h2>How much will my score improve after 8 hours of tutoring?</h2>
-This is my most frequently asked question, but unfortunately, it's impossible to answer. I've seen students go from high 500s to high 700s in just 8 sessions, but I've also seen students that have trouble internalizing concepts and don't have steady growth. I can't tell you exactly how much your score will improve, but I *can* guarantee that you'll improve faster with a tutor than without one.
+At the end of the day, there's no golden ticket where you can pay a certain amount of money for a certain SAT score. Almost every test prep company that advertises score guarantees has caveats in the fineprint. If a student doesn't put in effort, then 8 hours will get them nowhere. If a student is critical of their learning and practices consistently, then I've seen up to 200 point improvement.
 
 <h2>What is your educational experience?</h2>
 At the University of Virginia, I'm most of the way through a degree in Computer Science and Economics, and I'm pursuing a minor in Mathematics. I currently have a 3.9 GPA.
 
-Outside of school, I'm working this summer as a software engineering intern at Wells Fargo, and I've participated in Susquehanna International Group's Discovery Day program for quantitative trading.
+Outside of school, I've worked as a software engineering intern at Wells Fargo, and participated in Susquehanna International Group's Discovery Day program for quantitative trading.
 
 I also play violin in UVA's student-run symphony orchestra and love to play poker!
 
