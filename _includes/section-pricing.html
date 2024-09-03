@@ -6,24 +6,26 @@
         <div class="panel--holder">
                 <div class="panel--content" align="center">
                     <h1><b>On Demand</b></h1>
-                    <p class="pricing--text">1-on-1 tutoring on demand <br> Pay after each session</p>
-                    <h2 class="reduced--header current-price">${{ site.data.settings.stats.rate }}/hr</h2>
+                    <p class="pricing--text">1-on-1 tutoring on demand <br> Pay each session at a time</p>
+                    <p class="pricing--text"> Get your questions answered, identify your weaknesses, and form a plan </p>
+                    <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.rate-sale %}${{site.data.settings.stats.rate }}/hr{% endif %}</s></h5>
+                    <h2 class="reduced--header current-price">${% if  site.data.settings.stats.rate-sale %}{{site.data.settings.stats.rate-sale }}{% else %}{{ site.data.settings.stats.rate }}{% endif %}/hr</h2>
                 </div>
 
                 <div class="panel--content" align="center">
                     <h1><b>8 Hour Plan</b></h1>
-                    <p class="pricing--text"> 8 hours of tutoring <br> One payment in advance</p>
+                    <p class="pricing--text"> 8 hours of 1-on-1 tutoring <br> One payment in advance</p>
                     <p class="pricing--text"> ~70-150 point improvement </p>
-                    <h5 class="reduced--header former-price">Save ${{ site.data.settings.stats.rate | times: 8 | minus: site.data.settings.stats.8h }}</h5>
+                    <h5 class="reduced--header former-price">Save ${{ site.data.settings.stats.rate-sale | times: 8 | minus: site.data.settings.stats.8h }}</h5>
                     <h2 class="reduced--header current-price">${{ site.data.settings.stats.8h }}</h2>
                 </div>
 
                 <div class="panel--content" align="center">
                     <h1><b>800 Academy</b></h1>
-                    <p class="pricing--text"> 10 hours of group classes <br> One payment in advance</p>
+                    <p class="pricing--text"> 10 hours of group classes <br> + custom resources <br> One payment in advance</p>
                     <p class="pricing--text"> For highly motivated students aiming for a 750+</p>
-                    <h5 class="reduced--header former-price"><s>${{ site.data.settings.stats.academy }}</s></h5>
-                    <h2 class="reduced--header current-price">${{ site.data.settings.stats.academy-sale }}</h2>
+                    <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.academy-sale %}${{site.data.settings.stats.academy }}{% endif %}</s></h5>
+                    <h2 class="reduced--header current-price">${% if  site.data.settings.stats.academy-sale %}{{site.data.settings.stats.academy-sale }}{% else %}{{ site.data.settings.stats.academy }}{% endif %}</h2>
                 </div>
 
 
