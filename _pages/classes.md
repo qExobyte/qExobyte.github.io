@@ -21,16 +21,22 @@ The class consists of **5 live sessions**, **2 hours each**, all through Google 
 - Quadratics
 - Geometry & Trig
 - Statistics
-- Mastering the Test
-
-The first cohort will start on **September 7th** and meet every Saturday from **12:00 - 2:00 pm ET** leading up to the October SAT. The final session ("Mastering the Test") will be Tuesday 10/1 from 7:00 - 9:00 pm ET.
-
-All 10 hours can be purchased for the sale price of **${{ site.data.settings.stats.academy-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.academy }}**.
+- Big-Picture Strategies & Review
 
 Many test prep companies try packing as many students as possible into their group classes, but 800 Academy will be capped at **6 students**. This ensures that students are able to talk through problems as a group and ask questions freely.
 
-Join the waitlist before it fills up!
+The next cohort will host classes on **Saturday afternoons** throughout October and November, to prepare students for the **December 7th SAT**.
+
+{% if site.data.settings.stats.academy-sale %}
+All 10 hours of classes and custom resources can be purchased for the sale price of **${{ site.data.settings.stats.academy-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.academy }}**.
+{% elsif site.data.settings.stats.academy %}
+All 10 hours of classes and custom resources can be purchased for the price of **${{ site.data.settings.stats.academy }}**.
+{% else %}
+All 10 hours of classes and custom resources can be purchased for a single price that will be determined soon based on demand.
+{% endif %}
+
 <div align="center">
+    <h3>Join the waitlist before it fills up!</h3>
     <a href="/academy/#academy-form" class="button button--large section-button" align="center">Claim a Spot</a>
 </div>
 
@@ -50,15 +56,23 @@ Students learn multiple approaches to problems, encouraging **lateral thinking**
 </div>
 <br>
 
-Students walk through the **hardest** problems from the SAT question bank. We leave no stone unturned. As in, the quadratics class will cover every single type of quadratic problem the SAT might throw at you.
+Students walk through the **hardest** problems from the SAT question bank. We leave no stone unturned. That is, the quadratics class will cover every single type of quadratic problem the SAT might throw at you.
 <div class="panel--content panel-override">
     <img src="/images/academy4.jpg" alt="test">
 </div>
 <br>
 
-Since the class size is extremely small, students are **always** encouraged to ask questions during class. However, if a student finds a certain subtopic especially difficult, I've created a problem set for every single subtopic.
+<div id="concept-review">
+</div>
+I teach concepts through **first principles** and provide "concept reviews" to test students' understanding. Each class has around 25-40 of these questions.
 <div class="panel--content panel-override">
-    <img src="/images/academy5.jpg" alt="test">
+    <img src="/images/concept-review.png" alt="concept-review">
+</div>
+<br>
+
+Since the class size is extremely small, students are **always** encouraged to ask questions during class. However, if a student finds a certain subtopic difficult, I've created a problem set for every single subtopic. I also collect a feedback form each class to get an idea of how students feel about pacing and which topics students are struggling with the most.
+<div class="panel--content panel-override">
+    <img src="/images/academy5.jpg" alt="problem-sets">
 </div>
 
 <br><br>

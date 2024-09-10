@@ -4,7 +4,7 @@ stats:
   rate: 200
   rate-sale: 185
   8h: 1295
-  academy: 495
+  academy:
   academy-sale:
   hours: 500
   years: 3

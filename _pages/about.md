@@ -28,19 +28,19 @@ If you're interested in getting your score up, book a session below!
 <h1 align="center" class="section__title">FAQ</h1>
 
 <h2>What materials do you use?</h2>
-Official practice questions from College Board are the priority (I explain why in the [Strategy](https://learnsatmath.com/strategy/) section). I ask that every student completes one <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a> test prior to our first session. For high scoring students, I recommend <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>'s book as a supplement.
+Official practice questions from College Board are the priority (I explain why in the [Strategy](https://learnsatmath.com/strategy/) section). I ask that every student completes one <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a> test prior to our first session. I've also created my own <a href="/academy/#concept-review">concept review questions</a> for students. For high scoring students, I recommend <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>'s book as a supplement.
 
 <h2>Do you assign homework? How much?</h2>
-I ask that between each session, students review the problems from the previous session and complete a practice test or problem set for the following session. This is around 2 hours of individual prep for every 1 hour of tutoring.
+I ask that between each session, students review challenging topics/problems from the previous session and complete a practice test or problem set for the following session. This is around 2 hours of individual prep for every 1 hour of tutoring.
 
 <h2>What if I want to cancel a session?</h2>
-Sessions are fully refundable as long as you cancel at least 6 hours before the scheduled start time. Otherwise, the full session price is charged. You can see all my cancellation/refund policies <a href="https://drive.google.com/file/d/1gsNy5ngG6lYokAvQl1V4q3d-y1eEUHRO/view?usp=sharing" target="_blank">here</a>.
+Sessions are fully refundable as long as you cancel at least **6 hours** before the scheduled start time. Otherwise, the full session price is charged. You can see all my cancellation/refund policies <a href="https://drive.google.com/file/d/1gsNy5ngG6lYokAvQl1V4q3d-y1eEUHRO/view?usp=sharing" target="_blank">here</a>.
 
 <h2>Do I need to book every session with Calendly?</h2>
 No. Only book the first session with <a href="/#book">Calendly</a>. At the end of our first session, we'll discuss a personalized long-term plan and schedule future sessions accordingly.
 
 <h2>Do you tutor the English as well?</h2>
-I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm not strong enough in the English section to tutor it.
+I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm **not** strong enough in the English section to tutor it.
 
 <h2>How much will my score improve after 8 hours of tutoring?</h2>
 At the end of the day, there's no golden ticket where you can pay a certain amount of money for a certain SAT score. Almost every test prep company that advertises score guarantees has caveats in the fineprint. If a student doesn't put in effort, then 8 hours will get them nowhere. If a student is critical of their learning and practices consistently, then I've seen up to 200 point improvement.
