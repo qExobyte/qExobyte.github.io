@@ -27,17 +27,21 @@ If you're interested in getting your score up, book a session below!
 <br>
 <h1 align="center" class="section__title">FAQ</h1>
 
-<h2>What materials do you use?</h2>
-Official practice questions from College Board are the priority (I explain why in the [Strategy](https://learnsatmath.com/strategy/) section). I ask that every student completes one <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a> test prior to our first session. I've also created my own <a href="/academy/#concept-review">concept review questions</a> for students. For high scoring students, I recommend <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>'s book as a supplement.
+<h2>What materials do you recommend?</h2>
+
+<li> Getting a representative score and pacing → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
+<li> Learning & reinforcing concepts → My <a href="/academy/#concept-review">concept reviews</a> & <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> chapters </li>
+<li> Practice problems → <a href="https://satsuitequestionbank.collegeboard.org/digital/search">SAT Question Bank</a> &  <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> exercises </li>
+<li> Scoring 750+ and need harder problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> & <a href="https://preppros.teachable.com/p/150-hard-math-questions">PrepPros Hard Qs</a></li>
+<li> What you need to memorize, how to take notes, how to learn effectively → I have guides </li>
+<br>
+The only paid resource I recommend for all students is the <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> book, which is $24 online. I am not sponsored by any of the resources on this list.
 
 <h2>Do you assign homework? How much?</h2>
-I ask that between each session, students review challenging topics/problems from the previous session and complete a practice test or problem set for the following session. This is around 2 hours of individual prep for every 1 hour of tutoring.
+The amount of work students do between sessions is ultimately at their discretion, but I recommend that between sessions students spend around 1-3 hours working on new material and 30-60 minutes <a href="/strategy/#repetition">reviewing past material</a>. Then, students come to each session with a list of problems to review, topics to learn, and questions to ask.
 
 <h2>What if I want to cancel a session?</h2>
 Sessions are fully refundable as long as you cancel at least **6 hours** before the scheduled start time. Otherwise, the full session price is charged. You can see all my cancellation/refund policies <a href="https://drive.google.com/file/d/1gsNy5ngG6lYokAvQl1V4q3d-y1eEUHRO/view?usp=sharing" target="_blank">here</a>.
-
-<h2>Do I need to book every session with Calendly?</h2>
-No. Only book the first session with <a href="/#book">Calendly</a>. At the end of our first session, we'll discuss a personalized long-term plan and schedule future sessions accordingly.
 
 <h2>Do you tutor the English as well?</h2>
 I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm **not** strong enough in the English section to tutor it.
@@ -52,17 +56,20 @@ Outside of school, I've worked as a software engineering intern at Wells Fargo, 
 
 I also play violin in UVA's student-run symphony orchestra and love to play poker!
 
-Some courses I've completed include:
+Some mathematical courses I've completed include:
 <li>AP Calculus BC (Calc 1 & 2) -- AP Score: 5 -- AB Subscore: 5</li>
 <li>Multivariable Calculus (Calc 3)</li>
 <li>Calculus-based Physics - Mechanics & Electricity/Magnetism</li>
 <li>Linear Algebra</li>
-<li>Discrete Math & Theory</li>
+<li>Discrete Math</li>
+<li>Theory of Computation</li>
+<li>Transition to Higher Math <a href="https://www.amazon.com/Art-Proof-Training-Mathematics-Undergraduate/dp/1441970223">(basically this book)</a></li>
 <li>Probability (college-level)</li>
 <li>Statistics (college-level)</li>
-<li>Data Structures & Algorithms 1 & 2</li>
-<li>Computer Systems & Organization 1 & 2</li>
-<li>Intermediate Micro & Macroeconomics</li> <br>
+<li>Data Structures & Algorithms</li>
+<li>Computer Systems (OS, Computer Architecture)</li>
+<li>Intermediate Micro & Macroeconomics</li> 
+<li>Econometrics</li><br>
 
 As for the SAT, I scored a 1570 (770 EBRW / 800 Math). <br>
 I took the SAT twice and the PSAT once, earning a perfect math score on all 3 exams.
