@@ -4,8 +4,8 @@ stats:
   rate: 200
   rate-sale: 185
   8h: 1295
-  academy: 795
-  academy-sale:
+  class: 795
+  class-sale:
   hours: 500
   years: 3
   views: 15 # in millions
@@ -27,8 +27,8 @@ menu__settings:
       title: 'About'
     - url: '/strategy/'
       title: 'Strategy'
-    - url: '/academy/'
-      title: '800 Academy'
+    - url: '/classes/'
+      title: 'Classes'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'
@@ -107,8 +107,8 @@ footer_menu__settings:
       title: 'About'
     - url: '/strategy/'
       title: 'Strategy'
-    - url: '/academy/'
-      title: '800 Academy'
+    - url: '/classes/'
+      title: 'Classes'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'
