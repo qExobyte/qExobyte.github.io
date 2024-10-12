@@ -38,7 +38,7 @@ All 12 hours of classes and custom resources can be purchased for a single price
 
 <div align="center">
     <h3>Join the waitlist before it fills up!</h3>
-    <a href="/class/#academy-form" class="button button--large section-button" align="center">Claim a Spot</a>
+    <a href="/classes/#academy-form" class="button button--large section-button" align="center">Claim a Spot</a>
 </div>
 
 <br>
