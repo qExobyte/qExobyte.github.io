@@ -27,10 +27,15 @@ If you're interested in getting your score up, book a session below!
 <br>
 <h1 align="center" class="section__title">FAQ</h1>
 
+<h2>Should I get 1-on-1 tutoring or join the group class?</h2>
+If you're scoring under a 650, then 1-on-1 sessions. You should always prioritize the *easiest* problems that you're missing, and the group classes will focus on the SAT math's hardest problems.
+
+If you're scoring above a 650, then I'd recommend the group class, with 1-on-1 sessions as a supplement if needed. Think of group classes as teaching you the content of the test and 1-on-1 sessions as "office hours" for the topics and problems that you just can't wrap your head around. Not to mention, group classes cost much less!
+
 <h2>What materials do you recommend?</h2>
 
 <li> Getting a representative score and pacing → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
-<li> Learning & reinforcing concepts → My <a href="/academy/#concept-review">concept reviews</a> & <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> chapters </li>
+<li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept reviews</a> & <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> chapters </li>
 <li> Practice problems → <a href="https://satsuitequestionbank.collegeboard.org/digital/search">SAT Question Bank</a> &  <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> exercises </li>
 <li> Scoring 750+ and need harder problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> & <a href="https://preppros.teachable.com/p/150-hard-math-questions">PrepPros Hard Qs</a></li>
 <li> What you need to memorize, how to take notes, how to learn effectively → I have guides </li>
