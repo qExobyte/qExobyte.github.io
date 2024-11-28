@@ -73,6 +73,7 @@ Some mathematical courses I've completed include:
 <li>Statistics (college-level)</li>
 <li>Data Structures & Algorithms</li>
 <li>Computer Systems (OS, Computer Architecture)</li>
+<li>Machine Learning</li>
 <li>Intermediate Micro & Macroeconomics</li> 
 <li>Econometrics</li><br>
 
