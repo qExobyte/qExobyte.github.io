@@ -16,7 +16,9 @@
                     <h1><b>8 Hour Plan</b></h1>
                     <p class="pricing--text"> 8 hours of 1-on-1 tutoring <br> One payment in advance</p>
                     <p class="pricing--text"> ~70-150 point improvement </p>
-                    <h5 class="reduced--header former-price">Save ${{ site.data.settings.stats.rate-sale | times: 8 | minus: site.data.settings.stats.8h }}</h5>
+                    <h5 class="reduced--header former-price">
+                        Save ${% if site.data.settings.stats.rate-sale %}{{ site.data.settings.stats.rate-sale | times: 8 | minus: site.data.settings.stats.8h }}{% else %}{{ site.data.settings.stats.rate | times: 8 | minus: site.data.settings.stats.8h }} {% endif %}
+                    </h5>
                     <h2 class="reduced--header current-price">${{ site.data.settings.stats.8h }}</h2>
                 </div>
 

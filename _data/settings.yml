@@ -1,12 +1,12 @@
 #-------------------------------
 # STATS
 stats:
-  rate: 200
-  rate-sale: 185
-  8h: 1295
-  class: 795
-  class-sale: 495
-  hours: 500
+  rate: 225
+  rate-sale:
+  8h: 1575
+  class: TBD
+  class-sale:
+  hours: 600
   years: 3
   views: 15 # in millions
 
