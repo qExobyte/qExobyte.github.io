@@ -74,12 +74,10 @@ I teach concepts through **first principles** and provide "concept reviews" for 
 </div>
 <br>
 
-For each class, I provide recommended exercises from **<a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>**'s book to use as a supplement. I've also organized every hard official problem by subtopic, so students can focus on their weaknesses.
-<div class="panel--content panel-override">
-    <img src="/images/academy5.jpg" alt="problem-sets">
-</div>
+Finally, I provide recommended exercises from the **<a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>** and <a href="https://www.preppros.io/math-book">PrepPros</a> books for students to **practice**. Here is how I recommend students study in between each session: 
+<img src="/images/homework.svg" alt="homework" style="width: 400%; height: auto;">
 
-<br><br>
+<br>
 {% include academy-form.html %}
 
 
