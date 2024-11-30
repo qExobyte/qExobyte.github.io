@@ -16,17 +16,20 @@ Want the **structure** of an online course but with the **small size** of a tuto
 
 This class is intended for **highly motivated** students aiming for a **perfect** or **near-perfect** SAT math score *(750+)*. Students should enter the class with a _650 or higher_.
 
-The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into a different topic that high-scoring students tend to struggle with. These topics are what differentiate a 670 from an 800:
-- Exponential Functions
-- Quadratics
-- Geometry & Trig
-- Word Problems
-- Statistics
-- Big-Picture Strategies & Review
+The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the hardest concepts & problems in every category on the SAT Math.  
 
-Many test prep companies try packing as many students as possible into their group classes, but my classes are capped at **6-10 students**. This ensures that students are able to talk through problems as a group and ask questions freely.
+The next cohort will begin on **January 25, 2025**. Classes will be **Saturday afternoons from 12:00 - 2:00 pm EST**, to prepare students for the March SAT. Here is the schedule:
 
-The next cohort will begin on **October 19, 2024**. Classes will be **Saturday afternoons from 12:00 - 2:00 pm EST**, to prepare students for the December 7th SAT.
+- 1/25 - Algebra, Functions, Systems of Equations
+- 2/1 - Word Problems & Exponential Functions
+- 2/8 - Quadratics
+- 2/15 - Geometry & Trig
+- 2/22 - Statistics
+- 3/1 - Review Session
+
+Unlike self-paced courses and the live classes run by large test-prep companies, my group class is small enough for students to freely ask questions and talk through their ideas. The class is as much a discussion as a lecture, and active engagement is **vital**.
+
+Finally, all the sessions will be recorded, in case students miss a session or prefer to follow at their own pace. 
 
 {% if site.data.settings.stats.class-sale %}
 All 12 hours of classes and custom resources can be purchased for **${{ site.data.settings.stats.class-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.class }}**.
