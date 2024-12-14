@@ -4,8 +4,8 @@ stats:
   rate: 225
   rate-sale:
   8h: 1575
-  class: TBD
-  class-sale:
+  class: 995
+  class-sale: 895
   hours: 600
   years: 3
   views: 15 # in millions

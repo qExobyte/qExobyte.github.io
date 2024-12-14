@@ -8,9 +8,8 @@
     }
 </style>
 
-<div class="form-box" id="academy-form">
-    <h1 align="center" class="section__title">Join the waitlist!</h1>
-    <p style="text-align: center;">Fill out the form below and I'll be in touch with more information! </p>
+<h1 align="center" class="section__title">Have questions?</h1>
+<div class="form-box">
     <form class="form" action="https://formspree.io/f/xanwvgvg" method="POST">
         <div class="form__group">
             <label class="form__label screen-reader-text" for="form-name">Your Name</label>
@@ -21,23 +20,46 @@
             <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>
         </div>
         <div class="form__group">
-            <label class="form__label screen-reader-text" for="sat-score">Current Math Score</label>
-            <input class="form__input" id="sat-score" type="number" min="200" max="800" name="score" placeholder="Current Math Score" required>
-        </div>
-        <label for="date-dropdown">Select Cohort:</label>
-        <select class="form__group form__input" id="date-dropdown" name="SAT Date">
-            <option>December SAT (Recordings)</option>
-            <option>March SAT (Jan/Feb classes)</option>
-            <option>May SAT or Beyond</option>
-        </select>
-        <div class="form__group">
             <label class="form__label screen-reader-text" for="form-text">Questions</label>
-            <textarea class="form__input" id="form-text" name="questions" rows="10" placeholder="Any questions?"></textarea>
+            <textarea class="form__input" id="form-text" name="questions" rows="10" placeholder="Questions" required></textarea>
         </div>
-
         <div class="g-recaptcha" align="center" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>
         <div align="center" class="form__group">
             <button class="button button--primary" type="submit">Send Request</button>
         </div>
     </form>
 </div>
+
+<!--<div class="form-box" id="academy-form">-->
+<!--    <h1 align="center" class="section__title">Join the waitlist!</h1>-->
+<!--    <p style="text-align: center;">Fill out the form below and I'll be in touch with more information! </p>-->
+<!--    <form class="form" action="https://formspree.io/f/xanwvgvg" method="POST">-->
+<!--        <div class="form__group">-->
+<!--            <label class="form__label screen-reader-text" for="form-name">Your Name</label>-->
+<!--            <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>-->
+<!--        </div>-->
+<!--        <div class="form__group">-->
+<!--            <label class="form__label screen-reader-text" for="form-email">Your Email</label>-->
+<!--            <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="Email" required>-->
+<!--        </div>-->
+<!--        <div class="form__group">-->
+<!--            <label class="form__label screen-reader-text" for="sat-score">Current Math Score</label>-->
+<!--            <input class="form__input" id="sat-score" type="number" min="200" max="800" name="score" placeholder="Current Math Score" required>-->
+<!--        </div>-->
+<!--        <label for="date-dropdown">Select Cohort:</label>-->
+<!--        <select class="form__group form__input" id="date-dropdown" name="SAT Date">-->
+<!--            <option>December SAT (Recordings)</option>-->
+<!--            <option>March SAT (Jan/Feb classes)</option>-->
+<!--            <option>May SAT or Beyond</option>-->
+<!--        </select>-->
+<!--        <div class="form__group">-->
+<!--            <label class="form__label screen-reader-text" for="form-text">Questions</label>-->
+<!--            <textarea class="form__input" id="form-text" name="questions" rows="10" placeholder="Any questions?"></textarea>-->
+<!--        </div>-->
+
+<!--        <div class="g-recaptcha" align="center" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>-->
+<!--        <div align="center" class="form__group">-->
+<!--            <button class="button button&#45;&#45;primary" type="submit">Send Request</button>-->
+<!--        </div>-->
+<!--    </form>-->
+<!--</div>-->

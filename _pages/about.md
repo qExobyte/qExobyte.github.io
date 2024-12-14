@@ -21,8 +21,6 @@ If you're interested in getting your score up, book a session below!
 
 <br>
 
-{% include section-pricing.html %}
-
 
 <br>
 <h1 align="center" class="section__title">FAQ</h1>

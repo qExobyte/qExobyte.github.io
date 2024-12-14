@@ -2,7 +2,7 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  flex-wrap: wrap;
+  //flex-wrap: wrap;
   // user-select: none; // prevents highlighting
 }
 
@@ -22,14 +22,52 @@
   background: var(--brand-color); // yellow
 
   max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
 
   ::selection {
     background-color: #3297FD;
     color: white;
   }
 }
+
+.panel--link {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none; /* Removes default underline */
+  color: inherit; /* Inherits the panel's text color */
+}
+
+.panel--link:hover .panel--content {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+
+// UNUSED but it's a version of the panel with white background, black border (instead of yellow/blue)
+//.panel--transparent {
+//  display: flex; /* Make it a flex container */
+//  flex-direction: column; /* Stack its children vertically */
+//  justify-content: space-between;
+//  align-items: center;
+//  margin: 10px;
+//  word-wrap: break-word;
+//
+//  padding: 20px 20px;
+//  font-size: 16px;
+//  font-weight: 300;
+//  line-height: 1.1;
+//  background: transparent !important;
+//
+//  // black border
+//  border: 1px solid black;
+//  border-radius: 15px;
+//
+//  max-width: 300px;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
 
 // USED WITH SECTION-PRICING COPY
 .panel--holder div {

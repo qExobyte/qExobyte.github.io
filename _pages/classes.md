@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Group Class
+title: Masterclass
 permalink: /classes/
 ---
 
@@ -11,12 +11,11 @@ permalink: /classes/
     } 
 </style>
 
-<br>
-Want the **structure** of an online course but with the **small size** of a tutoring session? Check out my group class!
+Want the **structure** of an online course but with the **small size** of a tutoring session? Check out the **SAT Math Masterclass!**
 
 This class is intended for **highly motivated** students aiming for a **perfect** or **near-perfect** SAT math score *(750+)*. Students should enter the class with a _650 or higher_.
 
-The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the hardest concepts & problems in every category on the SAT Math.  
+The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the **hardest** concepts & problems in **every** category on the SAT Math.  
 
 The next cohort will begin on **January 25, 2025**. Classes will be **Saturday afternoons from 12:00 - 2:00 pm EST**, to prepare students for the March SAT. Here is the schedule:
 
@@ -37,12 +36,15 @@ All 12 hours of classes and custom resources can be purchased for **${{ site.dat
 All 12 hours of classes and custom resources can be purchased for **${{ site.data.settings.stats.class }}**.
 {% else %}
 All 12 hours of classes and custom resources can be purchased for a single price that will be determined soon based on demand.
-{% endif %}
+{% endif %} Claim your spot or scroll down for more details!
 
-<div align="center">
-    <h3>Join the waitlist before it fills up!</h3>
-    <a href="/classes/#academy-form" class="button button--large section-button" align="center">Claim a Spot</a>
-</div>
+[//]: # (<div align="center">)
+[//]: # (    <h3>Claim a spot before it fills up!</h3>)
+[//]: # (    <a href="/classes/#academy-form" class="button button--large section-button" align="center">Sign Up</a>)
+[//]: # (</div>)
+
+<h1 style="text-align: center;"> Claim a spot before it fills up! </h1>
+{% include academy-buy.html %}
 
 <br>
 <h1>How are classes structured?</h1>
@@ -77,7 +79,9 @@ I teach concepts through **first principles** and provide "concept reviews" for 
 Finally, I provide recommended exercises from the **<a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>** and <a href="https://www.preppros.io/math-book">PrepPros</a> books for students to **practice**. Here is how I recommend students study in between each session: 
 <img src="/images/homework.svg" alt="homework" style="width: 400%; height: auto;">
 
-<br>
+<br id="academy-form">
+<h1 style="text-align: center;">Sign up below!</h1>
+{% include academy-buy.html %}
 {% include academy-form.html %}
 
 
