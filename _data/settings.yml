@@ -2,8 +2,8 @@
 # STATS
 stats:
   rate: 225
-  rate-sale:
-  8h: 1575
+  rate-sale: 185
+  8h: 1295
   class: 995
   class-sale: 895
   hours: 600
