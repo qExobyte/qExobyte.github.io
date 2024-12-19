@@ -44,7 +44,7 @@ If you're interested in getting your score up, book a session below!
 <details>
     <summary>Do you assign homework? How much?</summary>
     <div>
-        The amount of work students do between sessions is ultimately at their discretion, but I recommend that between sessions students spend around 1-3 hours working on new material and 30-60 minutes <a href="/strategy/#repetition">reviewing past material</a>. Then, students come to each session with a list of problems to review, topics to learn, and questions to ask.
+        It's ultimately up to the student, but I recommend that students spend around 1-3 hours working on new material and 30-60 minutes <a href="/strategy/#repetition">reviewing past material</a> between sessions. Then, students come to each session with a list of problems to review, topics to learn, and questions to ask.
     </div>
 </details>
 
