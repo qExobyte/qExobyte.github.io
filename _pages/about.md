@@ -106,7 +106,7 @@ If you're interested in getting your score up, book a session below!
         <li>Econometrics</li>
         <br><br>
         As for the SAT, I scored a 1570 (770 EBRW / 800 Math). 
-        <br><br>
+        <br>
         I took the SAT twice and the PSAT once, earning a perfect math score on all 3 exams.
     </div>
 </details>
