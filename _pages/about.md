@@ -35,7 +35,7 @@ If you're interested in getting your score up, book a session below!
         <li> Getting a representative score and pacing → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
         <li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept reviews</a> & <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> chapters </li>
         <li> Practice problems → <a href="https://satsuitequestionbank.collegeboard.org/digital/search">SAT Question Bank</a> &  <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> exercises </li>
-        <li> Scoring 750+ and need harder problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> & <a href="https://preppros.teachable.com/p/150-hard-math-questions">Hard Qs</a></li>
+        <li> Scoring 730+ and need harder problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> & <a href="https://preppros.teachable.com/p/150-hard-math-questions">Hard Qs</a></li>
         <br>
         The only paid resource I recommend for all students is the <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> book, which is $24 online. I am not sponsored by any of the resources on this list.
     </div>
@@ -104,7 +104,8 @@ If you're interested in getting your score up, book a session below!
         <li>Machine Learning</li>
         <li>Intermediate Micro & Macroeconomics</li> 
         <li>Econometrics</li>
-        <br><br>
+        <li>Next Semester: Graduate-level Algorithms, Real Analysis, and Math of Derivative Securities</li>
+        <br>
         As for the SAT, I scored a 1570 (770 EBRW / 800 Math). 
         <br>
         I took the SAT twice and the PSAT once, earning a perfect math score on all 3 exams.
