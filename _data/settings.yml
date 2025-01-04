@@ -52,10 +52,10 @@ testimonial__title: What students say
 testimonial__description: 
 
 testimonial__items:
-  - name: "Sam"
+  - name: "Illa"
     designation: "Group Classes"
-    designation2: "650 to 770"
-    content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while practicing math is one of my least favorite activities, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together. His explanations were clear and memorable and I was able to confidently answer the questions correctly! Overall, his classes helped me <strong>increase my SAT math score by 120 points, helping me receive a total score of 1560.</strong>"
+    designation2: "690 to 770"
+    content: "I cannot recommend Eric's group classes enough! I was completely stuck and unsure how to improve my math score, struggling to identify what I was missing. <strong>Eric’s group classes changed everything—he covered everything I encountered on test day.</strong> His teaching goes beyond rote learning; he focuses on building a <strong>solid foundational understanding</strong> of the concepts and equips students with strategies to approach <strong>every problem confidently</strong>. He helped me raise my overall score from a 1450 to a 1530!"
 
   - name: "Yuna"
     designation: "770 in 8 hours"
@@ -65,6 +65,11 @@ testimonial__items:
     designation: "Group Classes"
     designation2: "630 to 740"
     content: "When Eric says the SAT math score is the quickest way you can improve your college admissions, <strong>he is not lying.</strong> Taking his December SAT group classes and doing no work outside of sessions improved my score by 100 points. If you are serious about improving your SAT score <strong>fast</strong> at a <strong>reasonable price</strong> compared to other SAT tutors, <strong>taking Eric’s SAT class is a no brainer.</strong>"
+
+  - name: "Sam"
+    designation: "Group Classes"
+    designation2: "650 to 770"
+    content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while practicing math is one of my least favorite activities, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together. His explanations were clear and memorable and I was able to confidently answer the questions correctly! Overall, his classes helped me <strong>increase my SAT math score by 120 points, helping me receive a total score of 1560.</strong>"
 
   - name: "James"
     designation: "640 to 750 in 8 hours"
