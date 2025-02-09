@@ -47,6 +47,7 @@ All 12 hours of classes and custom resources can be purchased for a single price
 [//]: # (</div>)
 
 <h1 style="text-align: center;"> Claim a spot before it fills up! </h1>
+<p style="text-align: center;">And again, you should have a 650 or higher to join!</p>
 {% include academy-buy.html %}
 
 <br>
@@ -87,5 +88,67 @@ Finally, I provide recommended exercises from the **<a href="https://thecollegep
 {% include academy-buy.html %}
 {% include academy-form.html %}
 
-
-
+<br>
+<h1 style="text-align: center;">FAQ</h1>
+<details>
+    <summary>How small is the class?</summary>
+    <div>
+        It depends on how many students sign up but I'm aiming for around 10-15 students.
+        <br><br>
+        That being said, since the sessions are recorded, expect a lot of absences. Last cohort, I capped the class at 10 students and some classes had as few as 4-6 students. So don't worry, it'll be <b>far</b> more interactive than your typical high school class.
+    </div>
+</details>
+<details>
+    <summary>What do I need for the class?</summary>
+    <div>
+        <li>Computer</li>
+        <li>Internet</li>
+        <li>Microphone</li>
+        <li>Paper & pencil</li>
+        <li>A score of 650 or higher</li>
+        <br>
+        That's it. Preferably, a webcam as well. I <b>strongly</b> encourage students to turn on their cameras, but I'm not gonna kill you if you don't have one.
+    </div>
+</details>
+<details>
+    <summary>Do I need to buy myself the College Panda book?</summary>
+    <div>
+        If you want a physical copy, yes. If you want a digital copy, I'll buy one for you.
+    </div>
+</details>
+<details>
+    <summary>Do I neeeeeeed to have a 650?</summary>
+    <div>
+        I'm not gonna stop you from joining the class with a lower score, but if you're under a 650, the class will probably be too hard for you. It's certainly possible for you to catch up, but you'll have to put in more effort than the other students at the start of the class.
+    </div>
+</details>
+<details>
+    <summary>What's covered in the review session?</summary>
+    <div>
+        The review session is probably my favorite part of the class. We go back through the material at a very high level and then play a game where students compete to explain the hardest problems as quickly and accurately as possible. It gets pretty heated.
+    </div>
+</details>
+<details>
+    <summary>Can I get a refund if I change my mind?</summary>
+    <div>
+        If you realize after the first session and before the second session that the class is not fit for you, I'll refund 3/4 of the class's price. So, if the class is ${{ site.data.settings.stats.class }}, I'll refund ${{ site.data.settings.stats.class | times: 3 | times: 0.25 }}.
+        <br><br>
+        If you get a refund, you'll no longer have access to any of the class's recordings or resources. So far, however, I have not had a single student out of 30 students request a refund. Hope to keep it that way!
+    </div>
+</details>
+<details>
+    <summary>What if YOU (Eric) need to miss a session?</summary>
+    <div>
+        I've never cancelled a class, but in the case of sickness, technical difficulties, or an emergency, I might need to. 
+        <br><br>
+        If I need to cancel, I'll send out a "when2meet" to see which times everyone is free, and reschedule the session to the best time. Worst case scenario, you'll need to watch the recording.
+    </div>
+</details>
+<details>
+    <summary>Can I get a refund if I change my mind?</summary>
+    <div>
+        If you realize after the first session and before the second session that the class is not fit for you, I'll refund 3/4 of the class's price. So, if the class is ${{ site.data.settings.stats.class }}, I'll refund ${{ site.data.settings.stats.class | times: 3 | times: 0.25 }}.
+        <br><br>
+        If you get a refund, you'll no longer have access to any of the class's recordings or resources. So far, however, I have not had a single student out of 30 students request a refund. Hope to keep it that way!
+    </div>
+</details>
