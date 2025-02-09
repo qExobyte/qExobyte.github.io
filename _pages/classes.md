@@ -17,7 +17,10 @@ This class is intended for **highly motivated** students aiming for a **perfect*
 
 The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the **hardest** concepts & problems in **every** category on the SAT Math.  
 
-The next cohort will begin on **January 25, 2025**. Classes will be **Saturday afternoons from 12:00 - 2:00 pm EST**, to prepare students for the March SAT. Here is the schedule:
+Unlike self-paced courses and the live classes run by large test-prep companies, my group class is small enough for students to freely ask **questions** and talk through their ideas. The class is as much a **discussion** as a lecture, and active engagement is **vital**.
+
+[//]: # (The next cohort will begin on **January 25, 2025**. Classes will be **Saturday afternoons from 12:00 - 2:00 pm EST**, to prepare students for the March SAT. Here is the schedule:)
+The current cohort began on January 25, **but you can still join**! All sessions are recorded, so you can catch up on everything you missed and join the remaining live sessions. Here's the schedule:
 
 - 1/25 - Algebra, Functions, Systems of Equations
 - 2/1 - Word Problems & Exponential Functions
@@ -26,9 +29,9 @@ The next cohort will begin on **January 25, 2025**. Classes will be **Saturday a
 - 2/22 - Statistics
 - 3/1 - Review Session
 
-Unlike self-paced courses and the live classes run by large test-prep companies, my group class is small enough for students to freely ask questions and talk through their ideas. The class is as much a discussion as a lecture, and active engagement is **vital**.
+But wait! The next cohort will begin on **March 22, 2025**, in preparation for the May SAT. If you'd like to claim a spot, send me an <a href="/classes/#class-questions">email below</a>.
 
-Finally, all the sessions will be recorded, in case students miss a session or prefer to follow at their own pace. 
+[//]: # (Finally, all the sessions will be recorded, in case students miss a session or prefer to follow at their own pace. )
 
 {% if site.data.settings.stats.class-sale %}
 All 12 hours of classes and custom resources can be purchased for **${{ site.data.settings.stats.class-sale }}**. As students sign up, the price will increase to **${{ site.data.settings.stats.class }}**.
