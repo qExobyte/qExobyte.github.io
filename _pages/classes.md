@@ -46,12 +46,12 @@ All 12 hours of classes and custom resources can be purchased for a single price
 [//]: # (    <a href="/classes/#academy-form" class="button button--large section-button" align="center">Sign Up</a>)
 [//]: # (</div>)
 
-<h1 style="text-align: center;"> Claim a spot before it fills up! </h1>
+<h2 style="text-align: center;"> Claim a spot before it fills up! </h2>
 <p style="text-align: center;">And again, you should have a 650 or higher to join!</p>
 {% include academy-buy.html %}
 
 <br>
-<h1>How are classes structured?</h1>
+<h2>How are classes structured?</h2>
 My group classes follow the same rigorous methodology of my 1-on-1 tutoring sessions, just with more structure and more collaboration.
 
 Concepts are introduced through _questions_ which encourage students to think through **first principles** and share their ideas.
@@ -84,12 +84,12 @@ Finally, I provide recommended exercises from the **<a href="https://thecollegep
 <img src="/images/homework.svg" alt="homework" style="width: 400%; height: auto;">
 
 <br id="academy-form">
-<h1 style="text-align: center;">Sign up below!</h1>
+<h2 style="text-align: center;">Sign up below!</h2>
 {% include academy-buy.html %}
 {% include academy-form.html %}
 
 <br>
-<h1 style="text-align: center;">FAQ</h1>
+<h2 style="text-align: center;">FAQ</h2>
 <details>
     <summary>How small is the class?</summary>
     <div>

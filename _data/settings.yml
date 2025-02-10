@@ -28,7 +28,7 @@ menu__settings:
     - url: '/strategy/'
       title: 'Strategy'
     - url: '/classes/'
-      title: 'Classes'
+      title: 'Masterclass'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'
@@ -55,11 +55,11 @@ testimonial__items:
   - name: "Illa"
     designation: "Group Classes"
     designation2: "690 to 770"
-    content: "I cannot recommend Eric's group classes enough! I was completely stuck and unsure how to improve my math score, struggling to identify what I was missing. <strong>Eric’s group classes changed everything—he covered everything I encountered on test day.</strong> His teaching goes beyond rote learning; he focuses on building a <strong>solid foundational understanding</strong> of the concepts and equips students with strategies to approach <strong>every problem confidently</strong>. He helped me raise my overall score from a 1450 to a 1530!"
+    content: "I cannot recommend Eric's group classes enough! I was completely stuck and unsure how to improve my math score, struggling to identify what I was missing. <strong>Eric’s group classes changed everything—he covered everything I encountered on test day.</strong> His teaching goes beyond rote learning; he focuses on building a <strong>solid foundational understanding</strong> of the concepts and equips students with strategies to approach <strong>every problem confidently</strong>."
 
   - name: "Yuna"
     designation: "770 in 8 hours"
-    content: "<strong>Learning from Eric was the best decision I made before taking the SAT</strong>. Before I started learning from him, I felt discouraged because I couldn't see any improvements in my math score. I learned a lot of things from him that I wouldn't have been able to figure out if I just self-studied. <strong>He also put in a lot of time and effort into personalizing my experience</strong>, helping me to focus on the areas I needed to improve. In every tutoring session, he was patient and understanding, and <strong>I felt really comfortable asking questions and making mistakes</strong>. I would recommend Eric to anyone taking the SAT because he really cares about helping his students succeed and makes studying effective and enjoyable!"
+    content: "<strong>Learning from Eric was the best decision I made before taking the SAT</strong>. Before I started learning from him, I felt discouraged because I couldn't see any improvements in my math score. I learned a lot of things from him that I wouldn't have been able to figure out if I just self-studied. <strong>He also put in a lot of time and effort into personalizing my experience</strong>, helping me to focus on the areas I needed to improve. In every tutoring session, he was patient and understanding, and <strong>I felt really comfortable asking questions and making mistakes</strong>."
 
   - name: "Wyatt"
     designation: "Group Classes"
@@ -69,7 +69,7 @@ testimonial__items:
   - name: "Sam"
     designation: "Group Classes"
     designation2: "650 to 770"
-    content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while practicing math is one of my least favorite activities, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together. His explanations were clear and memorable and I was able to confidently answer the questions correctly! Overall, his classes helped me <strong>increase my SAT math score by 120 points, helping me receive a total score of 1560.</strong>"
+    content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while I typically don't like studying math, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together!"
 
   - name: "James"
     designation: "640 to 750 in 8 hours"
@@ -81,11 +81,11 @@ testimonial__items:
     content: "Eric really understands the SAT because he himself took it so he can teach you all the tips and tricks to solve the hard questions that the SAT throws at you. <strong>He makes it super easy to understand each concept.</strong> Also, he gives so many study materials and plans. My math score was maxed out at 650 before Eric's classes, but now I was able to get a 790. I highly recommend this course for anyone who is taking the SAT."
 
   - name: "Mujtaba"
-    content: "Eric's method of teaching was <strong>perfect</strong> for a student like me. While I was already at a relatively high score when I signed on, I improved drastically with the things I was struggling in. Each hard concept with just a little bit of practice and explaining from him improved my score another 10-20 points. The practice is also great. <strong>The hard question sets are exactly what you need to get as close to the 800 as possible.</strong> You won't see questions harder than that on the real thing so the practice is identical to the test. I think it's a great idea to <strong>invest</strong> in Eric if you're looking for a high score."
+    content: "Eric's method of teaching was <strong>perfect</strong> for a student like me. Each hard concept with just a little bit of practice and explaining from him improved my score another 10-20 points. <strong>His materials are exactly what you need to get as close to the 800 as possible.</strong> You won't see questions harder than that on the real thing so the practice is identical to the test. I think it's a great idea to <strong>invest</strong> in Eric if you're looking for a high score."
 
   - name: "Aanya"
     designation2: "580 to 710 in 8 hours"
-    content: "<strong>Eric's math tutoring has helped me more than any textbook I have used</strong>. I was struggling with the math section of the SAT, staying at the same score even with months of studying. However once I found Eric's tutoring, my score improved significantly. Eric not only helped me get to the right answer for a problem, but he also made sure that I understood the reasoning behind it in depth. This was very beneficial as previously other tutors, textbooks, and even College Boards explanations would give me the long, tedious way to solve a problem, which no one has time to do on the SAT. I would highly recommend Eric for anyone who needs help in SAT math."
+    content: "<strong>Eric's math tutoring has helped me more than any textbook I have used</strong>. I was struggling with the math section of the SAT, staying at the same score even with months of studying. However once I found Eric's tutoring, my score improved significantly. Eric not only helped me get to the right answer for a problem, but he also made sure that I understood the reasoning behind it in depth. I would highly recommend Eric for anyone who needs help in SAT math."
 
   - name: "Zoé"
     designation: "Group Classes"
@@ -114,7 +114,7 @@ testimonial__items:
   - name: "Naoki"
     image: "/images/icon.png"
     designation2: "660 to 760 in 8 hours"
-    content: "Since I found Eric online, <strong>it has been a life changing experience for me</strong>! He is very knowledgeable in the field of math, especially in Algebra and SAT Math, not only explaining how to solve problems, but also in depth reasoning behind the math. <strong>I was struggling with SAT math and feeling discouraged, but Eric's patient and encouraging approach helped me gain confidence</strong>. He will explain in detail any way possible for you to understand, plus provide helpful tips and tricks that make problem solving not only easier, but also faster. With his guidance and support, I was able to achieve my goal (SAT Math 750+). I HIGHLY RECOMMEND Eric as a math tutor to anyone in need of help in math."
+    content: "Since I found Eric online, <strong>it has been a life changing experience for me</strong>! He is very knowledgeable in the field of math, especially in Algebra and SAT Math, not only explaining how to solve problems, but also in depth reasoning behind the math. <strong>I was struggling with SAT math and feeling discouraged, but Eric's patient and encouraging approach helped me gain confidence</strong>. With his guidance and support, I was able to achieve my goal (750+)."
 
 #-------------------------------
 # Blog Section
@@ -133,7 +133,7 @@ footer_menu__settings:
     - url: '/strategy/'
       title: 'Strategy'
     - url: '/classes/'
-      title: 'Classes'
+      title: 'Masterclass'
     - title: 'Videos'
       url: '/projects/'
     - url: '/contact/'

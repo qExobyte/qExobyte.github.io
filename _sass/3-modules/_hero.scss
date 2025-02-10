@@ -107,6 +107,7 @@
 .hero__description {
   margin-bottom: 50px;
   font-size: 18px;
+  max-width: 500px;
 
   @media only screen and (max-width: $desktop) {
     font-size: inherit;
@@ -180,6 +181,6 @@
 }
 
 .center {
-  max-width: 500px;
+  max-width: 700px;
   margin: auto;
 }

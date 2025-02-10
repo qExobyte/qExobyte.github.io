@@ -84,7 +84,7 @@
 
 .footer__author-name {
   margin-bottom: 20px;
-  font-size: 48px;
+  font-size: $font-size-h2;
   font-weight: 800;
   line-height: 1;
 }
@@ -142,7 +142,7 @@
 
 .footer__nav-title {
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: $font-size-h2;
   line-height: 1.2;
 }
 
@@ -160,7 +160,7 @@
   .footer__nav-link {
     font-family: $heading-font-family;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: $font-size-h3;
   }
 
   @media only screen and (max-width: $desktop) {

@@ -63,7 +63,7 @@
 .post-title,
 .page-title {
   margin-bottom: 32px;
-  font-size: 72px;
+  font-size: $font-size-h1;
   line-height: 1;
 
   @media only screen and (max-width: $wide) {
