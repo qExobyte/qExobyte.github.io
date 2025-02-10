@@ -1,50 +1,237 @@
-<section class="container">
-    <br>
-    <h1 align="center" class="section__title">Plans</h1>
-    <br>
+<!-- section-pricing.html -->
+<style>
+    /* All selectors are now prefixed with .pricing-wrapper */
+    .pricing-wrapper {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #f5f5f5;
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
 
-    <div class="panel--holder">
-        <a href="/#book" style="display: contents;" class="panel--link">
-            <div class="panel--content" align="center">
-                <h2><b> 1-on-1 Tutoring </b></h2>
-                <p class="pricing--text"> Get your questions answered, identify your weaknesses, and form a plan </p>
-                <p class="pricing--text"> Book just what you need </p>
-                <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.rate-sale %}${{site.data.settings.stats.rate }}/hr{% endif %}</s></h5>
-                <h2 class="reduced--header current-price">${% if  site.data.settings.stats.rate-sale %}{{site.data.settings.stats.rate-sale }}{% else %}{{ site.data.settings.stats.rate }}{% endif %}/hr</h2>
+    .pricing-wrapper * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .pricing-wrapper .pricing-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .pricing-wrapper .pricing-title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 1rem
+    }
+
+    .pricing-wrapper .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .pricing-wrapper .pricing-card {
+        background: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Add these properties for flexbox layout */
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Make all cards take full height of their grid cell */
+    }
+
+    .pricing-wrapper .popular-tag {
+        background: #e8f0fe;
+        color: #1a56db;
+        padding: 0.25rem 1rem;
+        border-radius: 9999px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .pricing-wrapper .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pricing-wrapper .card-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .pricing-wrapper .price-container {
+        margin-bottom: 1.5rem;
+    }
+
+    .pricing-wrapper .price {
+        font-size: 2rem;
+    }
+
+    .pricing-wrapper .price-unit {
+        color: #666;
+        margin-left: 0.25rem;
+    }
+
+    .pricing-wrapper .original-price {
+        color: #999;
+        text-decoration: line-through;
+        margin-left: 0.5rem;
+    }
+
+    .pricing-wrapper .description {
+        color: #666;
+        margin-bottom: 1.5rem;
+    }
+
+    .pricing-wrapper .feature-list {
+        list-style: none;
+        margin-bottom: 2rem;
+        /* Add this to push the button to the bottom */
+        flex-grow: 1;
+    }
+
+    .pricing-wrapper .feature-item {
+        display: flex;
+        align-items: start;
+        margin-bottom: 1rem;
+        color: #666;
+    }
+
+    .pricing-wrapper .feature-item::before {
+        content: "✓";
+        color: #22c55e;
+        margin-right: 0.75rem;
+        font-weight: bold;
+    }
+
+    .pricing-wrapper .enroll-button {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        background: var(--brand-color);
+        border-bottom: 3px solid transparent;  /* Add this line */
+        position: relative;  /* Add this line */
+    }
+
+    .pricing-wrapper a[href]:hover {
+        box-shadow: none !important;
+    }
+
+    .pricing-wrapper .enroll-button:hover {
+        background: #ffd147;
+        border-bottom: 3px solid black;
+    }
+
+    .pricing-wrapper a:hover,
+    .pricing-wrapper a:focus {
+        text-decoration: none;
+        border-bottom: none;
+    }
+
+    @media (max-width: 768px) {
+        .pricing-wrapper .pricing-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .pricing-wrapper .pricing-card {
+            margin-bottom: 1rem;
+        }
+    }
+</style>
+
+<!-- Wrap the entire HTML in the pricing-wrapper class -->
+<div class="pricing-wrapper">
+    <div class="pricing-container">
+        <h2 class="pricing-title">Plans</h2>
+
+        <div class="pricing-grid">
+            <!-- 1-on-1 Tutoring Card -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="card-title">1-on-1 Tutoring</h2>
+                </div>
+                <div class="price-container">
+                    <span class="price">{% if  site.data.settings.stats.rate-sale %}${{site.data.settings.stats.rate-sale }}{% else %}${{ site.data.settings.stats.rate }}{% endif %}</span>
+                    <span class="price-unit">/hr</span>
+                    <span class="original-price">{% if site.data.settings.stats.rate-sale %}${{site.data.settings.stats.rate }}/hr{% endif %}</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item">Book just what you need</li>
+                    <li class="feature-item">Get all your questions answered</li>
+                    <li class="feature-item">Structured plan moving forward</li>
+                    <li class="feature-item">40+ page conceptual guide</li>
+                    <li class="feature-item">Study guides & resources included</li>
+                </ul>
+                <a href="/#book">
+                    <button class="enroll-button">Book</button>
+                </a>
             </div>
 
-        </a>
-        <a href="/#book" style="display: contents;" class="panel--link">
-            <div class="panel--content" align="center">
-                <h2><b>8 Hour Plan</b></h2>
-                <p class="pricing--text"> 8 hours of 1-on-1 tutoring <br> One payment in advance</p>
-                <p class="pricing--text"> ~70-150 point improvement </p>
-                <h5 class="reduced--header former-price">
-                    Save ${% if site.data.settings.stats.rate-sale %}{{ site.data.settings.stats.rate-sale | times: 8 | minus: site.data.settings.stats.8h }}{% else %}{{ site.data.settings.stats.rate | times: 8 | minus: site.data.settings.stats.8h }} {% endif %}
-                </h5>
-                <h2 class="reduced--header current-price">${{ site.data.settings.stats.8h }}</h2>
+            <!-- 8 Hour Plan Card -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="card-title">8 Hour Plan</h2>
+                    <span class="popular-tag">POPULAR</span>
+                </div>
+                <div class="price-container">
+                    <span class="price">${{ site.data.settings.stats.8h }}</span>
+                    <span class="original-price">${{ site.data.settings.stats.rate | times: 8 }}</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item">8 hours of 1-on-1 tutoring</li>
+                    <li class="feature-item">All necessary prep book(s) included</li>
+                    <li class="feature-item">Comprehensive study plan</li>
+                    <li class="feature-item">40+ page conceptual guide</li>
+                    <li class="feature-item">Study guides & resources included</li>
+                    <li class="feature-item"><b>Most students improve 70-150 points</b></li>
+                </ul>
+                <a href="/#book">
+                    <button class="enroll-button">Book (1-on-1 first)</button>
+                </a>
             </div>
-        </a>
-        <a href="/classes" style="display: contents;" class="panel--link">
-            <div class="panel--content" align="center">
-                <h2><b>Masterclass</b></h2>
-                <p class="pricing--text"> 12 hours of live small group classes + custom resources</p>
-                <p class="pricing--text"> For highly motivated students aiming for a 750+</p>
-                <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</s></h5>
-                <h2 class="reduced--header current-price">
+
+            <!-- Masterclass Card -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="card-title">Masterclass</h2>
+                    <span class="popular-tag">BEST VALUE</span>
+                </div>
+                <div class="price-container">
+                    <span class="price">
                     {% if  site.data.settings.stats.class-sale %}
-                    ${{site.data.settings.stats.class-sale }}
-                    {% else %}
-                    {% if site.data.settings.stats.class %}
-                    ${{ site.data.settings.stats.class }}
-                    {% else %}
-                    $TBD
+                        ${{site.data.settings.stats.class-sale }}
+                        {% else %}
+                        {% if site.data.settings.stats.class %}
+                        ${{ site.data.settings.stats.class }}
+                        {% else %}
+                        $TBD
+                        {% endif %}
                     {% endif %}
-                    {% endif %}
-                </h2>
+                    </span>
+                    <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item">12 hours of LIVE small group classes for high-performing students</li>
+                    <li class="feature-item">Recordings of every class</li>
+                    <li class="feature-item">All necessary prep book(s) included</li>
+                    <li class="feature-item">Schedule to guide you through each week</li>
+                    <li class="feature-item">40+ page conceptual guide</li>
+                    <li class="feature-item">Questions answered by email</li>
+                    <li class="feature-item"><b>Most students end with a 750+</b></li>
+                </ul>
+                <a href="/classes">
+                    <button class="enroll-button">Learn More</button>
+                </a>
             </div>
-        </a>
+        </div>
     </div>
-    <br>
-    <br>
-</section>
+</div>

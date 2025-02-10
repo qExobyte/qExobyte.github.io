@@ -1,0 +1,50 @@
+<section class="container">
+    <br>
+    <h2 align="center" class="section__title">Plans</h2>
+    <br>
+
+    <div class="panel--holder">
+        <a href="/#book" style="display: contents;" class="panel--link">
+            <div class="panel--content" align="center">
+                <h2><b> 1-on-1 Tutoring </b></h2>
+                <p class="pricing--text"> Get your questions answered, identify your weaknesses, and form a plan </p>
+                <p class="pricing--text"> Book just what you need </p>
+                <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.rate-sale %}${{site.data.settings.stats.rate }}/hr{% endif %}</s></h5>
+                <h2 class="reduced--header current-price">${% if  site.data.settings.stats.rate-sale %}{{site.data.settings.stats.rate-sale }}{% else %}{{ site.data.settings.stats.rate }}{% endif %}/hr</h2>
+            </div>
+
+        </a>
+        <a href="/#book" style="display: contents;" class="panel--link">
+            <div class="panel--content" align="center">
+                <h2><b>8 Hour Plan</b></h2>
+                <p class="pricing--text"> 8 hours of 1-on-1 tutoring <br> One payment in advance</p>
+                <p class="pricing--text"> ~70-150 point improvement </p>
+                <h5 class="reduced--header former-price">
+                    Save ${% if site.data.settings.stats.rate-sale %}{{ site.data.settings.stats.rate-sale | times: 8 | minus: site.data.settings.stats.8h }}{% else %}{{ site.data.settings.stats.rate | times: 8 | minus: site.data.settings.stats.8h }} {% endif %}
+                </h5>
+                <h2 class="reduced--header current-price">${{ site.data.settings.stats.8h }}</h2>
+            </div>
+        </a>
+        <a href="/classes" style="display: contents;" class="panel--link">
+            <div class="panel--content" align="center">
+                <h2><b>Masterclass</b></h2>
+                <p class="pricing--text"> 12 hours of live small group classes + custom resources</p>
+                <p class="pricing--text"> For highly motivated students aiming for a 750+</p>
+                <h5 class="reduced--header former-price"><s>{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</s></h5>
+                <h2 class="reduced--header current-price">
+                    {% if  site.data.settings.stats.class-sale %}
+                    ${{site.data.settings.stats.class-sale }}
+                    {% else %}
+                    {% if site.data.settings.stats.class %}
+                    ${{ site.data.settings.stats.class }}
+                    {% else %}
+                    $TBD
+                    {% endif %}
+                    {% endif %}
+                </h2>
+            </div>
+        </a>
+    </div>
+    <br>
+    <br>
+</section>

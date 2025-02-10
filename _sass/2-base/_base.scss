@@ -144,12 +144,12 @@ img,
   
     a {
       font-weight: 500;
-      border-bottom: 1px solid var(--border-color);
+      //border-bottom: 1px solid var(--border-color);
       transition: $global-transition;
 
       &:hover {
         color: var(--link-color);
-        border-color: var(--link-color-hover);
+        //border-color: var(--link-color-hover);
       }
     }
   

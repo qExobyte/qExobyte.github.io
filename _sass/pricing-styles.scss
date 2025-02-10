@@ -1,0 +1,43 @@
+/* Scoped Tailwind-like utilities just for the pricing section */
+.pricing-section {
+  /* Base styles */
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.pricing-section .max-w-6xl {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-section .grid {
+  display: grid;
+}
+
+@media (min-width: 768px) {
+  .pricing-section .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.pricing-section .gap-6 {
+  gap: 1.5rem;
+}
+
+.pricing-section .bg-white {
+  background-color: white;
+}
+
+.pricing-section .rounded-2xl {
+  border-radius: 1rem;
+}
+
+.pricing-section .p-8 {
+  padding: 2rem;
+}
+
+.pricing-section .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Add other necessary utility classes, prefixed with .pricing-section */
