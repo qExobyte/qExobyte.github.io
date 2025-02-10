@@ -10,7 +10,7 @@ I'm a student at the University of Virginia studying Computer Science, Economics
 <img src="/images/score.jpg" align="right">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
-Since then, I've tutored over 100 students across the globe, taught over 30 students in my SAT Math Masterclass, and created SAT math content with over 65,000 followers and 15 million views across platforms.
+Since then, I've tutored over **150** students across the globe, run several successful masterclasses, and created math content, reaching **65,000** followers and **{{ site.data.settings.stats.views }} million** views across platforms.
   
 If you're interested in getting your score up, book a session below!
 
@@ -32,12 +32,9 @@ If you're interested in getting your score up, book a session below!
 <details>
     <summary>What materials should I use?</summary>
     <div>
-        <li> Getting a representative score and pacing → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
-        <li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept reviews</a> & <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> chapters </li>
-        <li> Practice problems → <a href="https://satsuitequestionbank.collegeboard.org/digital/search">SAT Question Bank</a> &  <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> exercises </li>
-        <li> Scoring 730+ and need harder problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> & <a href="https://preppros.teachable.com/p/150-hard-math-questions">Hard Qs</a></li>
-        <br>
-        The only paid resource I recommend for all students is the <a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a> book, which is $24 online. I am not sponsored by any of the resources on this list.
+        <li> Getting a representative score → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
+        <li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept reviews</a> & <a href="https://www.preppros.io/math-book">PrepPros</a> chapters </li>
+        <li> Practice problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> </li>
     </div>
 </details>
 
@@ -69,7 +66,7 @@ If you're interested in getting your score up, book a session below!
 <details>
     <summary>Do you tutor the English as well?</summary>
     <div>
-        I've spent the last 3 years specializing in SAT math prep, so I know the test back to front, but I'm <b>not</b> strong enough in the English section to tutor it.
+        Unfortunately, no. :(
     </div>
 </details>
 
@@ -81,7 +78,7 @@ If you're interested in getting your score up, book a session below!
 </details>
 
 <details>
-    <summary>What is your educational experience?</summary>
+    <summary>What is your background?</summary>
     <div>
         At the University of Virginia, I'm most of the way through a degree in Computer Science and Economics, and I'm pursuing a minor in Mathematics. I currently have a 3.9 GPA.
         <br><br>
