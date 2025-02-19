@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Masterclass
+title: SAT Math Masterclass
 permalink: /classes/
 ---
 
@@ -10,6 +10,9 @@ permalink: /classes/
         max-width: 600px;
     } 
 </style>
+
+<h2 style="text-align: center; font-weight: normal;">The most efficient path to a <b>750+.</b></h2>
+<br>
 
 Want the **structure** of an online course but with the **small size** of a tutoring session? Check out the **SAT Math Masterclass!**
 
