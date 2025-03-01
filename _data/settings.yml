@@ -4,15 +4,15 @@ stats:
   rate: 250
   rate-sale: 225
   8h: 1575
-  class: 995
-  class-sale: 895
+  class: TBD
+  class-sale:
   hours: 600
   years: 3
   views: 17 # in millions
 
 #-------------------------------
 # Site Settings
-title: Learn SAT Math
+title: LearnSATMath - Premium SAT Math Prep
 logo: #  -- this logo would be in place of "Learn SAT Math"
 description: I'm an SAT Math tutor at the University of Virginia helping students improve their SAT scores efficiently and without frustration.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -29,8 +29,8 @@ menu__settings:
       title: 'Strategy'
     - url: '/classes/'
       title: 'Masterclass'
-    - title: 'Videos'
-      url: '/projects/'
+    - url: '/projects/'
+      title: 'Videos'
     - url: '/contact/'
       title: 'Contact'
 

@@ -2,12 +2,34 @@
         src="https://js.stripe.com/v3/buy-button.js">
 </script>
 
-<div style="text-align: center; margin: auto; margin-top: 30px;">
-    <div style="display: inline-block; border: 1px solid black; border-radius: 15px; padding: 10px;">
-        <stripe-buy-button
-                buy-button-id="buy_btn_1QViwD2KiME5B1C2W3GNKC4Z"
-                publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK">
-        </stripe-buy-button>
-    </div>
+<style>
+    .buy-button {
+        transition: all 0.3s ease;
+        text-align: center;
+        margin: auto;
+    }
+
+    .buy-button:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+<!-- V1: EMBED WITH PRICE -->
+<!--<div style="text-align: center; margin: auto; margin-top: 30px;">-->
+<!--    <div style="display: inline-block; border: 1px solid black; border-radius: 15px; padding: 10px;">-->
+<!--        <stripe-buy-button-->
+<!--                buy-button-id="buy_btn_1QViwD2KiME5B1C2W3GNKC4Z"-->
+<!--                publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK">-->
+<!--        </stripe-buy-button>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<br><br>-->
+
+<!-- V2: JUST BUTTON -->
+<div class="buy-button">
+    <stripe-buy-button
+            buy-button-id="buy_btn_1QViwD2KiME5B1C2W3GNKC4Z"
+            publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
+    >
+    </stripe-buy-button>
 </div>
-<br><br>

@@ -1,0 +1,150 @@
+.pricing-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f5f5f5;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pricing-wrapper * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pricing-wrapper .pricing-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-wrapper .pricing-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem
+}
+
+.pricing-wrapper .pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pricing-wrapper .pricing-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Add these properties for flexbox layout */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make all cards take full height of their grid cell */
+  transition: all 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.03);
+}
+
+.pricing-wrapper .popular-tag {
+  background: #e8f0fe;
+  color: #1a56db;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.pricing-wrapper .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing-wrapper .card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pricing-wrapper .price-container {
+  margin-bottom: 1.5rem;
+}
+
+.pricing-wrapper .price {
+  font-size: 2rem;
+}
+
+.pricing-wrapper .price-unit {
+  color: #666;
+  margin-left: 0.25rem;
+}
+
+.pricing-wrapper .original-price {
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 0.5rem;
+}
+
+.pricing-wrapper .description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-wrapper .feature-list {
+  list-style: none;
+  margin-bottom: 2rem;
+  /* Add this to push the button to the bottom */
+  flex-grow: 1;
+}
+
+.pricing-wrapper .feature-item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.pricing-wrapper .feature-item::before {
+  content: "✓";
+  color: #22c55e;
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+.pricing-wrapper .enroll-button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  background: var(--brand-color);
+  border-bottom: 3px solid transparent;  /* Add this line */
+  position: relative;  /* Add this line */
+}
+
+.pricing-wrapper a[href]:hover {
+  box-shadow: none !important;
+}
+
+.pricing-wrapper .enroll-button:hover {
+  background: #ffd147;
+  border-bottom: 3px solid black;
+}
+
+.pricing-wrapper a:hover,
+.pricing-wrapper a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .pricing-wrapper .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-wrapper .pricing-card {
+    margin-bottom: 1rem;
+  }
+}

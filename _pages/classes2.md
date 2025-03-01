@@ -1,8 +1,4 @@
----
-layout: page
-title: SAT Math Masterclass
-permalink: /classes/
----
+
 
 <style>
     .panel-override {
@@ -18,7 +14,7 @@ Want the **structure** of an online course but with the **small size** of a tuto
 
 This class is intended for **highly motivated** students aiming for a **perfect** or **near-perfect** SAT math score *(750+)*. Students should enter the class with a _650 or higher_.
 
-The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the **hardest** concepts & problems in **every** category on the SAT Math.  
+The class consists of **6 live sessions**, **2 hours each**, all through Google Meet. Each session is a deep dive into the **hardest** concepts & problems in **every** category on the SAT Math.
 
 Unlike self-paced courses and the live classes run by large test-prep companies, my group class is small enough for students to freely ask **questions** and talk through their ideas. The class is as much a **discussion** as a lecture, and active engagement is **vital**.
 
@@ -83,7 +79,7 @@ I teach concepts through **first principles** and provide "concept reviews" for 
 </div>
 <br>
 
-Finally, I provide recommended exercises from the **<a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>** and <a href="https://www.preppros.io/math-book">PrepPros</a> books for students to **practice**. Here is how I recommend students study in between each session: 
+Finally, I provide recommended exercises from the **<a href="https://thecollegepanda.app/" target="_blank">CollegePanda</a>** and <a href="https://www.preppros.io/math-book">PrepPros</a> books for students to **practice**. Here is how I recommend students study in between each session:
 <img src="/images/homework.svg" alt="homework" style="width: 400%; height: auto;">
 
 <br id="academy-form">

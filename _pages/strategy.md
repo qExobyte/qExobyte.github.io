@@ -1,10 +1,8 @@
 ---
 layout: page
-title: SAT Math Manifesto
+title: The Proven Strategy
 permalink: /strategy/
 ---
-
-Just 5 key points, backed by cognitive science and 150+ students.
 
 <h2>1. Representative Problems</h2>
 The best way to prepare for the SAT is to take the SAT.
@@ -57,7 +55,7 @@ A key part of this framework is creating **variations** of problems. This encour
 
 <img src="../images/review.png" alt="reviewing-problems-flowchart">
 
-<div align="center">
+<div style="text-align: center;">
 <p><b>To see this strategy in action, book a session below!</b></p>
 {% include book-button.html %}
 </div>
