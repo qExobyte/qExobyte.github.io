@@ -14,7 +14,9 @@ Since then, I've tutored over **150** students across the globe, run several suc
   
 If you're interested in getting your score up, book a session below!
 
-{% include book-button.html %}
+<div style="text-align: center;">
+    {% include book-button.html %}
+</div>
 
 <br>
 
