@@ -1,7 +1,7 @@
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <div id="class-questions" class="form-box">
-    <form class="form" action="https://formspree.io/f/xanwvgvg" method="POST">
+    <form class="form" action="https://formspree.io/f/xanwvgvg" method="POST" style="text-align: center;">
         <div class="form__group">
             <label class="form__label screen-reader-text" for="form-name">Your Name</label>
             <input class="form__input" id="form-name" type="text" name="name" placeholder="Name" required>
@@ -14,7 +14,8 @@
             <label class="form__label screen-reader-text" for="form-text">Questions</label>
             <textarea class="form__input" id="form-text" name="questions" rows="10" placeholder="Questions?"></textarea>
         </div>
-        <div class="g-recaptcha" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>
+        <div class="g-recaptcha" style="margin-bottom: 20px; display: flex;
+  justify-content: center;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>
         <div class="form__group">
             <button class="button button--primary" type="submit">Claim your spot</button>
         </div>
