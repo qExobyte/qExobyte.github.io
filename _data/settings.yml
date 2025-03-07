@@ -61,6 +61,10 @@ testimonial__items:
     designation: "770 in 8 hours"
     content: "<strong>Learning from Eric was the best decision I made before taking the SAT</strong>. Before I started learning from him, I felt discouraged because I couldn't see any improvements in my math score. I learned a lot of things from him that I wouldn't have been able to figure out if I just self-studied. <strong>He also put in a lot of time and effort into personalizing my experience</strong>, helping me to focus on the areas I needed to improve. In every tutoring session, he was patient and understanding, and <strong>I felt really comfortable asking questions and making mistakes</strong>."
 
+  - name: "Jack"
+    designation: "Masterclass March Cohort"
+    content: "The Masterclass has undoubtedly been the <strong>single best decision I made</strong> when preparing for the SAT. Initially I was worried that since the class was in a group setting, I wouldn't receive enough direct teaching of the material. But I was wrong! <strong>Eric made sure to answer everyone's questions</strong>, and the pacing of the class allowed for us to take the time to learn everything thoroughly. Not only were the sessions themselves helpful, but Eric provided <strong>all of the resources and advice</strong> I needed for studying on my own."
+
   - name: "Wyatt"
     designation: "Group Classes"
     designation2: "630 to 740"
@@ -70,6 +74,10 @@ testimonial__items:
     designation: "Group Classes"
     designation2: "650 to 770"
     content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while I typically don't like studying math, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together!"
+
+  - name: "Aster"
+    designation: "Masterclass March Cohort"
+    content: "Eric is an incredible SAT math tutor! His group classes were engaging, well-structured, and filled with helpful strategies that <strong>made even the toughest math problems feel manageable.</strong> He explained concepts clearly, patiently answered all our questions, and <strong>ensured everyone kept up.</strong> His practice problems and test-taking tips helped me gain confidence! If you're looking for a tutor who makes SAT math <strong>both effective and enjoyable,</strong> I highly recommend him!"
 
   - name: "James"
     designation: "640 to 750 in 8 hours"
@@ -110,6 +118,10 @@ testimonial__items:
     image: "/images/icon.png"
     designation: "SAT Math & Precalculus"
     content: "Eric is a great tutor who makes math enjoyable and bearable. <strong>He does a great job explaining concepts and ensuring I don't get lost along the way</strong>. I like and understand the unit circle for precalc now! I'm glad we found Eric as an SAT Math and Precalc tutor."
+
+  - name: "Krisha"
+    designation: "Masterclass March Cohort"
+    content: "The class setup is really awesome and is <strong>flexible</strong> enough that you have structure to motivate you without the workload/classes being a super large commitment of your time. We focused on the process of <strong>solving problems, instead of the actual answer,</strong> and this helped build speed and <strong>change my approach</strong> to solving problems to the most efficient possible way. Eric is also really nice and responds to your questions (over email) during the week really fast."
 
   - name: "Naoki"
     image: "/images/icon.png"
