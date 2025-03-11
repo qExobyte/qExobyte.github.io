@@ -2,7 +2,9 @@
 layout: custom-page
 permalink: /classes/
 ---
-
+<script async
+        src="https://js.stripe.com/v3/buy-button.js">
+</script>
 
 <style>
 /* overrides default "title" */
@@ -58,10 +60,12 @@ permalink: /classes/
         flex: 1;
     }
     .highlighted {
-        display: inline;
+        display: inline-block;
         background-image: linear-gradient(to bottom, transparent 60%, rgba(255, 215, 0, 0.4) 60%);
         background-size: 100% 100%;
         background-repeat: no-repeat;
+        padding: 0 10px;
+        margin: 0;
     }
     h1 {
         font-size: 88px;
@@ -123,7 +127,7 @@ permalink: /classes/
 <div class="page__content">
     <div class="selling-point">
         <div class="image-container">
-            <img src="/images/chart.PNG" alt="Description">
+            <img src="/images/chart.PNG" alt="Master the SAT Math">
         </div>
         <div class="text-container">
             <h2 class="highlighted">Master the SAT Math 👑</h2>
@@ -134,29 +138,29 @@ permalink: /classes/
 
     <div class="selling-point">
         <div class="image-container">
-            <img src="/images/class.PNG" alt="Description">
+            <img src="/images/masterclass.png" alt="Discussion, not a Lecture">
         </div>
         <div class="text-container">
             <h2 class="highlighted">Discussion, not a Lecture 💬</h2>
             <br><br>
-            The Masterclass is 100% <b>LIVE</b> and small enough that students freely ask questions and talk through their ideas. Active engagement is not just encouraged--it's <b>necessary</b> to learn effectively.
+            The Masterclass is 100% <b>LIVE</b> and small enough that students freely ask questions and talk through their ideas. Active engagement is not just encouraged--it's <b>necessary</b> to learn effectively. Each class also includes a Blooket for some friendly competition.
         </div>
     </div>
 
     <div class="selling-point">
         <div class="image-container">
-            <img src="/images/conceptguide4.PNG" alt="Description">
+            <img src="/images/conceptguide4.PNG" alt="Learn from First Principles">
         </div>
         <div class="text-container">
             <h2 class="highlighted">Learn from First Principles 🧠</h2>
             <br><br>
-            While most test prep focuses on <i>how</i> to get an answer, we focus on <b>why</b> these approaches work. In fact, I was so dissatisfied with traditional test prep that I developed <b>over 150 conceptual questions</b> that teach the math from the ground up.
+            While most test prep focuses on <i>how</i> to get an answer, we focus on <b>why</b> these approaches work. In fact, I was so dissatisfied with traditional test prep that I developed a guide with <b>over 150 conceptual questions</b>, teaching the math from the ground up.
         </div>
     </div>
 
     <div class="selling-point">
         <div class="image-container">
-            <img src="/images/preppros.PNG" alt="Description">
+            <img src="/images/preppros.PNG" alt="Learn from Doing">
         </div>
         <div class="text-container">
             <h2 class="highlighted">Learn from Doing ✍️</h2>
@@ -167,67 +171,62 @@ permalink: /classes/
 
     <div class="selling-point" style="margin-bottom: 0;">
         <div class="image-container">
-            <img src="/images/schedule.PNG" alt="Description">
+            <img src="/images/schedule.PNG" alt="A Clear Path to Test Day">
         </div>
         <div class="text-container">
             <h2 class="highlighted">A Clear Path to Test Day 📅</h2>
             <br><br>
-            The Masterclass' 6 week plan keeps students <b>on track for a 750+</b>, while still offering <b>flexibility</b> for different schedules. It includes guides, videos, and recommended sections of the Conceptual Guide + PrepPros that align with the class.
+            The Masterclass' 6 week plan keeps students <b>on track for a 750+</b>, while still offering <b>flexibility</b> for different schedules. There are also 3 optional <b>"office hours"</b> blocks, for students to get personalized help.
         </div>
     </div>
 
-<!--    TODO: pricing panel -->
-<!--    <div class="pricing-wrapper" style="background-color: #FFFFFF">-->
-<!--        <div class="pricing-container" style="max-width: 500px;">-->
-<!--            <div class="pricing-card">-->
-<!--                <div class="card-header">-->
-<!--                    <h2 class="card-title">Masterclass</h2>-->
-<!--                    <span class="popular-tag">BEST VALUE</span>-->
-<!--                </div>-->
-<!--                <div class="price-container">-->
-<!--                        <span class="price">-->
-<!--                        {% if  site.data.settings.stats.class-sale %}-->
-<!--                            ${{site.data.settings.stats.class-sale }}-->
-<!--                            {% else %}-->
-<!--                            {% if site.data.settings.stats.class %}-->
-<!--                            ${{ site.data.settings.stats.class }}-->
-<!--                            {% else %}-->
-<!--                            $TBD-->
-<!--                            {% endif %}-->
-<!--                        {% endif %}-->
-<!--                        </span>-->
-<!--                    <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>-->
-<!--                </div>-->
-<!--                <ul class="feature-list">-->
-<!--                    <li class="feature-item">12 hours of LIVE small group classes for high-performing students</li>-->
-<!--                    <li class="feature-item">Recordings of every class</li>-->
-<!--                    <li class="feature-item">PrepPros Book with 1500+ questions</li>-->
-<!--                    <li class="feature-item">Schedule to guide you through each week</li>-->
-<!--                    <li class="feature-item">40+ page conceptual guide</li>-->
-<!--                    <li class="feature-item">Questions answered by email</li>-->
-<!--                    <li class="feature-item"><b>Most students end with a 750+</b></li>-->
-<!--                </ul>-->
-<!--                TODO: INCLUDE BUY BUTTON HERE -->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div> -->
-
-    <div style="text-align: center; margin: 5rem;">
-        <h3 style="margin-bottom: 1rem; font-weight: normal;">Next cohort begins <b>March 22, 2025</b></h3>
+    <div style="text-align: center; margin-top: 5rem;">
+        <h3 style="margin-bottom: 1rem; font-weight: normal;">Next cohort begins <b>March 22</b></h3>
         <h2 class="highlighted">Claim your spot below!</h2>
-        {% include academy-form.html %}
     </div>
 
-    <div class="faq" id="faq">
-        <h2 style="text-align: center;">FAQ</h2>
-        <details>
-            <summary>What is the schedule for next cohort?</summary>
-            <div>
-                Tenatively, the start date will be <b>March 22</b>, and sessions will be <b>Saturdays 12:00 - 2:00 pm ET</b>, leading up to the May SAT.
-                <br><br>
-                However, I'm still gathering feedback from the current cohort to see if any adjustments would be beneficial.
+    <div class="pricing-wrapper" style="background-color: #FFFFFF">
+        <div class="pricing-container" style="max-width: 500px;">
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="card-title">Masterclass</h2>
+                    <span class="popular-tag">BEST VALUE</span>
+                </div>
+                <div class="price-container">
+                        <span class="price">
+                        {% if  site.data.settings.stats.class-sale %}
+                            ${{site.data.settings.stats.class-sale }}
+                            {% else %}
+                            {% if site.data.settings.stats.class %}
+                            ${{ site.data.settings.stats.class }}
+                            {% else %}
+                            $TBD
+                            {% endif %}
+                        {% endif %}
+                        </span>
+                    <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
+                </div>
+                {% include masterclass-list.html %}
+                <div style="text-align: center;">
+                    <stripe-buy-button
+                            buy-button-id="buy_btn_1QViwD2KiME5B1C2W3GNKC4Z"
+                            publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
+                    >
+                    </stripe-buy-button>
+                </div>
             </div>
-        </details>
+        </div>
+    </div>
+
+    {% include masterclass-schedule.html %}
+
+    <div class="faq" id="faq">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h2 class="highlighted">FAQ</h2>
+            <br><br>
+            Have questions beyond the FAQ? Send them through my <a href="http://learnsatmath.com/contact/">contact form</a> or book a <a href="https://calendly.com/eric-wolpert-learnsatmath/masterclass-consultation">consultation call</a> to briefly chat before booking.
+        </div>
+
         <details>
             <summary>What if I need to miss a session?</summary>
             <div>
@@ -252,6 +251,12 @@ permalink: /classes/
             <summary>Do I need to buy myself the PrepPros book?</summary>
             <div>
                 Nope! I provide every student with a digital copy of the book. If you'd prefer a physical copy, you can purchase one for yourself off Amazon.
+            </div>
+        </details>
+        <details>
+            <summary>How do office hours work?</summary>
+            <div>
+                Office hours are a chance for students to get <b>personalized</b> help with any topics/problems they're struggling with. Students are welcome to join and leave the call as they wish, and we'll have a queue for questions.
             </div>
         </details>
         <details>
@@ -286,11 +291,8 @@ permalink: /classes/
         </details>
     </div>
 
+    </div>
 
-<!--    <div class="class-questions">-->
-<!--        <h2>Still have questions?</h2>-->
-<!--        Send them through my <a href="http://learnsatmath.com/contact/">contact form</a> or book a consultation call below:-->
-<!--    </div>-->
 
 </div>
 

@@ -71,15 +71,7 @@
                     </span>
                     <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
                 </div>
-                <ul class="feature-list">
-                    <li class="feature-item">12 hours of LIVE small group classes for high-performing students</li>
-                    <li class="feature-item">Recordings of every class</li>
-                    <li class="feature-item">All necessary prep book(s) included</li>
-                    <li class="feature-item">Schedule to guide you through each week</li>
-                    <li class="feature-item">40+ page conceptual guide</li>
-                    <li class="feature-item">Questions answered by email</li>
-                    <li class="feature-item"><b>Most students end with a 750+</b></li>
-                </ul>
+                {% include masterclass-list.html %}
                 <a href="/classes">
                     <button class="enroll-button">Learn More</button>
                 </a>
