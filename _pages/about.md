@@ -3,11 +3,20 @@ layout: page
 title: About Me
 permalink: /about/
 ---
+
+<style>
+@media only screen and (max-width: 768px) {
+    .about-img {
+        display: none !important;
+    }
+}
+</style>
+
 Hi, I'm Eric.
 
 I'm a student at the University of Virginia studying Computer Science, Economics, and Math, and I've been tutoring the SAT Math for over {{ site.data.settings.stats.years }} years.
 
-<img src="/images/score.jpg" align="right">
+<img class="about-img" src="/images/score.jpg" align="right" alt="score 800">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
 Since then, I've tutored over **150** students across the globe, run several successful masterclasses, and created math content, reaching **65,000** followers and **{{ site.data.settings.stats.views }} million** views across platforms.
