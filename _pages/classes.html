@@ -14,26 +14,32 @@ permalink: /classes/
         max-width: 100%;
     }
 
-/* MOBILE */
-/* Make sure media query is correctly formatted and has higher specificity */
-@media only screen and (max-width: 768px) {
-    /* currently straight up removing all the selling points */
-    .selling-point {
-        display: none !important;
+    /* MOBILE */
+    @media only screen and (max-width: 768px) {
+        /* currently straight up removing all the selling points */
+        .selling-point {
+            display: none !important;
+        }
+
+        /* for video */
+        iframe {
+            width: 100% !important;
+            height: auto !important;
+            aspect-ratio: 16/9 !important;
+        }
+
+        /* for header */
+        h1 {
+            font-size: 50px !important;
+        }
     }
 
-    /* for video */
-    iframe {
-        width: 100% !important;
-        height: auto !important;
-        aspect-ratio: 16/9 !important;
+    @media (max-width: 768px) {
+        .desktop-highlight {
+            background-image: none !important;
+            padding: 0 !important;
+        }
     }
-
-    /* for header */
-    h1 {
-        font-size: 50px !important;
-    }
-}
 
     .class-head {
         margin-bottom: 3rem !important;
@@ -205,7 +211,7 @@ permalink: /classes/
 
     <div style="text-align: center; margin-top: 5rem;">
         <h3 style="margin-bottom: 1rem; font-weight: normal;">Next cohort begins <b>March 22</b></h3>
-        <h2 class="highlighted">Claim your spot below!</h2>
+        <h2 class="highlighted desktop-highlight">Claim your spot below!</h2>
     </div>
 
     <div class="pricing-wrapper" style="background-color: #FFFFFF">
