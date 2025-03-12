@@ -7,10 +7,33 @@ permalink: /classes/
 </script>
 
 <style>
-/* overrides default "title" */
-    .page-head {
+/* no left right scroll allegedly */
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
+    }
+
+/* MOBILE */
+/* Make sure media query is correctly formatted and has higher specificity */
+@media only screen and (max-width: 768px) {
+    /* currently straight up removing all the selling points */
+    .selling-point {
         display: none !important;
     }
+
+    /* for video */
+    iframe {
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 16/9 !important;
+    }
+
+    /* for header */
+    h1 {
+        font-size: 50px !important;
+    }
+}
 
     .class-head {
         margin-bottom: 3rem !important;
@@ -92,17 +115,6 @@ permalink: /classes/
     img:hover {
         transform: scale(1.2);
     }
-
-
-        @media (max-width: 768px) {
-            .selling-point {
-                flex-direction: column;
-            }
-            .image-container,
-            .dual-image-container {
-                width: 100%;
-            }
-        }
 
     .class-questions {
         text-align: center;
