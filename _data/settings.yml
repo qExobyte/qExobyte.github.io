@@ -2,8 +2,8 @@
 # STATS
 stats:
   rate: 250
-  rate-sale: 225
-  8h: 1575
+  rate-sale: 185
+  8h: 1295
   class: 1295
   class-sale: 895
   hours: 600
@@ -53,7 +53,7 @@ testimonial__description:
 
 testimonial__items:
   - name: "Illa"
-    designation: "Group Classes"
+    designation: "Masterclass December Cohort"
     designation2: "690 to 770"
     content: "I cannot recommend Eric's group classes enough! I was completely stuck and unsure how to improve my math score, struggling to identify what I was missing. <strong>Eric’s group classes changed everything—he covered everything I encountered on test day.</strong> His teaching goes beyond rote learning; he focuses on building a <strong>solid foundational understanding</strong> of the concepts and equips students with strategies to approach <strong>every problem confidently</strong>."
 
@@ -71,7 +71,7 @@ testimonial__items:
     content: "When Eric says the SAT math score is the quickest way you can improve your college admissions, <strong>he is not lying.</strong> Taking his December SAT group classes and doing no work outside of sessions improved my score by 100 points. If you are serious about improving your SAT score <strong>fast</strong> at a <strong>reasonable price</strong> compared to other SAT tutors, <strong>taking Eric’s SAT class is a no brainer.</strong>"
 
   - name: "Sam"
-    designation: "Group Classes"
+    designation: "Masterclass December Cohort"
     designation2: "650 to 770"
     content: "Taking group classes with Eric helped boost my SAT score tremendously! His class materials were well-thought-out, original, and personalized. <strong>There was no pressure to answer problems correctly, and there was no judgment if a student made mistakes.</strong> He has an engaging personality, so <strong>while I typically don't like studying math, I genuinely enjoyed each session.</strong> While taking the SAT, I encountered several math concepts that we had covered together!"
 
@@ -84,7 +84,7 @@ testimonial__items:
     content: "<strong>My score increased faster than I thought was possible</strong>. Eric understands the SAT math on a deep level and can solve any problem I give him. He taught me not just how to solve problems, but how to think about them. Talking through my work out loud was especially impactful. Not only did I get a 750, but I've become a much better problem solver after learning from Eric."
 
   - name: "Aaron"
-    designation: "Group Classes"
+    designation: "Masterclass December Cohort"
     designation2: "650 to 790"
     content: "Eric really understands the SAT because he himself took it so he can teach you all the tips and tricks to solve the hard questions that the SAT throws at you. <strong>He makes it super easy to understand each concept.</strong> Also, he gives so many study materials and plans. My math score was maxed out at 650 before Eric's classes, but now I was able to get a 790. I highly recommend this course for anyone who is taking the SAT."
 
@@ -96,7 +96,7 @@ testimonial__items:
     content: "<strong>Eric's math tutoring has helped me more than any textbook I have used</strong>. I was struggling with the math section of the SAT, staying at the same score even with months of studying. However once I found Eric's tutoring, my score improved significantly. Eric not only helped me get to the right answer for a problem, but he also made sure that I understood the reasoning behind it in depth. I would highly recommend Eric for anyone who needs help in SAT math."
 
   - name: "Zoé"
-    designation: "Group Classes"
+    designation: "Masterclass October Cohort"
     designation2: "Scored 760"
     content: "Classes were fun and interactive and gave me tips and methods which helped me secure the score I was aiming for. <strong>Eric is patient and helpful and encouraged us to find the answer by ourselves.</strong> The course was well structured and provided ample practice and review material. "
 
