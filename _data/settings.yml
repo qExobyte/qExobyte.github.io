@@ -9,6 +9,7 @@ stats:
   hours: 600
   years: 3
   views: 17 # in millions
+  class-time: "5:00 - 6:30 pm ET"
 
 #-------------------------------
 # Site Settings
