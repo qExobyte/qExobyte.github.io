@@ -6,9 +6,10 @@ stats:
   8h: 1295
   class: 1295
   class-sale: 895
-  hours: 600
+  hours: 750
   years: 3
   views: 17 # in millions
+  spots: 3
   class-time: "5:00 - 6:30 pm ET"
 
 #-------------------------------

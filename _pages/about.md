@@ -45,7 +45,7 @@ If you're interested in getting your score up, book a session below!
     <div>
         <li> Getting a representative score → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
         <li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept reviews</a> & <a href="https://www.preppros.io/math-book">PrepPros</a> chapters </li>
-        <li> Practice problems → <a href="https://www.preppros.io/math-book">PrepPros Level 4 Qs</a> </li>
+        <li> Practice problems → <a href="https://www.preppros.io/math-book">PrepPros Questions</a> </li>
     </div>
 </details>
 
@@ -82,37 +82,33 @@ If you're interested in getting your score up, book a session below!
 </details>
 
 <details>
-    <summary>How much will my score improve after 8 hours of tutoring?</summary>
+    <summary>How much will my score improve with x hours of tutoring?</summary>
     <div>
-        At the end of the day, there's no golden ticket where you can pay a certain amount of money for a certain SAT score. Almost every test prep company that advertises score guarantees has caveats in the fineprint. If a student doesn't put in effort, then 8 hours will get them nowhere. If a student is critical of their learning and practices consistently, then I've seen up to 200 point improvement.
+        At the end of the day, there's no golden ticket where you can pay a certain amount of money for a certain SAT score. Almost every test prep company that advertises score guarantees has caveats in the fineprint (i.e. "must complete all 500 hours of material"). 
+        <br><br>
+        Instead, I prefer to let the results of students speak for themselves. Most Masterclass students score over a 750, and many of my 1-on-1 students improve 150+ points or surpass their personal goals. But this progress inevitably takes <b>time and effort.</b> I don't want a score guarantee to relieve students of accountability or disincentivize perseverance.
     </div>
 </details>
 
 <details>
     <summary>What is your background?</summary>
     <div>
-        At the University of Virginia, I'm most of the way through a degree in Computer Science and Economics, and I'm pursuing a minor in Mathematics. I currently have a 3.9 GPA.
+        At the University of Virginia, I'm nearly through a degree in Computer Science and Economics, and I'm pursuing a minor in Mathematics. I currently have a 3.9 GPA.
         <br><br>
         Outside of school, I've worked as a software engineering intern at Wells Fargo, and participated in Susquehanna International Group's Discovery Day program for quantitative trading.
         <br><br>
-        I also play violin in UVA's student-run symphony orchestra and love to play poker!
+        I'm also president of UVA's poker club and play violin in the student-run symphony orchestra!
         <br><br>
-        Some mathematical courses I've completed include:
-        <li>AP Calculus BC (Calc 1 & 2) -- AP Score: 5 -- AB Subscore: 5</li>
-        <li>Multivariable Calculus (Calc 3)</li>
-        <li>Calculus-based Physics - Mechanics & Electricity/Magnetism</li>
+        My mathematical background includes:
+        <li>Math of Derivative Securities (grad-level)</li>        
+        <li>Algorithms (grad-level)</li>
+        <li>Statistics, Probability, Econometrics (undergrad)</li>
+        <li>Several proof-based courses and basic real analysis</li>
         <li>Linear Algebra</li>
-        <li>Discrete Math</li>
-        <li>Theory of Computation</li>
-        <li>Transition to Higher Math <a href="https://www.amazon.com/Art-Proof-Training-Mathematics-Undergraduate/dp/1441970223">(basically this book)</a></li>
-        <li>Probability (college-level)</li>
-        <li>Statistics (college-level)</li>
-        <li>Data Structures & Algorithms</li>
-        <li>Computer Systems (OS, Computer Architecture)</li>
-        <li>Machine Learning</li>
-        <li>Intermediate Micro & Macroeconomics</li> 
-        <li>Econometrics</li>
-        <li>Next Semester: Graduate-level Algorithms, Real Analysis, and Math of Derivative Securities</li>
+        <li>Discrete Math & Theory of Computation</li>
+        <li>Calculus 1, 2, and 3 -- 5 on BC calc exam</li>
+        <li>Calculus-based Physics - Mechanics & Electricity/Magnetism</li>
+        <li>An entire computer science & economics undergraduate curriculum</li>
         <br>
         As for the SAT, I scored a 1570 (770 EBRW / 800 Math). 
         <br>
