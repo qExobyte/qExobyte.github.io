@@ -9,7 +9,8 @@ stats:
   late: true
   hours: 750
   years: 3
-  views: 17 # in millions
+  subs: 65000
+  views: 10 # in millions
   spots: 2
   class-time: "5:00 - 6:30 pm ET"
 
