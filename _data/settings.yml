@@ -4,12 +4,13 @@ stats:
   rate: 250
   rate-sale: 195
   8h: 1295
-  class: 1295
-  class-sale: 895
+  class: 895
+  class-sale: 495
+  late: true
   hours: 750
   years: 3
   views: 17 # in millions
-  spots: 3
+  spots: 2
   class-time: "5:00 - 6:30 pm ET"
 
 #-------------------------------
