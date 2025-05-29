@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{widget}" />
+    <file url="PROJECT" libraries="{gumroad-embed, widget}" />
   </component>
 </project>
