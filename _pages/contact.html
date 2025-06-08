@@ -5,6 +5,27 @@ permalink: /contact/
 ---
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+
+<!-- Event snippet for contact conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+      'send_to': 'AW-11180024970/PCWLCICztdYaEIrJhtMp',
+      'value': 0.0,
+      'currency': 'USD',
+      'event_callback': callback
+    });
+    return false;
+  }
+</script>
+
+
 <div class="form-box">
   <div class="contact-head">
       <p align="center"> If you have any questions about my tutoring, send them here! </p>
@@ -24,7 +45,12 @@ permalink: /contact/
     </div>
     <div class="g-recaptcha" align="center" style="margin-bottom: 20px;" data-sitekey="6LchSQ8qAAAAANqEbVSmEj5nkSd3oOO-4kb-lHMp"></div>
     <div align="center" class="form__group">
-      <button class="button button--primary" type="submit">Send Message</button>
+      <button
+              class="button button--primary" type="submit"
+              onclick="gtag_report_conversion()"
+      >
+        Send Message
+      </button>
     </div>
   </form>
 
