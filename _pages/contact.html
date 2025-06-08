@@ -17,19 +17,19 @@ permalink: /contact/
 
 
 <script>
-  function gtag_report_conversion(url) {
+  function gtag_report_conversion(form) {
     var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
+      form.submit();
     };
+
     gtag('event', 'conversion', {
       'send_to': 'AW-11180024970/PCWLCICztdYaEIrJhtMp',
       'value': 0.0,
       'currency': 'USD',
       'event_callback': callback
     });
-    return false;
+
+    return false; // Prevent form from submitting immediately
   }
 </script>
 
@@ -55,7 +55,7 @@ permalink: /contact/
     <div align="center" class="form__group">
       <button
               class="button button--primary" type="submit"
-              onclick="gtag_report_conversion()"
+              onclick="return gtag_report_conversion(this.form);"
       >
         Send Message
       </button>
