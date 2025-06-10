@@ -1,0 +1,205 @@
+---
+layout: custom-page
+title: The Proven Strategy
+permalink: /strategy/
+---
+
+<style>
+    .panels-container {
+        display: flex;
+        flex-direction: column; /* flex-col equivalent */
+        gap: 1.5rem; /* space-y-6 equivalent */
+        width: 100% !important;
+        max-width: 1400px !important;
+        margin: 0 auto !important;
+    }
+
+    /* Responsive flex direction and spacing for outer container */
+    @media (min-width: 768px) { /* md breakpoint */
+        .panels-container {
+            flex-direction: row; /* md:flex-row equivalent */
+            gap: 1.5rem; /* md:space-x-6 equivalent, replaces space-y-6 */
+        }
+    }
+
+    .centered-h2 {
+        text-align: center;
+    }
+
+    /* Individual panel styles */
+    .panel {
+        flex: 1; /* flex-1 equivalent */
+        background-color: #fff; /* bg-white equivalent */
+        border-radius: 0.75rem; /* rounded-xl equivalent */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg equivalent */
+        overflow: hidden; /* overflow-hidden equivalent */
+        cursor: pointer; /* cursor-pointer equivalent */
+        transition: all 300ms ease-in-out; /* transition-all duration-300 ease-in-out */
+        transform: scale(1); /* Initial state */
+        position: relative; /* Needed for absolute positioning of the stripe */
+    }
+
+    /* Thin stripe at the top */
+    .panel::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0.25rem; /* Thin stripe height, adjust as needed */
+        background-color: #fec824; /* Stripe color */
+        border-top-left-radius: 0.75rem; /* Match panel's top radius */
+        border-top-right-radius: 0.75rem; /* Match panel's top radius */
+        z-index: 10; /* Ensure stripe is on top */
+    }
+
+
+    /* Hover effect */
+    .panel:hover {
+        transform: scale(1.05); /* hover:scale-105 equivalent */
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* shadow-xl equivalent */
+        outline: 4px solid #fec824; /* Changed outline color to #fec824 */
+        outline-offset: 2px; /* Small offset for the ring effect */
+    }
+
+    /* Image styles */
+    .panel img {
+        width: 100%; /* w-full equivalent */
+        height: 12rem; /* h-48 equivalent */
+        object-fit: cover; /* object-cover equivalent */
+        border-top-left-radius: 0.75rem; /* rounded-t-xl */
+        border-top-right-radius: 0.75rem; /* rounded-t-xl */
+    }
+
+    /* Text content padding */
+    .panel-content {
+        padding: 1.5rem; /* p-6 equivalent */
+    }
+
+    /* Heading styles */
+    .panel-content h3 {
+        font-size: 1.25rem; /* text-xl equivalent */
+        font-weight: 600; /* font-semibold equivalent */
+        color: #1f2937; /* text-gray-800 equivalent */
+        margin-bottom: 0.5rem; /* mb-2 equivalent */
+        text-align: center; /* Centered heading */
+    }
+
+    /* Paragraph styles */
+    .panel-content p {
+        color: #4b5563; /* text-gray-600 equivalent */
+        margin-top: 0; /* Remove default paragraph top margin */
+    }
+</style>
+
+<div style="text-align: center;">
+    <iframe width="854" height="480"
+            src="https://www.youtube.com/embed/-yEeAkIWObA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="border-radius: 1rem;">
+    </iframe>
+</div>
+
+<br><br>
+
+
+<div class="panels-container">
+    <a class="panel" href="https://bluebook.collegeboard.org/students" target="_blank">
+        <img
+            src="/images/bluebook-logo.png"
+        />
+        <div class="panel-content">
+            <h3>Bluebook</h3>
+            <p>Get a benchmark score and track progress with CollegeBoard's official practice tests.</p>
+        </div>
+    </a>
+
+    <a class="panel" href="https://learnsatmath.com/book/" target="_blank">
+        <img
+            src="/images/groundup.png"
+        />
+        <div class="panel-content">
+            <h3>SAT Math from the Ground Up</h3>
+            <p>Master the math behind each problem with 200+ conceptual questions and explanations.</p>
+        </div>
+    </a>
+
+    <a class="panel" href="https://preppros.teachable.com/a/aff_s0z2pb5d/external?affcode=818755_f-e458cv" target="_blank">
+        <img
+            src="/images/preppros-logo.png"
+        />
+        <div class="panel-content">
+            <h3>PrepPros Complete Guide</h3>
+            <p>Apply your knowledge with 1500+ practice questions, from easy to expert.</p>
+        </div>
+    </a>
+</div>
+
+<br><br><br>
+
+<h2 class="centered-h2">...and why does this work?</h2>
+<br>
+<div class="container animate">
+    <article class="page">
+        <div class="page__content">
+            <h2>1. Representative Problems</h2>
+            <p>The best way to prepare for the SAT is to take the SAT.</p>
+
+            <p>In general, tests don't only serve as tools for assessment, but also as tools for <em>learning</em>. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6920642/#:~:text=Testing%20or%20retrieval,eg%2C%20marginal%20knowledge)." target="_blank">Studies</a> consistently find testing to be the best form of studying for long-term retention, since it demands greater attention than textbooks, articles, or videos (even my own).</p>
+
+            <p>But not all practice problems are created equal. <a href="https://www.tandfonline.com/doi/abs/10.1080/09658211.2014.970196#:~:text=When%20the%20review,performed%20during%20restudy." target="_blank">Studies</a> have also proven the importance of <strong>transfer-appropriate processing</strong>, which states that you should study in the same way that you'll be tested. Therefore, you want to solve problems that are either written by College Board, or are very closely related to official problems.</p>
+
+            <h2>2. Finding the Optimal Difficulty</h2>
+            <p>Most representative problems are still not very helpful! They're either too easy or too hard.</p>
+
+            <p>If a problem is too easy, you're not learning anything new. You're just regurgitating the same processes you already know.</p>
+
+            <p>If a problem is too hard, you'll waste time and energy that could have been spent on more requisite content. There's a reason we don't teach fifth-graders calculus.</p>
+
+            <p>The optimal problem is one that is <strong>easy enough to start but too hard to finish</strong>. You understand the key concepts, you have some ideas for how to get the answer, but there's <em>something</em> preventing you from getting there. That <em>something</em> is what you <strong>learn</strong> by tackling the problem.</p>
+
+            <p>PrepPros' book makes it easy to find the "optimal" problem by categorizing every problem into one of 4 levels of difficulty. Students focus exclusively on problems within their level.</p>
+
+            <h2>3. Breadth Over Depth</h2>
+            <p>Many students, when using a prep book, start on page 1 question 1 and move chronologically through every page and every problem. This is what I would call a <strong>depth-first</strong> approach and it is <em>NOT</em> efficient.</p>
+
+            <p>The SAT diversifies its questions, so "chapter 1" in a prep book might only correspond to 1 or 2 questions on the actual SAT. Think of studying the chapter as increasing the likelihood that you get those 1-2 questions correct.</p>
+
+            <p>In your first hour of studying, your odds go from 50% to 70%. Then in your second hour, 70% to 85%. Third hour: 85% to 90%. Fourth hour: 90% to 93%.</p>
+
+            <p>Notice that there are diminishing returns. The more you study a topic, the <em>less</em> you improve your score per hour of studying.</p>
+
+            <p>So, my tutoring applies a <strong>breadth-first</strong> approach to prep. We try to cover as <strong>much</strong> ground as <strong>quickly</strong> as possible. Then, after our initial breadth-first overview, we return to the student's weakest areas and "level up" the problem difficulty across the board.</p>
+
+            <!-- <img src="../images/tutor-flowchart.png" alt="tutoring-flowchart"> -->
+
+            <h2>4. Talking Through Your Work</h2>
+
+            <p>During each tutoring session, we cover the problems that students struggled with on their own time. For each problem, I begin by asking <strong>"How did you approach this problem?"</strong></p>
+
+            <p>If the student is missing the big picture, we begin by defining terms. I may ask "when are exponential functions used?" or "what makes triangles similar?".</p>
+
+            <p>Our focus is not on memorizing a procedure, but on developing <strong>mathematical intuition.</strong> Thinking conceptually from <strong>first principles</strong> is the key to solving the most challenging SAT problems and becoming a stronger math student overall.</p>
+
+            <p>In order to accomplish this, we may look at a concept algebraically, graphically, and in applications, until it finally clicks. The goal is that the student understands each concept well enough to <strong>teach it themselves.</strong></p>
+
+            <h2 id="repetition">5. Spaced Repetition</h2>
+
+            <p>According to Ebbinghaus’ Forgetting Curve and <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4492928/" target="_blank">modern replications</a>, people forget around <strong>70%</strong> of learned material after a week.</p>
+
+            <p>To mitigate this, students should review each session's problems a few days after the session, using the framework below.</p>
+
+            <p>A key part of this framework is creating <strong>variations</strong> of problems. This encourages <strong>lateral thinking</strong>, as students must think creatively about unfamiliar ways that CollegeBoard might test familiar concepts.</p>
+
+            <img src="../images/review.png" alt="reviewing-problems-flowchart">
+        </div>
+    </article>
+</div>
+
+<div style="text-align: center;">
+<p><b>To see this strategy in action, book a session below!</b></p>
+{% include book-button.html %}
+</div>
