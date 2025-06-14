@@ -1,0 +1,40 @@
+<div class="pricing-wrapper" style="background-color: #FFFFFF">
+    <div class="pricing-container" style="max-width: 500px;">
+        <div class="pricing-card">
+            <div class="card-header">
+                <h2 class="card-title">Masterclass</h2>
+                <span class="popular-tag">BEST VALUE</span>
+            </div>
+            <div class="price-container">
+                    <span class="price">
+                        {% if  site.data.settings.stats.class-sale %}
+                            ${{site.data.settings.stats.class-sale }}
+                            {% else %}
+                            {% if site.data.settings.stats.class %}
+                            ${{ site.data.settings.stats.class }}
+                            {% else %}
+                            $TBD
+                            {% endif %}
+                        {% endif %}
+                        </span>
+                <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
+            </div>
+            {% include masterclass/list.html %}
+            <div style="text-align: center;">
+                <script async
+                        src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+
+                <script async
+                        src="https://js.stripe.com/v3/buy-button.js">
+                </script>
+
+                <stripe-buy-button
+                        buy-button-id="buy_btn_1RNzEL2KiME5B1C2LR5XksjZ"
+                        publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
+                >
+                </stripe-buy-button>
+            </div>
+        </div>
+    </div>
+</div>

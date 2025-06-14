@@ -81,9 +81,9 @@
                     <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
                 </div>
                 {% if site.data.settings.stats.late %}
-                    {% include masterclass-late-list.html %}
+                    {% include masterclass/late-list.html %}
                 {% else %}
-                    {% include masterclass-list.html %}
+                    {% include masterclass/list.html %}
                 {% endif %}
                 <a href="/classes">
                     <button class="enroll-button">Learn More</button>
