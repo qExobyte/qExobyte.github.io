@@ -7,11 +7,11 @@ stats:
   class: 895
   class-sale: 495
   book: 49
-  late: true
+  late: false
   hours: 750
   years: 3
-  subs: 65000
-  views: 10 # in millions
+  subs: 70000
+  views: 11 # in millions
   spots: 2
   class-time: "5:00 - 6:30 pm ET"
 
