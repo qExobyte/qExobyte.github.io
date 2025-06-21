@@ -4,8 +4,8 @@ stats:
   rate: 250
   rate-sale: 195
   8h: 1295
-  class: 595
-  class-sale:
+  class: 1195
+  class-sale: 895
   book: 49
   late: false
   hours: 750
@@ -64,8 +64,13 @@ testimonial__items:
     designation2: "690 to 770"
     content: "I cannot recommend Eric's group classes enough! I was completely stuck and unsure how to improve my math score, struggling to identify what I was missing. <strong>Eric’s group classes changed everything—he covered everything I encountered on test day.</strong> His teaching goes beyond rote learning; he focuses on building a <strong>solid foundational understanding</strong> of the concepts and equips students with strategies to approach <strong>every problem confidently</strong>."
 
+  - name: "Jacob"
+    designation: "Masterclass June Cohort"
+    designation2: "630 (March) to 770 (June)"
+    content: "Eric's Masterclass truly changed the trajectory of my SAT journey, and potentially, my life. Before I had enrolled in his class, I had <strong>no idea how to study</strong> for the SAT Math. I did not find studying for the SAT remotely interesting. This changed entirely once I joined Eric's Masterclass. He made learning not only accessible but genuinely enjoyable. I was absolutely <strong>ecstatic</strong> to see that my math score increased <strong>140 points.</strong> I truly don’t think I could have made such a dramatic improvement without Eric’s expert help, and I can’t thank him enough."
+
   - name: "Yuna"
-    designation: "770 in 8 hours"
+    designation: "770 in 8 hours of tutoring"
     content: "<strong>Learning from Eric was the best decision I made before taking the SAT</strong>. Before I started learning from him, I felt discouraged because I couldn't see any improvements in my math score. I learned a lot of things from him that I wouldn't have been able to figure out if I just self-studied. <strong>He also put in a lot of time and effort into personalizing my experience</strong>, helping me to focus on the areas I needed to improve. In every tutoring session, he was patient and understanding, and <strong>I felt really comfortable asking questions and making mistakes</strong>."
 
   - name: "Jack"
