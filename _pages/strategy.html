@@ -5,15 +5,6 @@ permalink: /strategy/
 ---
 
 <style>
-    .panels-container {
-        display: flex;
-        flex-direction: column; /* flex-col equivalent */
-        gap: 1.5rem; /* space-y-6 equivalent */
-        width: 100% !important;
-        max-width: 1400px !important;
-        margin: 0 auto !important;
-    }
-
     /* Responsive flex direction and spacing for outer container */
     @media (min-width: 768px) { /* md breakpoint */
         .panels-container {
@@ -24,71 +15,6 @@ permalink: /strategy/
 
     .centered-h2 {
         text-align: center;
-    }
-
-    /* Individual panel styles */
-    .panel {
-        flex: 1; /* flex-1 equivalent */
-        background-color: #fff; /* bg-white equivalent */
-        border-radius: 0.75rem; /* rounded-xl equivalent */
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg equivalent */
-        overflow: hidden; /* overflow-hidden equivalent */
-        cursor: pointer; /* cursor-pointer equivalent */
-        transition: all 300ms ease-in-out; /* transition-all duration-300 ease-in-out */
-        transform: scale(1); /* Initial state */
-        position: relative; /* Needed for absolute positioning of the stripe */
-    }
-
-    /* Thin stripe at the top */
-    .panel::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 0.25rem; /* Thin stripe height, adjust as needed */
-        background-color: #fec824; /* Stripe color */
-        border-top-left-radius: 0.75rem; /* Match panel's top radius */
-        border-top-right-radius: 0.75rem; /* Match panel's top radius */
-        z-index: 10; /* Ensure stripe is on top */
-    }
-
-
-    /* Hover effect */
-    .panel:hover {
-        transform: scale(1.05); /* hover:scale-105 equivalent */
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* shadow-xl equivalent */
-        outline: 4px solid #fec824; /* Changed outline color to #fec824 */
-        outline-offset: 2px; /* Small offset for the ring effect */
-    }
-
-    /* Image styles */
-    .panel img {
-        width: 100%; /* w-full equivalent */
-        height: 12rem; /* h-48 equivalent */
-        object-fit: cover; /* object-cover equivalent */
-        border-top-left-radius: 0.75rem; /* rounded-t-xl */
-        border-top-right-radius: 0.75rem; /* rounded-t-xl */
-    }
-
-    /* Text content padding */
-    .panel-content {
-        padding: 1.5rem; /* p-6 equivalent */
-    }
-
-    /* Heading styles */
-    .panel-content h3 {
-        font-size: 1.25rem; /* text-xl equivalent */
-        font-weight: 600; /* font-semibold equivalent */
-        color: #1f2937; /* text-gray-800 equivalent */
-        margin-bottom: 0.5rem; /* mb-2 equivalent */
-        text-align: center; /* Centered heading */
-    }
-
-    /* Paragraph styles */
-    .panel-content p {
-        color: #4b5563; /* text-gray-600 equivalent */
-        margin-top: 0; /* Remove default paragraph top margin */
     }
 </style>
 

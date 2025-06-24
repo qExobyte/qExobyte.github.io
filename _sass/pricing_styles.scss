@@ -54,6 +54,16 @@
   display: inline-block;
 }
 
+.pricing-wrapper .red-tag {
+  background: #ffd9d9;
+  color: #ff1919;
+  padding: 0.25rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
 .pricing-wrapper .card-header {
   display: flex;
   justify-content: space-between;
@@ -97,7 +107,8 @@
   flex-grow: 1;
 }
 
-.pricing-wrapper .feature-item {
+.pricing-wrapper .feature-item,
+.pricing-wrapper .feature-item-negative {
   display: flex;
   align-items: start;
   margin-bottom: 1rem;
@@ -107,6 +118,13 @@
 .pricing-wrapper .feature-item::before {
   content: "✓";
   color: #22c55e;
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
+
+.pricing-wrapper .feature-item-negative::before {
+  content: "✗";
+  color: #ef4444;
   margin-right: 0.75rem;
   font-weight: bold;
 }

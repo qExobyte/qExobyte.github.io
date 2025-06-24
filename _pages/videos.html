@@ -1,0 +1,194 @@
+---
+layout: page
+title: Videos
+permalink: /videos/
+---
+
+
+<style>
+    /* Carousel container */
+    .carousel-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 800px; /* Max width for the carousel */
+        margin: auto;
+        gap: 10px; /* Space between buttons and track */
+    }
+
+    /* Track container: handles overflow and scrolling */
+    .carousel-track-container {
+        flex-grow: 1;
+        overflow: hidden; /* Crucial: hides off-screen slides */
+        scroll-behavior: smooth; /* Smooth transition when scrolling */
+        scroll-snap-type: x mandatory; /* Makes it snap to slides */
+        -webkit-overflow-scrolling: touch; /* Better scrolling on iOS */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* Track: flex container for slides */
+    .carousel-track {
+        display: flex;
+    }
+
+    /* Individual slide */
+    .carousel-slide {
+        flex-shrink: 0; /* Prevents shrinking */
+        width: 100%; /* Each slide takes full width of container */
+        scroll-snap-align: center; /* Snaps to center */
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex; /* To center the iframe */
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Embedded iframe for YouTube */
+    .carousel-slide iframe {
+        width: 100%; /* Make iframe responsive within its slide */
+        height: 400px; /* Fixed height to maintain aspect ratio, adjust as needed */
+        border: none;
+        border-radius: 4px;
+    }
+
+    /* Responsive iframe height for smaller screens */
+    @media (max-width: 600px) {
+        .carousel-slide iframe {
+            height: 250px;
+        }
+    }
+
+    /* Navigation buttons */
+    .carousel-button {
+        background-color: var(--brand-color);
+        color: white;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 50%; /* Circular buttons */
+        cursor: pointer;
+        font-size: 1.2em;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .carousel-button:hover {
+        background-color: var(--brand-hover);
+    }
+
+    .carousel-button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .videos-header {
+        text-align: center;
+    }
+</style>
+
+<div class="videos-header">
+    <p>I make videos about the SAT Math on YouTube with over {{ site.data.settings.stats.views }} million total views. Here are a few of my favorites!</p>
+</div>
+
+<div class="carousel-container">
+    <button class="carousel-button prev">❮</button>
+    <div class="carousel-track-container">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <iframe src="https://www.youtube.com/embed/1bTkbmHx944?si=3NvZYJC8VAvg2FZV"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-slide">
+                <iframe src="https://www.youtube.com/embed/xhCNDDV-eoA?si=KqvpedCsrGDMbmSi"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="carousel-slide">
+                <iframe src="https://www.youtube.com/embed/-pGNBb8M3LQ?si=a5fho1PY6_r_NZPC"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-button next">❯</button>
+</div>
+
+<div style="text-align: center; margin: 4rem 0 4rem 0">
+    <h1>Free Resources</h1>
+    <div class="panels-container">
+        <a href="25_challenging_problems.pdf" download="25_challenging_problems.pdf" class="panel">
+            <img src="/images/hardprobs.png"/>
+            <div class="panel-content">
+                <h3>25 Challenging Problems</h3>
+                <p>These questions are all variations of 25 of the hardest problem types from the Fall 2024 and Spring 2025 SATs.</p>
+            </div>
+        </a>
+        <a href="every_topic.pdf" download="every_topic.pdf" class="panel">
+            <img src="/images/everythingtopic.png"/>
+            <div class="panel-content">
+                <h3>Every Topic on the SAT Math</h3>
+                <p>Is it on the test? Is this worth studying for my score level? This document answers that.</p>
+            </div>
+        </a href="every_topic.pdf" >
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const carouselTrackContainer = document.querySelector('.carousel-track-container');
+        const slides = Array.from(document.querySelectorAll('.carousel-slide'));
+        const prevButton = document.querySelector('.carousel-button.prev');
+        const nextButton = document.querySelector('.carousel-button.next');
+
+        let currentIndex = 0;
+
+        // Function to update button states (disable if at ends)
+        const updateButtonStates = () => {
+            prevButton.disabled = currentIndex === 0;
+            nextButton.disabled = currentIndex === slides.length - 1;
+        };
+
+        // Function to scroll to a specific slide
+        const scrollToSlide = (index) => {
+            const slideWidth = carouselTrackContainer.clientWidth;
+            carouselTrackContainer.scrollLeft = slideWidth * index;
+            currentIndex = index;
+            updateButtonStates();
+        };
+
+        // Initial button state update
+        updateButtonStates();
+
+        // Event listener for the "Next" button
+        nextButton.addEventListener('click', () => {
+            if (currentIndex < slides.length - 1) {
+                scrollToSlide(currentIndex + 1);
+            }
+        });
+
+        // Event listener for the "Previous" button
+        prevButton.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                scrollToSlide(currentIndex - 1);
+            }
+        });
+
+        // Optional: Recalculate slide width on window resize
+        window.addEventListener('resize', () => {
+            scrollToSlide(currentIndex); // Re-align current slide on resize
+        });
+
+        // Optional: Listen for scroll events to update current index (if user scrolls manually)
+        carouselTrackContainer.addEventListener('scroll', () => {
+            const newIndex = Math.round(carouselTrackContainer.scrollLeft / carouselTrackContainer.clientWidth);
+            if (newIndex !== currentIndex) {
+                currentIndex = newIndex;
+                updateButtonStates();
+            }
+        });
+    });
+</script>

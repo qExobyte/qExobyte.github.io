@@ -1,23 +1,29 @@
-<div style="text-align: center; margin-top: 5rem;">
-        <div style="max-width: 500px; text-align: center; margin: auto;">
-            <h3 style="margin-bottom: 1rem; font-weight: normal;">Class filled up? No problem! You can follow the recordings at your own pace for a much lower rate.</h3>
-        </div>
-</div>
+
+{% if include.async %}
+<h3>The live cohort is completely full. However, you can still follow the class asynchronously for a discounted rate!</h3>
+{% endif %}
 
 <div class="pricing-wrapper" style="background-color: #FFFFFF">
     <div class="pricing-container" style="max-width: 500px;">
         <div class="pricing-card">
             <div class="card-header">
-                <h2 class="card-title">Masterclass</h2>
-                <span class="popular-tag">BEST VALUE</span>
+                <h2 class="card-title">Masterclass - <br>{{ include.cohort }}</h2>
+                {% if include.spots %}
+                <div style="display: flex; flex-direction: column; text-align: center;">
+                    <span class="red-tag">{{ include.spots }} spots left</span>
+                    <p style="font-size: 14px;">(or fewer!)</p>
+                </div>
+                {% else %}
+                <span class="popular-tag">Best Value</span>
+                {% endif %}
             </div>
             <div class="price-container">
                 {% if include.async %}
-                    <span class="price">
-                        ${{site.data.settings.stats.class-sale }}
-                    </span>
+                <span class="price">
+                    ${{site.data.settings.stats.class-async }}
+                </span>
                 {% else %}
-                    <span class="price">
+                <span class="price">
                         {% if  site.data.settings.stats.class-sale %}
                             ${{site.data.settings.stats.class-sale }}
                             {% else %}
@@ -28,23 +34,23 @@
                             {% endif %}
                         {% endif %}
                         </span>
-                    <span class="original-price">
+                <span class="original-price">
                         {% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}
                     </span>
                 {% endif %}
             </div>
-            {% include masterclass/async-list.html %}
+            {% if include.async %}
+                {% include masterclass/async-list.html %}
+            {% else %}
+                {% include masterclass/list.html %}
+            {% endif %}
             <div style="text-align: center;">
                 <script async
                         src="https://js.stripe.com/v3/buy-button.js">
                 </script>
 
-                <script async
-                        src="https://js.stripe.com/v3/buy-button.js">
-                </script>
-
                 <stripe-buy-button
-                        buy-button-id="buy_btn_1RNzEL2KiME5B1C2LR5XksjZ"
+                        buy-button-id="{{ include.stripe_buy_button_id }}"
                         publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
                 >
                 </stripe-buy-button>
