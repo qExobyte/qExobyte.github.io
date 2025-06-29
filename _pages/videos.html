@@ -87,6 +87,93 @@ permalink: /videos/
     .videos-header {
         text-align: center;
     }
+
+    /* --- Styles for the Email Prompt Modal --- */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1000; /* Sit on top, higher than other content */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.6); /* Black w/ more opacity */
+        align-items: center; /* Vertically center */
+        justify-content: center; /* Horizontally center */
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        padding: 20px 30px;
+        border: 1px solid #888;
+        width: 90%; /* Responsive width */
+        max-width: 450px; /* Max width for larger screens */
+        text-align: center;
+        border-radius: 8px;
+        position: relative; /* For positioning the close button */
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        animation: fadeIn 0.3s ease-out; /* Simple fade-in animation */
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .close-button {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        line-height: 1; /* Align 'x' better */
+    }
+
+    .close-button:hover,
+    .close-button:focus {
+        color: #333;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .modal-content input[type="email"] {
+        width: calc(100% - 20px);
+        padding: 12px;
+        margin: 10px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1em;
+        box-sizing: border-box;
+    }
+
+    .modal-content button:hover {
+        background-color: var(--brand-hover, #45a049);
+        transform: translateY(-2px);
+    }
+
+    .modal-content #emailError {
+        font-size: 0.9em;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .modal-content button {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        background: var(--brand-color);
+        border-bottom: 3px solid transparent;  /* Add this line */
+        position: relative;  /* Add this line */
+    }
 </style>
 
 <div class="videos-header">
@@ -120,14 +207,14 @@ permalink: /videos/
 <div style="text-align: center; margin: 4rem 0 4rem 0">
     <h1>Free Resources</h1>
     <div class="panels-container" id="resources">
-        <a href="../images/pdfs/25_challenging_problems.pdf" download="25_challenging_problems.pdf" class="panel">
+        <a href="#" class="panel download-trigger" data-pdf-path="../images/pdfs/25_challenging_problems.pdf">
             <img src="/images/hardprobs.png"/>
             <div class="panel-content">
                 <h3>25 Challenging Problems</h3>
                 <p>These questions are all variations of 25 of the hardest problem types from the Fall 2024 and Spring 2025 SATs.</p>
             </div>
         </a>
-        <a href="../images/pdfs/every_topic.pdf" download="every_topic.pdf" class="panel">
+        <a href="#" class="panel download-trigger" data-pdf-path="../images/pdfs/every_topic.pdf">
             <img src="/images/everythingtopic.png"/>
             <div class="panel-content">
                 <h3>Every Topic on the SAT Math</h3>
@@ -137,8 +224,23 @@ permalink: /videos/
     </div>
 </div>
 
+<div id="emailModal" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close-button"></span>
+        <h2>Enter your email:</h2>
+        <input type="email" id="userEmail" placeholder="your.email@example.com" aria-label="Enter your email address">
+        <button id="submitEmail">Download PDF</button>
+        <p id="emailError" style="color: #d9534f; display: none;">Please enter a valid email address.</p>
+    </div>
+</div>
+
+<a id="hiddenDownloadLink" style="display: none;"></a>
+
+
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        // --- Carousel Logic (Existing - No Changes) ---
+        // ... (your existing carousel JavaScript code) ...
         const carouselTrackContainer = document.querySelector('.carousel-track-container');
         const slides = Array.from(document.querySelectorAll('.carousel-slide'));
         const prevButton = document.querySelector('.carousel-button.prev');
@@ -146,13 +248,11 @@ permalink: /videos/
 
         let currentIndex = 0;
 
-        // Function to update button states (disable if at ends)
         const updateButtonStates = () => {
             prevButton.disabled = currentIndex === 0;
             nextButton.disabled = currentIndex === slides.length - 1;
         };
 
-        // Function to scroll to a specific slide
         const scrollToSlide = (index) => {
             const slideWidth = carouselTrackContainer.clientWidth;
             carouselTrackContainer.scrollLeft = slideWidth * index;
@@ -160,34 +260,130 @@ permalink: /videos/
             updateButtonStates();
         };
 
-        // Initial button state update
         updateButtonStates();
 
-        // Event listener for the "Next" button
         nextButton.addEventListener('click', () => {
             if (currentIndex < slides.length - 1) {
                 scrollToSlide(currentIndex + 1);
             }
         });
 
-        // Event listener for the "Previous" button
         prevButton.addEventListener('click', () => {
             if (currentIndex > 0) {
                 scrollToSlide(currentIndex - 1);
             }
         });
 
-        // Optional: Recalculate slide width on window resize
         window.addEventListener('resize', () => {
-            scrollToSlide(currentIndex); // Re-align current slide on resize
+            scrollToSlide(currentIndex);
         });
 
-        // Optional: Listen for scroll events to update current index (if user scrolls manually)
         carouselTrackContainer.addEventListener('scroll', () => {
             const newIndex = Math.round(carouselTrackContainer.scrollLeft / carouselTrackContainer.clientWidth);
             if (newIndex !== currentIndex) {
                 currentIndex = newIndex;
                 updateButtonStates();
+            }
+        });
+
+        // --- PDF Download with Email Prompt Logic (Updated for your Formspree config) ---
+        const emailModal = document.getElementById('emailModal');
+        const userEmailInput = document.getElementById('userEmail');
+        const emailError = document.getElementById('emailError');
+        const hiddenDownloadLink = document.getElementById('hiddenDownloadLink');
+        let currentPdfPath = ''; // To store the path of the PDF to download
+
+        // Your specific Formspree endpoint for PDF downloads
+        const FORMSPREE_ENDPOINT = "https://formspree.io/f/xpwrbzzn";
+
+
+        // Function to show the modal
+        function showModal() {
+            emailModal.style.display = 'flex';
+            userEmailInput.value = '';
+            emailError.style.display = 'none';
+            userEmailInput.focus();
+        }
+
+        // Function to hide the modal
+        function hideModal() {
+            emailModal.style.display = 'none';
+            currentPdfPath = '';
+        }
+
+        // Event listener for the entire document for delegation
+        document.addEventListener('click', (event) => {
+            // Check if a download trigger link was clicked
+            const downloadTrigger = event.target.closest('.download-trigger');
+            if (downloadTrigger) {
+                event.preventDefault();
+                currentPdfPath = downloadTrigger.getAttribute('data-pdf-path');
+                showModal();
+            }
+            // Check if the close button was clicked
+            else if (event.target.closest('.close-button')) {
+                hideModal();
+            }
+            // Check if the user clicked outside the modal content
+            else if (event.target === emailModal) {
+                hideModal();
+            }
+            // Check if the submit email button was clicked
+            else if (event.target.closest('#submitEmail')) {
+                const email = userEmailInput.value;
+                // Basic email validation
+                if (email && email.includes('@') && email.includes('.')) {
+                    // Send email to Formspree using the 'email' and 'message' field names
+                    fetch(FORMSPREE_ENDPOINT, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            // Formspree sometimes requires Accept header for JSON response confirmation,
+                            // though not always strictly necessary for basic submission.
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            email: email, // Use 'email' field name as per your Formspree config
+                            message: `PDF Download Request: ${email} downloaded ${currentPdfPath.split('/').pop()}`,
+                            _subject: `New PDF Download from Website - ${currentPdfPath.split('/').pop()}`, // Custom subject for your email
+                            // You can add other hidden fields here if needed by your Formspree form:
+                            // _tag: 'pdf_download',
+                            // _next: 'https://yourwebsite.com/thank-you-page' // if you wanted a redirect after success
+                        }),
+                    })
+                        .then(response => {
+                            // Formspree typically responds with a redirect if it's successful (status 302)
+                            // for simple POST requests, unless configured otherwise.
+                            // For fetch, a 2xx status is usually considered successful.
+                            if (response.ok || response.status === 302) { // Include 302 for redirects
+                                console.log('Email sent to Formspree successfully!');
+                                // If you want to see the Formspree success message in console:
+                                // return response.text();
+                            } else {
+                                console.error('Failed to send email to Formspree:', response.status, response.statusText);
+                                // If you want more details from Formspree's error response:
+                                // return response.json().then(err => { throw new Error(JSON.stringify(err)); });
+                            }
+                        })
+                        // .then(text => console.log('Formspree response:', text)) // Uncomment if you want to see Formspree's redirect message
+                        .catch(error => {
+                            console.error('Network error or processing error when sending to Formspree:', error);
+                            // Still allow download to avoid blocking the user
+                        })
+                        .finally(() => {
+                            // Always trigger download and close modal, regardless of Formspree success/failure,
+                            // as the email submission is secondary to the download for UX.
+                            if (currentPdfPath) {
+                                hiddenDownloadLink.href = currentPdfPath;
+                                hiddenDownloadLink.download = currentPdfPath.split('/').pop();
+                                hiddenDownloadLink.click();
+                            }
+                            hideModal();
+                        });
+
+                } else {
+                    emailError.style.display = 'block';
+                }
             }
         });
     });
