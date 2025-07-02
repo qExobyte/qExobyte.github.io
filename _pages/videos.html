@@ -174,6 +174,26 @@ permalink: /videos/
         border-bottom: 3px solid transparent;  /* Add this line */
         position: relative;  /* Add this line */
     }
+
+    /* Style for the checkbox container */
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the checkbox and text */
+        margin-top: 15px;
+        margin-bottom: 20px; /* Space above button */
+    }
+
+    .checkbox-container input[type="checkbox"] {
+        margin-right: 8px; /* Space between checkbox and label */
+        transform: scale(1.2); /* Make checkbox slightly larger */
+    }
+
+    .checkbox-container label {
+        font-size: 0.95em;
+        color: #555;
+        cursor: pointer;
+    }
 </style>
 
 <div class="videos-header">
@@ -224,11 +244,15 @@ permalink: /videos/
     </div>
 </div>
 
-<div id="emailModal" class="modal" style="display: none;">
+<div id="emailModal" class="modal">
     <div class="modal-content">
-        <span class="close-button"></span>
-        <h2>Enter your email:</h2>
+        <span class="close-button">&times;</span>
+        <h2 style="margin-top: 10px;">Enter your email:</h2>
         <input type="email" id="userEmail" placeholder="your.email@example.com" aria-label="Enter your email address">
+        <div class="checkbox-container">
+            <input type="checkbox" id="emailConsentCheckbox">
+            <label for="emailConsentCheckbox" style="text-align: left; margin-left: 10px;">I agree to receive promotional and instructional emails from LearnSATMath.</label>
+        </div>
         <button id="submitEmail">Download PDF</button>
         <p id="emailError" style="color: #d9534f; display: none;">Please enter a valid email address.</p>
     </div>
@@ -240,7 +264,6 @@ permalink: /videos/
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         // --- Carousel Logic (Existing - No Changes) ---
-        // ... (your existing carousel JavaScript code) ...
         const carouselTrackContainer = document.querySelector('.carousel-track-container');
         const slides = Array.from(document.querySelectorAll('.carousel-slide'));
         const prevButton = document.querySelector('.carousel-button.prev');
@@ -286,9 +309,10 @@ permalink: /videos/
             }
         });
 
-        // --- PDF Download with Email Prompt Logic (Updated for your Formspree config) ---
+        // --- PDF Download with Email Prompt Logic (Updated) ---
         const emailModal = document.getElementById('emailModal');
         const userEmailInput = document.getElementById('userEmail');
+        const emailConsentCheckbox = document.getElementById('emailConsentCheckbox'); // New: Get the checkbox
         const emailError = document.getElementById('emailError');
         const hiddenDownloadLink = document.getElementById('hiddenDownloadLink');
         let currentPdfPath = ''; // To store the path of the PDF to download
@@ -301,6 +325,7 @@ permalink: /videos/
         function showModal() {
             emailModal.style.display = 'flex';
             userEmailInput.value = '';
+            emailConsentCheckbox.checked = false; // Ensure checkbox is unchecked by default
             emailError.style.display = 'none';
             userEmailInput.focus();
         }
@@ -331,57 +356,56 @@ permalink: /videos/
             // Check if the submit email button was clicked
             else if (event.target.closest('#submitEmail')) {
                 const email = userEmailInput.value;
+                const consentGiven = emailConsentCheckbox.checked; // New: Check if consent box is checked
+
                 // Basic email validation
                 if (email && email.includes('@') && email.includes('.')) {
-                    // Send email to Formspree using the 'email' and 'message' field names
-                    fetch(FORMSPREE_ENDPOINT, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            // Formspree sometimes requires Accept header for JSON response confirmation,
-                            // though not always strictly necessary for basic submission.
-                            'Accept': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            email: email, // Use 'email' field name as per your Formspree config
-                            message: `PDF Download Request: ${email} downloaded ${currentPdfPath.split('/').pop()}`,
-                            _subject: `New PDF Download from Website - ${currentPdfPath.split('/').pop()}`, // Custom subject for your email
-                            // You can add other hidden fields here if needed by your Formspree form:
-                            // _tag: 'pdf_download',
-                            // _next: 'https://yourwebsite.com/thank-you-page' // if you wanted a redirect after success
-                        }),
-                    })
-                        .then(response => {
-                            // Formspree typically responds with a redirect if it's successful (status 302)
-                            // for simple POST requests, unless configured otherwise.
-                            // For fetch, a 2xx status is usually considered successful.
-                            if (response.ok || response.status === 302) { // Include 302 for redirects
-                                console.log('Email sent to Formspree successfully!');
-                                // If you want to see the Formspree success message in console:
-                                // return response.text();
-                            } else {
-                                console.error('Failed to send email to Formspree:', response.status, response.statusText);
-                                // If you want more details from Formspree's error response:
-                                // return response.json().then(err => { throw new Error(JSON.stringify(err)); });
-                            }
+                    // Only send email to Formspree IF the checkbox is checked
+                    if (consentGiven) {
+                        fetch(FORMSPREE_ENDPOINT, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Accept': 'application/json'
+                            },
+                            body: JSON.stringify({
+                                email: email,
+                                message: `PDF Download Request (Consent Given): ${email} downloaded ${currentPdfPath.split('/').pop()}`,
+                                _subject: `New PDF Download with Email Consent - ${currentPdfPath.split('/').pop()}`,
+                            }),
                         })
-                        // .then(text => console.log('Formspree response:', text)) // Uncomment if you want to see Formspree's redirect message
-                        .catch(error => {
-                            console.error('Network error or processing error when sending to Formspree:', error);
-                            // Still allow download to avoid blocking the user
-                        })
-                        .finally(() => {
-                            // Always trigger download and close modal, regardless of Formspree success/failure,
-                            // as the email submission is secondary to the download for UX.
-                            if (currentPdfPath) {
-                                hiddenDownloadLink.href = currentPdfPath;
-                                hiddenDownloadLink.download = currentPdfPath.split('/').pop();
-                                hiddenDownloadLink.click();
-                            }
-                            hideModal();
-                        });
+                            .then(response => {
+                                if (response.ok || response.status === 302) {
+                                    console.log('Email sent to Formspree successfully!');
+                                } else {
+                                    console.error('Failed to send email to Formspree:', response.status, response.statusText);
+                                }
+                            })
+                            .catch(error => {
+                                console.error('Network error or processing error when sending to Formspree:', error);
+                            })
+                            .finally(() => {
+                                // PDF download and modal close happens regardless of email send
+                                if (currentPdfPath) {
+                                    hiddenDownloadLink.href = currentPdfPath;
+                                    hiddenDownloadLink.download = currentPdfPath.split('/').pop();
+                                    hiddenDownloadLink.click();
+                                }
+                                hideModal();
+                            });
+                    } else {
+                        // If consent is NOT given, just proceed with download and close modal
+                        console.log('Email not sent: User did not consent to marketing emails.');
+                        if (currentPdfPath) {
+                            hiddenDownloadLink.href = currentPdfPath;
+                            hiddenDownloadLink.download = currentPdfPath.split('/').pop();
+                            hiddenDownloadLink.click();
+                        }
+                        hideModal();
+                    }
 
                 } else {
+                    // Display error if email is invalid
                     emailError.style.display = 'block';
                 }
             }
