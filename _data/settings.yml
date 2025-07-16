@@ -3,17 +3,16 @@
 stats:
   rate: 250
   rate-sale: 215
-  8h: 1295
   class: TBD
   class-sale:
-  class-async: 295
+  class-async: 395
   book: 49
   late: false
   hours: 750
   years: 3
-  subs: 70000
+  subs: 75000
   views: 11 # in millions
-  spots: 2
+  spots: 0
   class-time: "5:00 - 6:30 pm ET"
 
 #-------------------------------

@@ -1,91 +1,3 @@
-<style>
-    .carousel-container {
-        width: 100%;
-        margin: auto;
-        max-width: 1000px;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-
-    .carousel-tabs {
-        display: flex; /* Make this the main flex container for tabs */
-        justify-content: space-around; /* Distribute tabs evenly across the width */
-        align-items: center; /* Vertically center tab content */
-        padding: 10px 0; /* Adjusted padding to better fit pill height */
-        border: 2px solid black;
-        border-radius: 24px; /* Matches the outer border radius */
-    }
-
-    .tab-item {
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 10px 15px; /* Defines the internal padding of each "pill segment" */
-        opacity: 0.6;
-        transition: opacity 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-grow: 1; /* Makes each tab button grow to fill available space */
-        margin: 0 15px 0 15px;
-        border-radius: 20px; /* Rounded corners for the pill effect */
-        white-space: nowrap; /* Prevent text wrapping */
-        color: #555; /* Default text color for inactive tabs */
-    }
-
-    .tab-item:hover {
-        opacity: 0.8;
-    }
-
-    .tab-item.active {
-        opacity: 1;
-        background-color: var(--brand-color); /* The tab itself becomes the yellow pill */
-        color: black; /* Text color on active pill */
-        font-weight: bold; /* Make text stand out */
-        /* border-radius: 20px; Not strictly needed here if already on .tab-item */
-    }
-
-    .carousel-content {
-        padding: 30px;
-        min-height: 400px;
-        position: relative;
-    }
-
-    .carousel-slide {
-        display: none;
-        animation: fadeIn 0.2s ease-in-out;
-        width: calc(100% - 60px);
-        top: 30px;
-        left: 30px;
-    }
-
-    .carousel-slide.active {
-        display: block;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(10px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    .carousel-slide h2 {
-        color: #333;
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
-
-    .carousel-slide p {
-        color: #555;
-        line-height: 1.6;
-    }
-</style>
-
 <div class="carousel-container" id="interest">
     <br>
     <div style="text-align: center;">
@@ -109,13 +21,8 @@
 
     <div class="carousel-content">
         <div class="carousel-slide active" data-slide-index="0">
-            <h3 style="text-align: center; margin: 2rem auto 2rem auto !important;">
-                The first August cohort filled up in less than <b>48 hours!</b>
-                <br><br>
-                But good news: there is a second one (starting this Saturday)!
-            </h3>
-            {% include masterclass/interest.html %}
-            {% include masterclass/schedules/august2.html %}
+            {% include masterclass/async.html %}
+            {% include masterclass/schedules/async.html %}
         </div>
         <div class="carousel-slide" data-slide-index="1">
             {% include masterclass/interest.html %}
@@ -133,30 +40,39 @@
 <script>
     // JavaScript Logic (remains the same as the simplified version)
     document.addEventListener('DOMContentLoaded', () => {
-        const tabItems = document.querySelectorAll('.tab-item');
-        const carouselSlides = document.querySelectorAll('.carousel-slide');
+        // Select all carousel instances using the base class
+        const carousels = document.querySelectorAll('.carousel-container'); // <-- Using .carousel-container as the base
 
-        tabItems.forEach(tab => {
-            tab.addEventListener('click', () => {
-                tabItems.forEach(item => item.classList.remove('active'));
-                carouselSlides.forEach(slide => slide.classList.remove('active'));
+        carousels.forEach(carousel => {
+            // For each carousel, find its specific tabs and slides *within that carousel*
+            const tabItems = carousel.querySelectorAll('.tab-item');
+            const carouselSlides = carousel.querySelectorAll('.carousel-slide');
 
-                tab.classList.add('active');
+            tabItems.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    // Deactivate tabs and slides only within the *current* carousel
+                    tabItems.forEach(item => item.classList.remove('active'));
+                    carouselSlides.forEach(slide => slide.classList.remove('active'));
 
-                const targetSlideIndex = tab.dataset.slide;
-                const targetSlide = document.querySelector(`.carousel-slide[data-slide-index="${targetSlideIndex}"]`);
+                    tab.classList.add('active');
 
-                if (targetSlide) {
-                    targetSlide.classList.add('active');
-                }
+                    const targetSlideIndex = tab.dataset.slide;
+                    // Find the target slide within the *current* carousel
+                    const targetSlide = carousel.querySelector(`.carousel-slide[data-slide-index="${targetSlideIndex}"]`);
+
+                    if (targetSlide) {
+                        targetSlide.classList.add('active');
+                    }
+                });
             });
-        });
 
-        if (tabItems.length > 0) {
-            tabItems[0].classList.add('active');
-        }
-        if (carouselSlides.length > 0) {
-            carouselSlides[0].classList.add('active');
-        }
+            // Initialize the first tab and slide as active for each carousel
+            if (tabItems.length > 0) {
+                tabItems[0].classList.add('active');
+            }
+            if (carouselSlides.length > 0) {
+                carouselSlides[0].classList.add('active');
+            }
+        });
     });
 </script>

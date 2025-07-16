@@ -1,6 +1,8 @@
-<div style="text-align: center; margin-top: 5rem;">
-        <div style="max-width: 500px; text-align: center; margin: auto;">
-            <h3 style="margin-bottom: 1rem; font-weight: normal;">Class filled up? No problem! You can follow the recordings at your own pace for a much lower rate.</h3>
+<div style="text-align: center; margin-top: 3rem;">
+        <div style="max-width: 600px; text-align: center; margin: auto;">
+            <h3 style="margin-bottom: 1rem; font-weight: normal;">The live cohort for this SAT has already begun. </h3>
+            <br>
+            <h3>However, you can join the class <b>asynchronously</b>, watching the recordings and studying the materials at your own pace.</h3>
         </div>
 </div>
 
@@ -8,30 +10,13 @@
     <div class="pricing-container" style="max-width: 500px;">
         <div class="pricing-card">
             <div class="card-header">
-                <h2 class="card-title">Masterclass</h2>
+                <h2 class="card-title">Masterclass (Async)</h2>
                 <span class="popular-tag">BEST VALUE</span>
             </div>
             <div class="price-container">
-                {% if include.async %}
-                    <span class="price">
-                        ${{site.data.settings.stats.class-sale }}
-                    </span>
-                {% else %}
-                    <span class="price">
-                        {% if  site.data.settings.stats.class-sale %}
-                            ${{site.data.settings.stats.class-sale }}
-                            {% else %}
-                            {% if site.data.settings.stats.class %}
-                            ${{ site.data.settings.stats.class }}
-                            {% else %}
-                            $TBD
-                            {% endif %}
-                        {% endif %}
-                        </span>
-                    <span class="original-price">
-                        {% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}
-                    </span>
-                {% endif %}
+                <span class="price">
+                    ${{ site.data.settings.stats.class-async }}
+                </span>
             </div>
             {% include masterclass/async-list.html %}
             <div style="text-align: center;">
@@ -39,12 +24,8 @@
                         src="https://js.stripe.com/v3/buy-button.js">
                 </script>
 
-                <script async
-                        src="https://js.stripe.com/v3/buy-button.js">
-                </script>
-
                 <stripe-buy-button
-                        buy-button-id="buy_btn_1RNzEL2KiME5B1C2LR5XksjZ"
+                        buy-button-id="buy_btn_1RlM4U2KiME5B1C254DjDVVM"
                         publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
                 >
                 </stripe-buy-button>
