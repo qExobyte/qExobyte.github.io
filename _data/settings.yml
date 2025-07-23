@@ -3,7 +3,7 @@
 stats:
   rate: 250
   rate-sale: 215
-  class: TBD
+  class: 1195
   class-sale:
   class-async: 395
   book: 49

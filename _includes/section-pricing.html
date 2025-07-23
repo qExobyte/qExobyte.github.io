@@ -78,6 +78,7 @@
                         {% endif %}
                     {% endif %}
                     </span>
+                    <span class="price-unit">{% if site.data.settings.stats.class-async %} (${{ site.data.settings.stats.class-async }} for async) {% endif %}</span>
                     <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
                 </div>
                 {% if site.data.settings.stats.late %}

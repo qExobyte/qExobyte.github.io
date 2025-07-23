@@ -5,10 +5,10 @@
     </div>
 
     <div class="carousel-tabs">
-        <button class="tab-item active" data-slide="0">
+        <button class="tab-item" data-slide="0">
             August
         </button>
-        <button class="tab-item" data-slide="1">
+        <button class="tab-item active" data-slide="1">
             September
         </button>
         <button class="tab-item" data-slide="2">
@@ -20,11 +20,16 @@
     </div>
 
     <div class="carousel-content">
-        <div class="carousel-slide active" data-slide-index="0">
+        <div class="carousel-slide" data-slide-index="0">
             {% include masterclass/async.html %}
             {% include masterclass/schedules/async.html %}
         </div>
-        <div class="carousel-slide" data-slide-index="1">
+        <div class="carousel-slide active" data-slide-index="1">
+            <div style="text-align: center; margin-top: 3rem;">
+                <div style="max-width: 600px; text-align: center; margin: auto;">
+                    <h3 style="margin-bottom: 1rem; font-weight: normal;">There are just a few spots left for the September cohort!</h3>
+                </div>
+            </div>
             {% include masterclass/interest.html %}
             {% include masterclass/schedules/september.html %}
         </div>
@@ -67,12 +72,12 @@
             });
 
             // Initialize the first tab and slide as active for each carousel
-            if (tabItems.length > 0) {
-                tabItems[0].classList.add('active');
-            }
-            if (carouselSlides.length > 0) {
-                carouselSlides[0].classList.add('active');
-            }
+            // if (tabItems.length > 0) {
+            //     tabItems[0].classList.add('active');
+            // }
+            // if (carouselSlides.length > 0) {
+            //     carouselSlides[0].classList.add('active');
+            // }
         });
     });
 </script>
