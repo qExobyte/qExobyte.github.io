@@ -2,7 +2,7 @@
 # STATS
 stats:
   rate: 250
-  rate-sale: 215
+  rate-sale: 235
   class: 1195
   class-sale:
   class-async: 395
