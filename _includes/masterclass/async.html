@@ -6,30 +6,4 @@
         </div>
 </div>
 
-<div class="pricing-wrapper" style="background-color: #FFFFFF">
-    <div class="pricing-container" style="max-width: 500px;">
-        <div class="pricing-card">
-            <div class="card-header">
-                <h2 class="card-title">Masterclass (Async)</h2>
-                <span class="popular-tag">BEST VALUE</span>
-            </div>
-            <div class="price-container">
-                <span class="price">
-                    ${{ site.data.settings.stats.class-async }}
-                </span>
-            </div>
-            {% include masterclass/async-list.html %}
-            <div style="text-align: center;">
-                <script async
-                        src="https://js.stripe.com/v3/buy-button.js">
-                </script>
-
-                <stripe-buy-button
-                        buy-button-id="buy_btn_1RlM4U2KiME5B1C254DjDVVM"
-                        publishable-key="pk_live_51PtAh12KiME5B1C2coI4uNE6NMHA6y6NyxxIfcpM4joW6AQNUrcbZWb3a64Y9EZXW05CiWmKwVRRML5uVxcSTC3Z00vmtAt1PK"
-                >
-                </stripe-buy-button>
-            </div>
-        </div>
-    </div>
-</div>
+{% include masterclass/async-card.html %}

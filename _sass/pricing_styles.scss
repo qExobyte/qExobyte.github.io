@@ -87,6 +87,7 @@
 .pricing-wrapper .price-unit {
   color: #666;
   margin-left: 0.25rem;
+  font-size: 1.25rem;
 }
 
 .pricing-wrapper .original-price {
@@ -98,6 +99,10 @@
 .pricing-wrapper .description {
   color: #666;
   margin-bottom: 1.5rem;
+}
+
+.pricing-wrapper .pricing-card.gold-border {
+  box-shadow: 0 0 10px 0 gold;
 }
 
 .pricing-wrapper .feature-list {

@@ -19,9 +19,9 @@ I'm a student at the University of Virginia studying Computer Science, Economics
 <img class="about-img" src="/images/score.jpg" align="right" alt="score 800">
 As both a student and a tutor, I've developed strategies for learning math effectively and succeeding on the SAT. **These strategies enabled me to earn a perfect math score on the SAT both times I took it. My goal as a tutor is to help other students do the same.**
 
-Since then, I've tutored over **150** students across the globe, run several successful masterclasses, and created educational videos on YouTube with over **{{ site.data.settings.stats.subs }}** subscribers and **{{ site.data.settings.stats.views }} million** views.
+Since then, I've tutored over **{{ site.data.settings.stats.students }}** students across the globe, run **{{ site.data.settings.stats.masterclasses }}** masterclass cohorts, and created educational videos on YouTube with over **{{ site.data.settings.stats.subs }}** subscribers and **{{ site.data.settings.stats.views }} million** views.
   
-If you're interested in getting your score up, book a session below!
+If you're interested in getting your score up, click the button below!
 
 <div style="text-align: center;">
     {% include book-button.html %}
@@ -43,7 +43,7 @@ If you're interested in getting your score up, book a session below!
 <details>
     <summary>What makes your tutoring better than test prep companies?</summary>
     <div>
-        A simple google search for "princeton review tutor salaries" or "kaplan tutor salaries" shows that they pay their tutors around $20-$40/hr, despite charging $175-$250/hr for their tutoring. You're not paying for the tutor, you're paying for the brand.
+        A simple google search for "princeton review tutor salaries" or "kaplan tutor salaries" shows that they pay their tutors around $20-$40/hr, despite charging $250/hr+ for their tutoring. You're not paying for the tutor, you're paying for the brand.
         <br><br>
         Furthermore, their exorbitant bundles (up to $10,000!) prioritize quantity over quality. They advertise hundreds of unengaging videos and thousands of problems (which are increasingly AI-generated or outsourced), but students <i>only have so much time</i>. My tutoring is focused on <b>efficiency</b> and <b>outcomes</b>. At any point in our prep, we focus all attention on the topic that yields the highest return in the lowest amount of time.
         <br><br>
@@ -55,9 +55,22 @@ If you're interested in getting your score up, book a session below!
     <summary>What materials should I use?</summary>
     <div>
         <li> Getting a representative score → <a href="https://bluebook.collegeboard.org/students" target="_blank">Bluebook</a></li>
-        <li> Learning & reinforcing concepts → My <a href="/classes/#concept-review">concept guide</a> & <a href="https://www.preppros.io/math-book">PrepPros</a> chapters </li>
+        <li> Learning & reinforcing concepts → <a href="/classes/#concept-review">SAT Math from the Ground Up</a></li>
         <li> Practice problems → <a href="https://www.preppros.io/math-book">PrepPros Questions</a> </li>
+        <br>
+        I discuss how exactly to use these resources <a href="/strategy">in this video</a>.
     </div>
+</details>
+
+<details>
+    <summary>Why are your 1-on-1 sessions so expensive?</summary>
+    <div>
+        It ultimately comes down to demand. I want to keep my availability open for current students and my other obligations, so I can only take on so many new students.
+        <br><br>
+        That being said, my book SAT Math from the Ground Up is just $49, and my SAT Math Masterclass, while a hefty total price, is much more affordable on an hourly basis. Please check out these other resources first!
+        <br><br>
+        And for those who prefer the personalized 1-on-1 environment, I'll make it worth the price! We'll dive deep into your weaknesses, get you on a structured plan, and keep you accountable. Even just one session can turn a good score into a great one.
+     </div>
 </details>
 
 <details>

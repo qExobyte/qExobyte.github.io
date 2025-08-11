@@ -1,17 +1,19 @@
 #-------------------------------
 # STATS
 stats:
-  rate: 250
-  rate-sale: 235
+  rate: 285
+  rate-sale:
   class: 1195
   class-sale:
   class-async: 395
   book: 49
   late: false
   hours: 750
-  years: 3
-  subs: 75000
-  views: 11 # in millions
+  years: 4
+  subs: 80000
+  views: 12 # in millions
+  students: 200
+  masterclasses: 11
   spots: 0
   class-time: "5:00 - 6:30 pm ET"
 
