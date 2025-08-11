@@ -71,7 +71,22 @@
                 });
             });
 
-            // Initialize the first tab and slide as active for each carousel
+            // consider search params for each tab
+            // (would do by month but months are more dynamic
+            const urlParams = new URLSearchParams(window.location.search);
+            const tabParam = urlParams.get("tab");
+
+            if (tabParam != null && tabItems[tabParam]) {
+                // same thing as above
+                tabItems.forEach(item => item.classList.remove('active'));
+                carouselSlides.forEach(slide => slide.classList.remove('active'));
+                tabItems[tabParam].classList.add('active');
+
+                const targetSlide = carousel.querySelector(`.carousel-slide[data-slide-index="${tabParam}"]`);
+                if (targetSlide) targetSlide.classList.add('active');
+            }
+
+            // if I wanted to initialize the first tab as active by default
             // if (tabItems.length > 0) {
             //     tabItems[0].classList.add('active');
             // }
