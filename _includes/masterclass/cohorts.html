@@ -6,13 +6,13 @@
 
     <div class="carousel-tabs">
         <button class="tab-item" data-slide="0">
-            August
-        </button>
-        <button class="tab-item active" data-slide="1">
             September
         </button>
-        <button class="tab-item" data-slide="2">
+        <button class="tab-item active" data-slide="1">
             October
+        </button>
+        <button class="tab-item" data-slide="2">
+            November
         </button>
         <button class="tab-item" data-slide="3">
             Beyond
@@ -22,16 +22,16 @@
     <div class="carousel-content">
         <div class="carousel-slide" data-slide-index="0">
             {% include masterclass/async.html %}
-            {% include masterclass/schedules/async.html %}
         </div>
         <div class="carousel-slide active" data-slide-index="1">
             <div style="text-align: center; margin-top: 3rem;">
                 <div style="max-width: 600px; text-align: center; margin: auto;">
-                    <h3 style="margin-bottom: 1rem; font-weight: normal;">There are just a few spots left for the September cohort!</h3>
+                    <h3 style="margin-bottom: 1rem; font-weight: normal;">Enrollment for the October cohort opens <b>very soon!</b></h3>
                 </div>
             </div>
             {% include masterclass/interest.html %}
-            {% include masterclass/schedules/september.html %}
+            {% include masterclass/schedules/october.html %}
+            <h3 style="text-align: center; text-decoration: none;">If you'd prefer to follow the class at your own pace (at a much lower price), check out the <a href="https://learnsatmath.com/classes/?tab=0#interest" target="_blank">asynchronous option!</a></h3>
         </div>
         <div class="carousel-slide" data-slide-index="2">
             {% include masterclass/interest.html %}
@@ -40,6 +40,7 @@
             {% include masterclass/interest.html %}
         </div>
     </div>
+
 </div>
 
 <script>
