@@ -61,6 +61,21 @@ testimonial__title: What students say
 testimonial__description: 
 
 testimonial__items:
+  - name: "Eli"
+    designation: "Masterclass August Cohort"
+    designation2: "680 to 760"
+    content: "Eric's masterclass is the <strong>best educational investment I have made to date.</strong> In our first session, Eric mentioned something that really resonated with me—the SAT doesn’t test intelligence, but rather one’s ability to problem-solve. While most people may never use the inscribed angle theorem outside of a testing center, preparing for the SAT is about developing a set of skills. Eric will teach you, as he did me, everything from the hardest problems to tips and tricks, such as Desmos. Eric knows what he’s talking about and he’s <strong>there for you every step of the way</strong> to optimize your success."
+
+  - name: "Octavia"
+    designation: "Masterclass August Cohort"
+    designation2: "690 to 790"
+    content: "Eric's group class was such an engaging experience. I loved how he incorporated activities to <strong>foster competition</strong> among others in the class, such as rewarding prizes to those who answered questions correctly. This is really something that can't happen in private tutoring. The class was paced very well: while covering the basics, he ensured adequate time was spent on the most challenging questions. <strong>He explained all the ins and outs of Desmos very clearly and concisely</strong>, always providing examples of each concept. The resources and strategies he offered were exactly what I needed to raise my math score from a 690 all the way to a 790!"
+
+  - name: "Bennett"
+    designation: "Masterclass August Cohort"
+    designation2: "620 to 750"
+    content: "Eric is the <strong>best SAT math tutor on the internet.</strong> I had always struggled with the SAT math, and I even did local courses that barely affected my score. Signing up for the Masterclass was the best decision I ever made. He teaches it in a way that is fun, engaging, and ensures that you actually understand what you're learning, rather than just memorizing material. He was always <strong>quick to respond</strong> to emails and ensured that there was sufficient time for everyone to understand the material. <strong>Anyone can excel</strong> on the SAT math; it's just about finding the right person to guide you, and that person is Eric."
+
   - name: "Illa"
     designation: "Masterclass December Cohort"
     designation2: "690 to 770"
@@ -68,7 +83,7 @@ testimonial__items:
 
   - name: "Jacob"
     designation: "Masterclass June Cohort"
-    designation2: "630 (March) to 770 (June)"
+    designation2: "630 to 770"
     content: "Eric's Masterclass truly changed the trajectory of my SAT journey, and potentially, my life. Before I had enrolled in his class, I had <strong>no idea how to study</strong> for the SAT Math. I did not find studying for the SAT remotely interesting. This changed entirely once I joined Eric's Masterclass. He made learning not only accessible but genuinely enjoyable. I was absolutely <strong>ecstatic</strong> to see that my math score increased <strong>140 points.</strong> I truly don’t think I could have made such a dramatic improvement without Eric’s expert help, and I can’t thank him enough."
 
   - name: "Jack"
