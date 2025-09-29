@@ -1,0 +1,34 @@
+<div class="pricing-wrapper" style="background-color: #FFFFFF">
+    <div class="pricing-container" style="max-width: 500px;">
+            <!-- Masterclass Card -->
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h2 class="card-title">Masterclass</h2>
+                    <span class="popular-tag">MOST IMPROVEMENT</span>
+                </div>
+                <div class="price-container">
+                    <span class="price">
+                    {% if  site.data.settings.stats.class-sale %}
+                        ${{site.data.settings.stats.class-sale }}
+                        {% else %}
+                        {% if site.data.settings.stats.class %}
+                        ${{ site.data.settings.stats.class }}
+                        {% else %}
+                        $TBD
+                        {% endif %}
+                    {% endif %}
+                    </span>
+                    <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
+                </div>
+                {% if site.data.settings.stats.late %}
+                {% include masterclass/async-list.html %}
+                {% else %}
+                {% include masterclass/list.html %}
+                {% endif %}
+                <a href="https://buy.stripe.com/4gMeV66zc0krghi0no6wE0P" target="_blank">
+                    <button class="enroll-button">Enroll Now</button>
+                </a>
+            </div>
+        <br>
+    </div>
+</div>
