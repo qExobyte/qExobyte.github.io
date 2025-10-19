@@ -10,10 +10,10 @@ stats:
   late: false
   hours: 750
   years: 4
-  subs: 80000
-  views: 12 # in millions
-  students: 300
-  masterclasses: 11
+  subs: 100000
+  views: 13 # in millions
+  students: 400
+  masterclasses: 12
   spots: 0
   class-time: "5:00 - 6:30 pm ET"
 
