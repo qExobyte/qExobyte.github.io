@@ -3,8 +3,8 @@
 stats:
   rate: 285
   rate-sale:
-  class: 1195
-  class-sale: 895
+  class: 895
+  class-sale: 495
   class-async: 395
   book: 49
   late: false
