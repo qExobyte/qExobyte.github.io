@@ -5,7 +5,7 @@ stats:
   rate-sale:
   class: 395
   class-sale:
-  class-async:
+  class-async: 395
   book: 49
   late: true  # true = home shows async list | false = home shows live class list
   hours: 750
