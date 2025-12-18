@@ -12,6 +12,8 @@
   padding: 10px 0; /* Adjusted padding to better fit pill height */
   border: 2px solid black;
   border-radius: 24px; /* Matches the outer border radius */
+  max-width: 800px;
+  margin: auto;
 }
 
 .tab-item {

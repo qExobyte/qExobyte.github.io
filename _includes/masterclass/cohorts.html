@@ -5,36 +5,24 @@
     </div>
 
     <div class="carousel-tabs">
-        <button class="tab-item" data-slide="0">
-            November
+        <button class="tab-item active" data-slide="0">
+            March
         </button>
-        <button class="tab-item active" data-slide="1">
-            December
-        </button>
-        <button class="tab-item" data-slide="2">
-            Spring
+        <button class="tab-item" data-slide="1">
+            Later
         </button>
     </div>
 
     <div class="carousel-content">
-        <div class="carousel-slide" data-slide-index="0">
+        <div class="carousel-slide active" data-slide-index="0">
+            <h3>The Spring 2026 cohorts will be better than ever! <br>Details coming in January.</h3>
+            {% include masterclass/interest.html %}
             {% include masterclass/async.html %}
         </div>
-        <div class="carousel-slide active" data-slide-index="1">
-            <div style="text-align: center; margin-top: 3rem;">
-                <div style="max-width: 600px; text-align: center; margin: auto;">
-                    <h3 style="margin-bottom: 1rem; font-weight: normal;">The December SAT cohort has already begun.<br><br> However, if you're trying to grind before the December SAT, <b>there are still spots available!</b></h3>
-                </div>
-            </div>
-            {% include masterclass/live-card.html %}
-            {% include masterclass/schedules/december.html %}
-            <h3 style="text-align: center; text-decoration: none;">If you'd prefer to follow the class at your own pace (at a much lower price), check out the <a href="https://learnsatmath.com/classes/?tab=0#interest" target="_blank">asynchronous option!</a></h3>
-            {% include masterclass/async-card.html %}
-        </div>
-        <div class="carousel-slide" data-slide-index="2">
+        <div class="carousel-slide" data-slide-index="1">
+            <h3>The Spring 2026 cohorts will be better than ever! <br>Details coming in January.</h3>
             {% include masterclass/interest.html %}
-            <h3 style="text-align: center; text-decoration: none;">Or get started <b>now</b> with the <a href="https://learnsatmath.com/classes/?tab=0#interest" target="_blank">asynchronous option.</a></h3>
-            {% include masterclass/async-card.html %}
+            {% include masterclass/async.html %}
         </div>
     </div>
 

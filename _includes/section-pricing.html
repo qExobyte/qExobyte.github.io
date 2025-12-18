@@ -27,10 +27,11 @@
                     </span>
                 </div>
                 <ul class="feature-list">
-                    <li class="feature-item">80 page book that teaches understanding, rather than memorization</li>
+                    <li class="feature-item">110 page ebook that teaches understanding, rather than memorization</li>
                     <li class="feature-item">The best lessons from 3 years of tutoring</li>
                     <li class="feature-item">200+ conceptual questions & explanations</li>
-                    <li class="feature-item">Bonus: Overview of every topic & every formula to know</li>
+                    <li class="feature-item">Desmos tricks and procedures</li>
+                    <li class="feature-item">25 challenging SAT-style problems & list of formulas</li>
                 </ul>
                 <a href="/book">
                     <button class="enroll-button">Learn More</button>
@@ -81,7 +82,7 @@
                     <span class="original-price">{% if  site.data.settings.stats.class-sale %}${{site.data.settings.stats.class }}{% endif %}</span>
                 </div>
                 {% if site.data.settings.stats.late %}
-                    {% include masterclass/async-list.html %}
+                    {% include masterclass/async-list-no-x.html %}
                 {% else %}
                     {% include masterclass/list.html %}
                 {% endif %}

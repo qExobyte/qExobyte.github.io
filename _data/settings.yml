@@ -3,11 +3,11 @@
 stats:
   rate: 285
   rate-sale:
-  class: 895
-  class-sale: 495
-  class-async: 395
+  class: 395
+  class-sale:
+  class-async:
   book: 49
-  late: false
+  late: true  # true = home shows async list | false = home shows live class list
   hours: 750
   years: 4
   subs: 100000
