@@ -3,14 +3,14 @@
 stats:
   rate: 285
   rate-sale:
-  class: 395
-  class-sale:
+  class: 1195
+  class-sale: 895
   class-async: 395
   book: 49
-  late: true  # true = home shows async list | false = home shows live class list
+  late: false  # true = home shows agit clone https://github.com/your-username/qExobyte.github.io.gitsync list | false = home shows live class list
   hours: 750
   years: 4
-  subs: 100000
+  subs: 110000
   views: 13 # in millions
   students: 400
   masterclasses: 12

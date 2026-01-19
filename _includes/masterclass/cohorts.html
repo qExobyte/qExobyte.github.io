@@ -1,27 +1,26 @@
+<!-- TODO if I go back to carousel, this is what it would look like... -->
+
 <div class="carousel-container" id="interest">
     <br>
     <div style="text-align: center;">
-        <h2>Which SAT are you preparing for?</h2>
+        <h2>Which class structure are you interested in?</h2>
     </div>
 
     <div class="carousel-tabs">
         <button class="tab-item active" data-slide="0">
-            March
+            Live classes
         </button>
         <button class="tab-item" data-slide="1">
-            Later
+            Just recordings
         </button>
     </div>
 
     <div class="carousel-content">
         <div class="carousel-slide active" data-slide-index="0">
-            <h3>The Spring 2026 cohorts will be better than ever! <br>Details coming in January.</h3>
-            {% include masterclass/interest.html %}
-            {% include masterclass/async.html %}
+            {% include masterclass/schedules/march.html %}
+            {% include masterclass/live-card.html %}
         </div>
         <div class="carousel-slide" data-slide-index="1">
-            <h3>The Spring 2026 cohorts will be better than ever! <br>Details coming in January.</h3>
-            {% include masterclass/interest.html %}
             {% include masterclass/async.html %}
         </div>
     </div>
