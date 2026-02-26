@@ -17,7 +17,10 @@
 
     <div class="carousel-content">
         <div class="carousel-slide active" data-slide-index="0">
+            {% if site.data.settings.stats.open %}
             {% include masterclass/schedules/march.html %}
+            {% endif %}
+
             {% include masterclass/live-card.html %}
         </div>
         <div class="carousel-slide" data-slide-index="1">
